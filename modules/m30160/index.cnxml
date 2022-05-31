@@ -1,0 +1,307 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>MathCad ứng dụng - phần 2</title>
+  <metadata>
+  <md:content-id>m30160</md:content-id><md:title>MathCad ứng dụng - phần 2</md:title>
+  <md:abstract/>
+  <md:uuid>23e17d2b-0e61-4334-a6c9-c643d3fc707c</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8240747">
+      <figure id="id8207331">
+        <media id="id6068555" alt=""><image src="../../media/graphics1-c531.png" mime-type="image/png" height="136" width="516"/></media>
+      </figure>
+    </para>
+    <figure id="id8207380">
+      <media id="id14456580" alt=""><image src="../../media/graphics2-2c1c.png" mime-type="image/png" height="113" width="585"/></media>
+    </figure>
+    <figure id="id8207412">
+      <media id="id11303953" alt=""><image src="../../media/graphics3-b935.png" mime-type="image/png" height="334" width="530"/></media>
+    </figure>
+    <figure id="id8207443">
+      <media id="id7582625" alt=""><image src="../../media/graphics4-e964.png" mime-type="image/png" height="330" width="596"/></media>
+    </figure>
+    <para id="id8207472">
+      <figure id="id8207475">
+        <media id="id4274593" alt=""><image src="../../media/graphics5-77a6.png" mime-type="image/png" height="382" width="454"/></media>
+      </figure>
+      <figure id="id8207503">
+        <media id="id11923869" alt=""><image src="../../media/graphics6-8f2e.png" mime-type="image/png" height="445" width="458"/></media>
+      </figure>
+    </para>
+    <figure id="id8207535">
+      <media id="id8657418" alt=""><image src="../../media/graphics7-a4dc.png" mime-type="image/png" height="407" width="507"/></media>
+    </figure>
+    <figure id="id8207566">
+      <media id="id5009659" alt=""><image src="../../media/graphics8-6d61.png" mime-type="image/png" height="324" width="494"/></media>
+    </figure>
+    <figure id="id8207598">
+      <media id="id6823319" alt=""><image src="../../media/graphics9-17d0.png" mime-type="image/png" height="292" width="424"/></media>
+    </figure>
+    <figure id="id8207629">
+      <media id="id6871490" alt=""><image src="../../media/graphics10-12e5.png" mime-type="image/png" height="113" width="497"/></media>
+    </figure>
+    <figure id="id8207661">
+      <media id="id8391828" alt=""><image src="../../media/graphics11-15d6.png" mime-type="image/png" height="444" width="535"/></media>
+    </figure>
+    <figure id="id8207692">
+      <media id="id4517244" alt=""><image src="../../media/graphics12-952e.png" mime-type="image/png" height="336" width="488"/></media>
+    </figure>
+    <figure id="id8207719">
+      <media id="id3620095" alt=""><image src="../../media/graphics13-ffc2.png" mime-type="image/png" height="169" width="444"/></media>
+    </figure>
+    <figure id="id8207746">
+      <media id="id12392796" alt=""><image src="../../media/graphics14-0f85.png" mime-type="image/png" height="269" width="522"/></media>
+    </figure>
+    <figure id="id8207773">
+      <media id="id8265555" alt=""><image src="../../media/graphics15-e8b6.png" mime-type="image/png" height="311" width="608"/></media>
+    </figure>
+    <figure id="id8207800">
+      <media id="id3505772" alt=""><image src="../../media/graphics16-acc1.png" mime-type="image/png" height="395" width="518"/></media>
+    </figure>
+    <figure id="id8207827">
+      <media id="id9888501" alt=""><image src="../../media/graphics17-92cd.png" mime-type="image/png" height="161" width="455"/></media>
+    </figure>
+    <figure id="id8207854">
+      <media id="id5293647" alt=""><image src="../../media/graphics18-2406.png" mime-type="image/png" height="322" width="595"/></media>
+    </figure>
+    <figure id="id9281887">
+      <media id="id4816661" alt=""><image src="../../media/graphics19-2adc.png" mime-type="image/png" height="332" width="610"/></media>
+    </figure>
+    <figure id="id9281914">
+      <media id="id12397081" alt=""><image src="../../media/graphics20-c2dc.png" mime-type="image/png" height="222" width="546"/></media>
+    </figure>
+    <figure id="id9281941">
+      <media id="id11607261" alt=""><image src="../../media/graphics21-31c7.png" mime-type="image/png" height="154" width="478"/></media>
+    </figure>
+    <figure id="id9281968">
+      <media id="id8526112" alt=""><image src="../../media/graphics22-7a5d.png" mime-type="image/png" height="249" width="582"/></media>
+    </figure>
+    <figure id="id9281995">
+      <media id="id6846613" alt=""><image src="../../media/graphics23-9cf2.png" mime-type="image/png" height="213" width="606"/></media>
+    </figure>
+    <figure id="id9282022">
+      <media id="id6688277" alt=""><image src="../../media/graphics24-2d6d.png" mime-type="image/png" height="164" width="435"/></media>
+    </figure>
+    <figure id="id9282049">
+      <media id="id6673223" alt=""><image src="../../media/graphics25-2895.png" mime-type="image/png" height="78" width="381"/></media>
+    </figure>
+    <figure id="id9282076">
+      <media id="id8263400" alt=""><image src="../../media/graphics26-0447.png" mime-type="image/png" height="123" width="510"/></media>
+    </figure>
+    <figure id="id9282103">
+      <media id="id5349824" alt=""><image src="../../media/graphics27-997c.png" mime-type="image/png" height="563" width="516"/></media>
+    </figure>
+    <figure id="id9282130">
+      <media id="id11919039" alt=""><image src="../../media/graphics28-10f4.png" mime-type="image/png" height="321" width="548"/></media>
+    </figure>
+    <figure id="id9282156">
+      <media id="id5645053" alt=""><image src="../../media/graphics29-e799.png" mime-type="image/png" height="410" width="480"/></media>
+    </figure>
+    <figure id="id9282183">
+      <media id="id6819623" alt=""><image src="../../media/graphics30-6847.png" mime-type="image/png" height="374" width="527"/></media>
+    </figure>
+    <figure id="id9282210">
+      <media id="id5730014" alt=""><image src="../../media/graphics31-b38a.png" mime-type="image/png" height="536" width="583"/></media>
+    </figure>
+    <figure id="id9282237">
+      <media id="id5334750" alt=""><image src="../../media/graphics32-23ec.png" mime-type="image/png" height="459" width="459"/></media>
+    </figure>
+    <figure id="id9282264">
+      <media id="id13047242" alt=""><image src="../../media/graphics33-46d4.png" mime-type="image/png" height="508" width="613"/></media>
+    </figure>
+    <figure id="id9282291">
+      <media id="id7048434" alt=""><image src="../../media/graphics34-1556.png" mime-type="image/png" height="319" width="428"/></media>
+    </figure>
+    <figure id="id9282318">
+      <media id="id8189620" alt=""><image src="../../media/graphics35-d0fa.png" mime-type="image/png" height="123" width="495"/></media>
+    </figure>
+    <figure id="id9282345">
+      <media id="id4847294" alt=""><image src="../../media/graphics36-a5ca.png" mime-type="image/png" height="416" width="550"/></media>
+    </figure>
+    <figure id="id9282372">
+      <media id="id8489664" alt=""><image src="../../media/graphics37-1a58.png" mime-type="image/png" height="300" width="524"/></media>
+    </figure>
+    <figure id="id9282399">
+      <media id="id3994711" alt=""><image src="../../media/graphics38-2ca0.png" mime-type="image/png" height="342" width="626"/></media>
+    </figure>
+    <figure id="id9298459">
+      <media id="id13445456" alt=""><image src="../../media/graphics39-a0e2.png" mime-type="image/png" height="198" width="446"/></media>
+    </figure>
+    <figure id="id9298486">
+      <media id="id8454432" alt=""><image src="../../media/graphics40-3c39.png" mime-type="image/png" height="463" width="611"/></media>
+    </figure>
+    <figure id="id9298513">
+      <media id="id8974387" alt=""><image src="../../media/graphics41-8693.png" mime-type="image/png" height="474" width="621"/></media>
+    </figure>
+    <figure id="id9298540">
+      <media id="id3895694" alt=""><image src="../../media/graphics42-940e.png" mime-type="image/png" height="440" width="585"/></media>
+    </figure>
+    <figure id="id9298567">
+      <media id="id5607221" alt=""><image src="../../media/graphics43-f53e.png" mime-type="image/png" height="341" width="603"/></media>
+    </figure>
+    <figure id="id9298594">
+      <media id="id12878716" alt=""><image src="../../media/graphics44-f92e.png" mime-type="image/png" height="163" width="592"/></media>
+    </figure>
+    <figure id="id9298620">
+      <media id="id13716051" alt=""><image src="../../media/graphics45-d500.png" mime-type="image/png" height="613" width="631"/></media>
+    </figure>
+    <figure id="id9298647">
+      <media id="id13016847" alt=""><image src="../../media/graphics46-95c8.png" mime-type="image/png" height="219" width="515"/></media>
+    </figure>
+    <figure id="id9298674">
+      <media id="id9988082" alt=""><image src="../../media/graphics47-5c8e.png" mime-type="image/png" height="185" width="492"/></media>
+    </figure>
+    <figure id="id9298701">
+      <media id="id4532426" alt=""><image src="../../media/graphics48-ab71.png" mime-type="image/png" height="363" width="472"/></media>
+    </figure>
+    <figure id="id9298728">
+      <media id="id5618519" alt=""><image src="../../media/graphics49-1284.png" mime-type="image/png" height="131" width="521"/></media>
+    </figure>
+    <figure id="id9298755">
+      <media id="id6088398" alt=""><image src="../../media/graphics50-11aa.png" mime-type="image/png" height="164" width="630"/></media>
+    </figure>
+    <para id="id9298779">
+      <media id="id11047693" alt=""><image src="../../media/graphics51-5b46.png" mime-type="image/png" height="238" width="600"/></media>
+      <media id="id9795404" alt=""><image src="../../media/graphics52-4e5e.png" mime-type="image/png" height="420" width="447"/></media>
+    </para>
+    <figure id="id9298839">
+      <media id="id4966264" alt=""><image src="../../media/graphics53-2845.png" mime-type="image/png" height="182" width="400"/></media>
+    </figure>
+    <figure id="id9298866">
+      <media id="id10966052" alt=""><image src="../../media/graphics54-4122.png" mime-type="image/png" height="216" width="449"/></media>
+    </figure>
+    <figure id="id9298893">
+      <media id="id7601404" alt=""><image src="../../media/graphics55-e999.png" mime-type="image/png" height="456" width="598"/></media>
+    </figure>
+    <figure id="id9298920">
+      <media id="id9285552" alt=""><image src="../../media/graphics56-b152.png" mime-type="image/png" height="189" width="576"/></media>
+    </figure>
+    <figure id="id9298947">
+      <media id="id6540298" alt=""><image src="../../media/graphics57.png" mime-type="image/png" height="579" width="610"/></media>
+    </figure>
+    <figure id="id9298974">
+      <media id="id10082005" alt=""><image src="../../media/graphics58.png" mime-type="image/png" height="221" width="590"/></media>
+    </figure>
+    <figure id="id9299001">
+      <media id="id5574926" alt=""><image src="../../media/graphics59.png" mime-type="image/png" height="374" width="630"/></media>
+    </figure>
+    <figure id="id8619893">
+      <media id="id7062817" alt=""><image src="../../media/graphics60.png" mime-type="image/png" height="486" width="601"/></media>
+    </figure>
+    <figure id="id8619920">
+      <media id="id9901406" alt=""><image src="../../media/graphics61.png" mime-type="image/png" height="544" width="631"/></media>
+    </figure>
+    <figure id="id8619947">
+      <media id="id5340438" alt=""><image src="../../media/graphics62.png" mime-type="image/png" height="277" width="406"/></media>
+    </figure>
+    <figure id="id8619974">
+      <media id="id7690621" alt=""><image src="../../media/graphics63.png" mime-type="image/png" height="88" width="377"/></media>
+    </figure>
+    <para id="id8619998">
+      <media id="id5597319" alt=""><image src="../../media/graphics64.png" mime-type="image/png" height="77" width="260"/></media>
+    </para>
+    <figure id="id8620035">
+      <media id="id8410968" alt=""><image src="../../media/graphics65.png" mime-type="image/png" height="213" width="432"/></media>
+    </figure>
+    <figure id="id8620062">
+      <media id="id10054808" alt=""><image src="../../media/graphics66.png" mime-type="image/png" height="438" width="527"/></media>
+    </figure>
+    <figure id="id8620089">
+      <media id="id8254124" alt=""><image src="../../media/graphics67.png" mime-type="image/png" height="116" width="517"/></media>
+    </figure>
+    <figure id="id8620116">
+      <media id="id8995298" alt=""><image src="../../media/graphics68.png" mime-type="image/png" height="128" width="376"/></media>
+    </figure>
+    <figure id="id8620143">
+      <media id="id4509316" alt=""><image src="../../media/graphics69.png" mime-type="image/png" height="527" width="580"/></media>
+    </figure>
+    <figure id="id8620170">
+      <media id="id11607741" alt=""><image src="../../media/graphics70.png" mime-type="image/png" height="278" width="598"/></media>
+    </figure>
+    <figure id="id8620197">
+      <media id="id4355117" alt=""><image src="../../media/graphics71.png" mime-type="image/png" height="81" width="445"/></media>
+    </figure>
+    <figure id="id8620224">
+      <media id="id8137168" alt=""><image src="../../media/graphics72.png" mime-type="image/png" height="294" width="490"/></media>
+    </figure>
+    <figure id="id8620250">
+      <media id="id6223835" alt=""><image src="../../media/graphics73.png" mime-type="image/png" height="340" width="394"/></media>
+    </figure>
+    <figure id="id8620277">
+      <media id="id12298935" alt=""><image src="../../media/graphics74.png" mime-type="image/png" height="419" width="546"/></media>
+    </figure>
+    <figure id="id8620304">
+      <media id="id3425953" alt=""><image src="../../media/graphics75.png" mime-type="image/png" height="106" width="492"/></media>
+    </figure>
+    <figure id="id8620331">
+      <media id="id7053353" alt=""><image src="../../media/graphics76.png" mime-type="image/png" height="110" width="321"/></media>
+    </figure>
+    <figure id="id8620358">
+      <media id="id6125994" alt=""><image src="../../media/graphics77.png" mime-type="image/png" height="110" width="321"/></media>
+    </figure>
+    <para id="id8620382">
+      <media id="id11351491" alt=""><image src="../../media/graphics78.png" mime-type="image/png" height="205" width="563"/></media>
+    </para>
+    <figure id="id8620420">
+      <media id="id6121140" alt=""><image src="../../media/graphics79.png" mime-type="image/png" height="77" width="449"/></media>
+    </figure>
+    <figure id="id8620446">
+      <media id="id4586530" alt=""><image src="../../media/graphics80.png" mime-type="image/png" height="104" width="374"/></media>
+    </figure>
+    <figure id="id8620473">
+      <media id="id3728972" alt=""><image src="../../media/graphics81.png" mime-type="image/png" height="96" width="222"/></media>
+    </figure>
+    <para id="id8620497">
+      <media id="id12419273" alt=""><image src="../../media/graphics82.png" mime-type="image/png" height="98" width="253"/></media>
+    </para>
+    <para id="id7935528">
+      <media id="id12972588" alt=""><image src="../../media/graphics83.png" mime-type="image/png" height="46" width="261"/></media>
+    </para>
+    <figure id="id7935567">
+      <media id="id7439128" alt=""><image src="../../media/graphics84.png" mime-type="image/png" height="330" width="492"/></media>
+    </figure>
+    <figure id="id7935594">
+      <media id="id7291982" alt=""><image src="../../media/graphics85.png" mime-type="image/png" height="353" width="556"/></media>
+    </figure>
+    <figure id="id7935621">
+      <media id="id5143602" alt=""><image src="../../media/graphics86.png" mime-type="image/png" height="207" width="504"/></media>
+    </figure>
+    <figure id="id7935648">
+      <media id="id9346927" alt=""><image src="../../media/graphics87.png" mime-type="image/png" height="363" width="346"/></media>
+    </figure>
+    <figure id="id7935675">
+      <media id="id7165870" alt=""><image src="../../media/graphics88.png" mime-type="image/png" height="322" width="531"/></media>
+    </figure>
+    <figure id="id7935702">
+      <media id="id6750889" alt=""><image src="../../media/graphics89.png" mime-type="image/png" height="96" width="518"/></media>
+    </figure>
+    <figure id="id7935729">
+      <media id="id5591137" alt=""><image src="../../media/graphics90.png" mime-type="image/png" height="633" width="601"/></media>
+    </figure>
+    <figure id="id7935756">
+      <media id="id5106247" alt=""><image src="../../media/graphics91.png" mime-type="image/png" height="451" width="619"/></media>
+    </figure>
+    <figure id="id7935782">
+      <media id="id5615801" alt=""><image src="../../media/graphics92.png" mime-type="image/png" height="30" width="283"/></media>
+    </figure>
+    <figure id="id7935809">
+      <media id="id13079420" alt=""><image src="../../media/graphics93.png" mime-type="image/png" height="445" width="601"/></media>
+    </figure>
+    <figure id="id7935836">
+      <media id="id7462550" alt=""><image src="../../media/graphics94.png" mime-type="image/png" height="424" width="630"/></media>
+    </figure>
+    <figure id="id7935863">
+      <media id="id11887273" alt=""><image src="../../media/graphics95.png" mime-type="image/png" height="429" width="571"/></media>
+    </figure>
+    <figure id="id7935890">
+      <media id="id4083017" alt=""><image src="../../media/graphics96.png" mime-type="image/png" height="469" width="630"/></media>
+    </figure>
+    <figure id="id7935917">
+      <media id="id3694454" alt=""><image src="../../media/graphics97.png" mime-type="image/png" height="24" width="448"/></media>
+    </figure>
+    <figure id="id7935944">
+      <media id="id6142336" alt=""><image src="../../media/graphics98.png" mime-type="image/png" height="351" width="438"/></media>
+    </figure>
+  </content>
+</document>

@@ -1,0 +1,805 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Nhập ký tự và công thức trên Mathcad 2001i</title>
+  <metadata>
+  <md:content-id>m30570</md:content-id><md:title>Nhập ký tự và công thức trên Mathcad 2001i</md:title>
+  <md:abstract/>
+  <md:uuid>563d9f84-4028-48ac-a93c-c71e61bf9c5e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8313918">NHẬP KÝ TỰ</para>
+    <section id="id-677646513823">
+      <title>Lựa chọn thuộc tính cho ký tự</title>
+      <para id="id8313934"> Trên thanh menu : chọn Format/Style, xuất hiện hộp thoại Text Style (hình 2.1).</para>
+      <figure id="id8313999">
+        <media id="id1169041420822" alt=""><image src="../../media/graphics1-3eaf.png" mime-type="image/png" height="209" width="284"/></media>
+      </figure>
+      <para id="id8314023">Hình 2.1. Hộp thoại Text Style</para>
+      <para id="id8314038"/>
+      <para id="id8314043"> Có thể chọn New để đặt tên cho một lần lựa chọn (nếu muốn sử dụng nhiều kiểu chữ - Style), hoặc nếu muốn mặc định thì chọn Normal/Modify… xuất hiện hộp thoại Define Style (hình 2.2).</para>
+      <figure id="id8314109">
+        <media id="id1169040263733" alt=""><image src="../../media/graphics2-0537.png" mime-type="image/png" height="234" width="475"/></media>
+      </figure>
+      <para id="id8314133"> Trong hộp thoại Define Style : chọn <media id="id1169041677741" alt=""><image src="../../media/graphics3-92aa.png" mime-type="image/png" height="24" width="78"/></media>, xuất hiện hộp thoại Text Format (hình 2.3).</para>
+      <figure id="id7798778">
+        <media id="id1169041630991" alt=""><image src="../../media/graphics4-91ab.png" mime-type="image/png" height="319" width="429"/></media>
+      </figure>
+      <para id="id7798802">Hình 2.3 Hộp thoại Text Format</para>
+      <para id="id7798807">Trong hộp thoại Text Format cho phép lựa chọn các thuộc tính cho ký tự, sau đó chọn OK/Close để hoàn tất công việc. Khi đó trên thanh định dạng (Formatting Toolbar) sẽ thay đổi (hình 2.4).</para>
+      <figure id="id7798872">
+        <media id="id1169038757322" alt=""><image src="../../media/graphics5-7ee4.png" mime-type="image/png" height="28" width="623"/></media>
+      </figure>
+      <para id="id7798896">Hình 2.4. Thanh Formatting Toolbar sau khi đã định dạng Style</para>
+      <section id="id-679682349377">
+        <title>Tạo vùng ký tự</title>
+        <para id="id7798911">Muốn tạo vùng ký tự, thực hiện theo các bước sau:</para>
+        <para id="id7798922"> Kích con trỏ chuột tại vị trí muốn đặt ký tự.</para>
+        <para id="id7798935"> Trên thanh menu: nhấn Insert/Text Region.</para>
+        <para id="id7798968"> Hoặc từ bàn phím: nhấn “””.</para>
+        <para id="id7799008">Khi đó khung ký tự hiện trên màn hình <media id="id1169036452630" alt=""><image src="../../media/graphics6-028d.png" mime-type="image/png" height="39" width="25"/></media>, tiến hành nhập ký tự, muốn xuống dòng thì nhấn Enter, muốn thoát nhấn trỏ chuột ngoài khung ký tự (hình 2.5).</para>
+        <figure id="id7799073">
+          <media id="id1169041645581" alt=""><image src="../../media/graphics7-4e7f.png" mime-type="image/png" height="43" width="121"/></media>
+        </figure>
+        <para id="id7799097">Hình 2.5. Khung ký tự</para>
+        <para id="id7799102">Lưu ý: </para>
+        <para id="id7799113">Để thao tác được nhanh, chỉ cần kích trỏ chuột tại vùng muốn thể hiện ký tự, đánh bình thường cuối cùng sử dụng thanh Spacebar, chuỗi ký tự đó tự động chạy vào khung ký tự.</para>
+      </section>
+    </section>
+    <section id="id-455934902671">
+      <title>XỬ LÝ KÝ TỰ</title>
+      <section id="id-0620630310652">
+        <title>Sao chép ký tự</title>
+        <para id="id7799151">Sau khi đã chọn đối tượng, thực hiện việc sao chép theo các cách sau:</para>
+        <para id="id7799161"> Trên thanh menu: chọn Edit/Copy.</para>
+        <para id="id7799208"> Trên thanh công cụ chuẩn: nhắp vào biểu tượng <media id="id1169040723470" alt=""><image src="../../media/graphics8-fc44.png" mime-type="image/png" height="22" width="24"/></media>.</para>
+        <para id="id7799271"> Từ bàn phím: nhấn tổ hợp Ctrl+C.</para>
+      </section>
+      <section id="id-0207586407634">
+        <title>Cắt ký tự</title>
+        <para id="id8586948">Sau khi đã chọn đối tượng, thực hiện việc cắt ký tự theo các cách sau:</para>
+        <para id="id8586958"> Trên thanh menu: chọn Edit/Cut.</para>
+        <para id="id8587004"> Trên thanh công cụ: nhắp vào biểu tượng <media id="id1169037060951" alt=""><image src="../../media/graphics9-4ffc.png" mime-type="image/png" height="22" width="17"/></media>.</para>
+        <para id="id8587070"> Từ bàn phím: nhấn tổ hợp Ctrl+X.</para>
+      </section>
+      <section id="id-559789424752">
+        <title>Dán ký tự</title>
+        <para id="id8587121">Sau khi chọn vị trí cần dán đối tượng, thực hiện theo các cách sau:</para>
+        <para id="id8587131"> Trên thanh menu: chọn Edit/Pase.</para>
+        <para id="id8587173"> Trên thanh công cụ: nhắp vào biểu tượng <media id="id1169041101666" alt=""><image src="../../media/graphics10-1ca5.png" mime-type="image/png" height="23" width="25"/></media>.</para>
+        <para id="id8587239"> Từ bàn phím: nhấn tổ hợp Ctrl+V.</para>
+      </section>
+      <section id="id-274931755821">
+        <title>Xoá chuỗi ký tự</title>
+        <para id="id8587290">Kích chọn khung ký tự cần xoá:</para>
+        <para id="id8587299"> Xoá ký tự nằm bên trái điểm chèn: nhấn Bksp ( ).</para>
+        <para id="id8587355"> Xoá ký tự nằm bên phải điểm chèn: nhấn Delete.</para>
+        <para id="id8587389"> Xoá tất cả các khung ký tự: chọn Edit/Select All (nhấn trl+A).</para>
+      </section>
+      <section id="id-283675839024">
+        <title>Muốn ghi chồng ký tự</title>
+        <para id="id7804766">Kích trỏ chuột ngay bên trái của ký tự đầu tiên muốn ghi chồng:</para>
+        <para id="id7804777"> Nhấn phím Insert để bắt đầu nhập nội dung mới. </para>
+        <para id="id7804801"> Nhấn lại phím Insert để trở lại chế độ mặc định ban đầu.</para>
+      </section>
+      <section id="id-0431793203995">
+        <title>Chèn công thức vào chuỗi ký tự</title>
+        <para id="id7804835">Kích trỏ chuột tại nơi muốn chèn công thức, sau đó có thể thực hiện theo các cách sau:</para>
+        <para id="id7804846"> Trên thanh menu: chọn Insert/Math Region.</para>
+        <para id="id7804888"> Từ bàn phím: nhấn tổ hợp Ctrl+Shift+A.</para>
+        <para id="id7804931">Xuất hiện khung trống để nhập công thức, kích chuột vào một chỗ bất kỳ trong vùng văn bản để trở về chế độ nhập ký tự.</para>
+      </section>
+      <section id="id-603696572972">
+        <title>Kết nối</title>
+        <para id="id7804952">Muốn kết nối một tập tin bất kỳ, thực hiện theo các bước sau:</para>
+        <para id="id7804962"> Chọn đối tượng muốn kết nối.</para>
+        <para id="id7804978"> Trên thanh menu: chọn Insert/Hyperlink (hoặc nhấn Ctrl+K), xuất hiện hộp thoại Insert Hyperlink (hình 2.6).</para>
+        <para id="id7805046"> Chọn <media id="id1169042441270" alt=""><image src="../../media/graphics11-9064.png" mime-type="image/png" height="24" width="79"/></media> để tìm file cần kết nối. </para>
+        <para id="id7805092"> Muốn file kết nối ở dạng Pop-up thì kích vào mục Display as pop-up document.</para>
+        <para id="id7805125"> Muốn sử dụng địa chỉ tương đối, kích vào mục Use relative path for hyperlink.</para>
+        <para id="id7805149"> Muốn thể hiện chú thích ở thanh trạng thái, đánh vào mục Message that appears…</para>
+        <para id="id7805171"> Cuối cùng chọn OK.</para>
+        <figure id="id7805199">
+          <media id="id1169042913784" alt=""><image src="../../media/graphics12-88c2.png" mime-type="image/png" height="244" width="503"/></media>
+        </figure>
+        <para id="id7805223">Hình 2.6. Hộp thoại Insert Hyperlink</para>
+        <para id="id7805228">Khi muốn mở file kết nối, chỉ cần kích đúp vào đối tượng được kết nối.</para>
+      </section>
+      <section id="id-927568191689">
+        <title>Tìm và thay thế</title>
+        <section id="id-260018046243">
+          <title>Tìm ký tự</title>
+          <para id="id7805255">Thực hiện theo các cách sau:</para>
+          <para id="id7805263"> Trên thanh menu: chọn Edit/Find…</para>
+          <para id="id8061417"> Từ bàn phím: nhấn tổ hợp Ctrl+F</para>
+          <para id="id8061459">Xuất hiện hộp thoại Find (hình 2.7)</para>
+          <figure id="id8061483">
+            <media id="id1169039043856" alt=""><image src="../../media/graphics13-b9a1.png" mime-type="image/png" height="176" width="372"/></media>
+          </figure>
+          <para id="id8061507">Hình 2.7. Hộp thoại Find</para>
+          <para id="id8061512"/>
+          <para id="id8061517"> Trong khung Find what nhập chuỗi ký tự cần tìm.</para>
+          <para id="id8061541"> Nhấn Find Next thực hiện việc tìm ký tự.</para>
+        </section>
+        <section id="id-983292764492">
+          <title>Thay thế ký tự</title>
+          <para id="id8061573">Thực hiện theo các cách sau:</para>
+          <para id="id8061582"> Trên thanh menu: chọn Edit/Replace…</para>
+          <para id="id8061627"> Từ bàn phím: nhấn tổ hợp Ctrl+F</para>
+          <para id="id8061669">Xuất hiện hộp thoại Replace (hình 2.8)</para>
+          <figure id="id8061693">
+            <media id="id1169038766447" alt=""><image src="../../media/graphics14-024f.png" mime-type="image/png" height="206" width="363"/></media>
+          </figure>
+          <para id="id8061718">Hình 2.8. Hộp thoại Replace</para>
+          <para id="id8061723"> Trong khung Find what: nhập chuỗi ký tự muốn tìm.</para>
+          <para id="id8061762"> Trong khung Replace with: nhập chuỗi ký tự muốn thay thế.</para>
+          <para id="id8061802"> Thẻ Replace: chỉ thay thế một ký tự hiện hành.</para>
+          <para id="id8061846"> Thẻ Replace All: thay thế toàn bộ ký tự hiện hành.</para>
+          <para id="id8061888"> Thẻ Find Next: tìm ký tự kế tiếp để thay thế.</para>
+        </section>
+      </section>
+      <section id="id-55241000485">
+        <title>Kiểm tra lỗi chính tả</title>
+        <para id="id8037559">Thực hiện theo cách sau:</para>
+        <para id="id8037567"> Chọn ký tự muốn kiểm tra lỗi.</para>
+        <para id="id8037586"> Trên thanh menu: chọn Edit/Check Spelling…</para>
+        <para id="id8037633">Xuất hiện hộp thoại Check Spelling (hình 2.9)</para>
+        <figure id="id8037657">
+          <media id="id1169041403549" alt=""><image src="../../media/graphics15-e920.png" mime-type="image/png" height="236" width="367"/></media>
+        </figure>
+        <para id="id8037682">Hình 2.9. Hộp thoại Check Spelling</para>
+        <para id="id8037687"> Trong khung Not Found: xuất hiện từ bị lỗi.</para>
+        <para id="id8037718"> Trong khung Change To: xuất hiện từ thay thế.</para>
+        <para id="id8037750">Lưu ý: </para>
+        <para id="id8037761">Trường hợp từ thay thế trong tự điển bị thiếu, có thể thêm từ mới vào tự điển.</para>
+      </section>
+      <section id="id-525545300709">
+        <title>Soạn thảo nội dung của phần trang tính dành để nhập số liệu</title>
+        <para id="id8037783">Mỗi loại số liệu nên nhập vào một bảng riêng hoặc một phần riêng trên trang tính. Trong trang này nên có các sơ đồ hoặc hình vẽ để giải thích ý nghĩa của các số liệu được nhập. Để tạo các hình vẽ, có thể sử dụng AutoCAD hay Paint để chèn vào trang tính của Mathcad.</para>
+      </section>
+      <section id="id-910862879256">
+        <title>Soạn thảo nội dung của phần trang tính dành để xuất kết quả</title>
+        <para id="id8037839">Cách soạn thảo nội dung trang tính dành để xuất kết quả cũng giống như khi soạn thảo trang tính dành để nhập số liệu. Kết quả xuất ra cũng cần phân loại và xếp vào từng bảng theo nhóm ý nghĩa để dễ theo dõi. </para>
+        <para id="id8037856">Kèm theo bảng kết quả nên có các hình vẽ minh hoạ, có thể sử dụng phần đồ hoạ trong Mathcad để vẽ bằng số liệu thực. Như vậy khi số liệu thay đổi thì giá trị và biểu đồ hình vẽ sẽ thay đổi theo. Hoặc có thể dùng AutoCAD hay Paint, nhưng nó chỉ thuần tuý là hình vẽ minh hoạ chứ không mô tả được kết quả thực. </para>
+      </section>
+      <section id="id-596547066233">
+        <title>Soạn thảo nội dung trang tính dành để lưu trữ cơ sở dữ liệu</title>
+        <para id="id8037915">Trong quá trình tính toán có thể sử dụng những bảng tra, hoặc bảng số liệu từ Excel, đồ thị đã được soạn sẵn... tất cả được xem là cơ sở dữ liệu dùng để tra cứu, nội suy hay đọc số liệu…</para>
+        <para id="id8037944">Nếu không muốn lưu trữ độc lập với Mathcad, có thể chép nó vào trang nằm bên phải trang in trong Mathcad. Khi đó không cần định dạng trang này vì nó sẽ không được in.</para>
+        <para id="id8037977">Trường hợp có một số công thức tính toán hoặc lập trình khi không muốn cho người sử dụng phần mềm nhìn thấy hoặc không muốn in ra, thực hiện theo các bước như sau:</para>
+        <para id="id8037992"> Chọn Insert/Area để chọn vùng cần khoá (lock).</para>
+        <para id="id8038014"> Kích nút phải chuột vào vùng cần khoá xuất hiện menu thả và chọn Lock…</para>
+        <para id="id8038042"> Trong hộp thoại Lock Area, gõ vào Password.</para>
+        <para id="id8107250"> Chọn OK để hoàn tất việc “khoá”.</para>
+      </section>
+    </section>
+    <section id="id-273802897836">
+      <title>NHẬP CÔNG THỨC</title>
+      <para id="id8107281">Đặt con trỏ chuột tại chỗ bắt đầu gõ công thức, sau đó từ bàn phím có thể gõ các ký tự, con số hoặc các toán tử như cộng (+), trừ (-), nhân (*), chia (/),… hoặc có thể dùng thanh công cụ Math (đã được giới thiệu ở chương 1).</para>
+      <para id="id8107305">Khi nhập công thức để tính toán, ta sẽ thấy chúng nằm trong khung cùng với đường chỉ màu xanh để biết theo dõi là ký tự nào đang được xử lý.</para>
+      <section id="id-423200506638">
+        <title>Chèn các ký hiệu toán tử</title>
+        <para id="id8107328">Để chèn toán tử vào biểu thức:</para>
+        <para id="id8107336"> Kích vào biểu thức muốn chèn.</para>
+        <para id="id8107351"> Nhấn phím Ins để di chuyển điểm chèn sang trái.</para>
+        <para id="id8107376"> Nhấn phím toán tử muốn chèn. </para>
+      </section>
+      <section id="id-715782622388">
+        <title>Xoá các ký hiệu toán tử</title>
+        <para id="id8107400">Để xoá các ký hiệu toán tử:</para>
+        <para id="id8107408"> Kích vào biểu thức muốn xoá.</para>
+        <para id="id8107423"> Nhấn phím Ins để chuyển điểm chèn sang trái.</para>
+        <para id="id8107447"> Nhấn phím BkSp ( ).</para>
+      </section>
+      <section id="id-0732252282756">
+        <title>Xoá toàn bộ công thức</title>
+        <para id="id8107502"> Kích chọn công thức muốn xoá.</para>
+        <para id="id8107517"> Trên thanh menu: nhấn Edit/Delete.</para>
+      </section>
+      <section id="id-564310715316">
+        <title>Thêm dấu ngoặc đơn vào biểu thức</title>
+        <list id="id8107566" list-type="bulleted">
+          <item>Để đóng ngoặc một đối tượng duy nhất: </item>
+        </list>
+        <para id="id8107583"> Đặt con trỏ chuột trước hoặc sau đối tượng. </para>
+        <para id="id8107598"> Từ bàn phím: nhấn dấu nháy đơn (‘).</para>
+        <list id="id8107633" list-type="bulleted">
+          <item>Để đóng ngoặc nhiều đối tượng:</item>
+        </list>
+        <para id="id8107645"> Đặt con trỏ vào trước đối tượng và nhấn phím dấu ngoặc mở ( ( ).</para>
+        <para id="id8107669"> Đặt con trỏ chuột vào sau đối tượng và nhấn phím dấu ngoặc đóng ( ) ).</para>
+      </section>
+      <section id="id-959219645546">
+        <title>Nhập các con số</title>
+        <list id="id8107702" list-type="enumerated">
+          <item>Nhập các số lớn hơn 999</item>
+        </list>
+        <para id="id8107714">Khi nhập các con số lớn hơn 999, không được dùng dấu phẩy (,) hoặc dấu chấm (.) để phân cách các con số mà phải đánh liên tục.</para>
+        <para id="id8107744">Ví dụ: “10000” hoặc “200000”</para>
+        <list id="id8107758" list-type="enumerated">
+          <item>Nhập số thập phân</item>
+        </list>
+        <para id="id7910738">Khi nhập các số thập phân, dùng dấu chấm (.) để phân biệt số thập phân.</para>
+        <list id="id7910749" list-type="enumerated">
+          <item>Nhập con số tăng theo bội số 10</item>
+        </list>
+        <para id="id7910761"> Nhập số cần tăng theo bội số của 10.</para>
+        <para id="id7910776"> Từ bàn phím: nhấn “a*10^” sẽ xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      .</para>
+        <para id="id7910830"> Trong khung trống hình chữ nhật, đánh con số tương ứng với bội số 10.</para>
+        <list id="id7910849" list-type="enumerated">
+          <item>Nhập số ảo</item>
+        </list>
+        <para id="id7910860">Để nhập số ảo:</para>
+        <para id="id7910868"> Đánh số thực.</para>
+        <para id="id7910884"> Đánh “i” hoặc “j” ngay sau các số đó.</para>
+        <para id="id7910901">Lưu ý: </para>
+        <para id="id7910913">Nếu muốn thể hiện số ảo là “i” hoặc “j” ta phải đánh là “1i” hoặc “1j”sau đó số 1 sẽ biến mất. Nếu chỉ đánh “i” hoặc “j” thì nó hiểu là một biến chứ không phải số ảo.</para>
+      </section>
+      <section id="id-948978944502">
+        <title>Định nghĩa biến</title>
+        <para id="id7910936">Để tránh nhầm lẫn các tên biến, tốt nhất nên chọn tên biến giống như tên biến cần tính toán.</para>
+        <para id="id7910947"/>
+        <para id="id7910951">Ví dụ: Tính hệ số biến động Cv (trong tính toán Thủy văn)</para>
+        <para id="id7910974">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id7911005">Như vậy lúc này Cv là một biến trong Mathcad.</para>
+      </section>
+      <section id="id-288621536798">
+        <title>Định nghĩa hàm</title>
+        <para id="id7911040">Bản chất của hàm trong Mathcad cũng giống như hàm trong toán học. Trong Mathcad có tất cả các tính năng như một chương trình toán học. Do đó để tính được hàm thực hiện theo các bước sau:</para>
+        <para id="id7911074"> Khai báo biến.</para>
+        <para id="id7911090"> Khai báo hàm.</para>
+        <para id="id7911107"> Kết quả.</para>
+        <para id="id7911123">Ví dụ: </para>
+        <para id="id7911128"/>
+        <para id="id7911132">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-848990959841">
+        <title>Bảng kê một số tổ hợp phím bấm của Mathcad</title>
+        <table id="id7911172" summary="">
+          <tgroup cols="7">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <tbody>
+              <row>
+                <entry namest="c1" nameend="c2">Phím bấm</entry>
+                <entry namest="c3" nameend="c5">Hiển thị</entry>
+                <entry namest="c6" nameend="c7">Chú giải</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+Shift+Z</entry>
+                <entry namest="c3" nameend="c5"></entry>
+                <entry namest="c6" nameend="c7">Vô cùng</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+Shift+P</entry>
+                <entry namest="c3" nameend="c5"></entry>
+                <entry namest="c6" nameend="c7">Số Pi</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">e</entry>
+                <entry namest="c3" nameend="c5">e</entry>
+                <entry namest="c6" nameend="c7">Cơ số e</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">1i</entry>
+                <entry namest="c3" nameend="c5">i</entry>
+                <entry namest="c6" nameend="c7">Số ảo i</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">%</entry>
+                <entry namest="c3" nameend="c5"></entry>
+                <entry namest="c6" nameend="c7">Phần trăm</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c7"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c7">Thao Tác Trên Các Cửa Sổ Và Worksheets</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3"/>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Phím bấm</entry>
+                <entry namest="c4" nameend="c5">Hiển thị</entry>
+                <entry namest="c6" nameend="c7">Chú giải</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Ctrl+F4</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Đóng Worksheet</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Ctrl+F6</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Qua cửa sổ kế tiếp</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Ctrl+O</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Mở Worksheet</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Alt+F4</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Thóat</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Ctrl+Q</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Thóat</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">F1</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Mở cửa sổ giúp đở</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">F5</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Mở Worksheet</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">F6</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Lưu Worksheet</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">F7</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Tạo Worksheet mới</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">F9</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Tính một biểu thức đã được chọn</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Shift+F1</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Mở hoặc thoát cửa sổ giúp đở</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Esc</entry>
+                <entry namest="c4" nameend="c5"/>
+                <entry namest="c6" nameend="c7">Thoát cửa sổ giúp đở</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c6">Phím Tắt Cho Soạn Thảo</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6"/>
+                <entry/>
+              </row>
+              <row>
+                <entry>Phím bấm</entry>
+                <entry namest="c2" nameend="c4">Hiển thị</entry>
+                <entry namest="c5" nameend="c6">Chú giải</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Enter</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Chèn một hàng trắng</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Delete</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Xóa hàng trắng</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Ctrl+F5</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Tìm chuỗi</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Shift+F5</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Đặt lại chuỗi</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Alt+BkSp</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Phục hồi lại soạn thảo sau cùng</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Ctrl+C</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Copy</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Ctrl+V</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Dán</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Ctrl+X</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Cắt</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Ctrl+U</entry>
+                <entry namest="c2" nameend="c4"/>
+                <entry namest="c5" nameend="c6">Chèn hộp thoại đơn vị</entry>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <table id="id8363760" summary="">
+          <tgroup cols="5">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry namest="c1" nameend="c5">Tạo Phép Tóan</entry>
+              </row>
+              <row>
+                <entry/>
+                <entry namest="c2" nameend="c4"/>
+                <entry/>
+              </row>
+              <row>
+                <entry>Phím bấm</entry>
+                <entry namest="c2" nameend="c4">Hiển thị</entry>
+                <entry>Chú giải</entry>
+              </row>
+              <row>
+                <entry>!</entry>
+                <entry namest="c2" nameend="c4">! </entry>
+                <entry>Giai thừa</entry>
+              </row>
+              <row>
+                <entry>$ </entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tổng dãy</entry>
+              </row>
+              <row>
+                <entry>&amp; </entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tích phân</entry>
+              </row>
+              <row>
+                <entry>'</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Dấu ngoặc</entry>
+              </row>
+              <row>
+                <entry>(</entry>
+                <entry namest="c2" nameend="c4">(</entry>
+                <entry>Mở ngoặc</entry>
+              </row>
+              <row>
+                <entry>)</entry>
+                <entry namest="c2" nameend="c4">)</entry>
+                <entry>Đóng ngoặc</entry>
+              </row>
+              <row>
+                <entry>*</entry>
+                <entry namest="c2" nameend="c4">.</entry>
+                <entry>Nhân</entry>
+              </row>
+              <row>
+                <entry>+</entry>
+                <entry namest="c2" nameend="c4">+</entry>
+                <entry>Cộng</entry>
+              </row>
+              <row>
+                <entry>,</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tách các đối số của hàm số</entry>
+              </row>
+              <row>
+                <entry>;</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Cho dãy số</entry>
+              </row>
+              <row>
+                <entry>-</entry>
+                <entry namest="c2" nameend="c4">-</entry>
+                <entry>Dấu trừ</entry>
+              </row>
+              <row>
+                <entry>&lt;</entry>
+                <entry namest="c2" nameend="c4">&lt;</entry>
+                <entry>Nhỏ hơn</entry>
+              </row>
+              <row>
+                <entry>&gt;</entry>
+                <entry namest="c2" nameend="c4">&gt;</entry>
+                <entry>Lớn hơn</entry>
+              </row>
+              <row>
+                <entry>?</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Đạo hàm cấp 1</entry>
+              </row>
+              <row>
+                <entry>[</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Thành phần của véc tơ hoặc ma trận</entry>
+              </row>
+              <row>
+                <entry>\</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Căn bậc hai</entry>
+              </row>
+              <row>
+                <entry>^</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Lũy thừa</entry>
+              </row>
+              <row>
+                <entry>|</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Giá trị tuyết đối, định thức ma trận</entry>
+              </row>
+              <row>
+                <entry>Ctrl+1</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Phép hoán chuyển</entry>
+              </row>
+              <row>
+                <entry>Ctrl+3</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Không bằng</entry>
+              </row>
+              <row>
+                <entry>#</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tích một dãy</entry>
+              </row>
+              <row>
+                <entry>Ctrl+4</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tổng các thành phần của véctơ</entry>
+              </row>
+              <row>
+                <entry>Ctrl+9</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Nhỏ hơn hoặc bằng</entry>
+              </row>
+              <row>
+                <entry>Ctrl+0</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Lớn hơn hoặc bằng</entry>
+              </row>
+              <row>
+                <entry>Ctrl+8</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tích có hướng</entry>
+              </row>
+              <row>
+                <entry>Ctrl+-</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Véctơ hóa</entry>
+              </row>
+              <row>
+                <entry>Ctrl+=</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Bằng</entry>
+              </row>
+              <row>
+                <entry>Ctrl+6</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Trích cột của ma trận</entry>
+              </row>
+              <row>
+                <entry>Ctrl+Shift+4</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tổng</entry>
+              </row>
+              <row>
+                <entry>Ctrl+Shift+3</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Tích</entry>
+              </row>
+              <row>
+                <entry>Ctrl+Shift+?</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Đạo hàm cấp n</entry>
+              </row>
+              <row>
+                <entry>Ctrl+\</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Căn bậc n</entry>
+              </row>
+              <row>
+                <entry>Ctrl+Enter</entry>
+                <entry namest="c2" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Xuống dòng (nếu dòng tính quá dài)</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c5">Các Phép Toán Symbolic</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2"/>
+                <entry namest="c3" nameend="c4"/>
+                <entry/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Phím bấm</entry>
+                <entry namest="c3" nameend="c4">Hiển thị</entry>
+                <entry>Chú giải</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+I</entry>
+                <entry namest="c3" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Nguyên hàm</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+L</entry>
+                <entry namest="c3" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Giới hạn</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+Shift +A</entry>
+                <entry namest="c3" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Giới hạn bên phải</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+Shift +B</entry>
+                <entry namest="c3" nameend="c4">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </entry>
+                <entry>Giới hạn bên trái</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c5">Phím Tạo Một Vùng</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2"/>
+                <entry/>
+                <entry namest="c4" nameend="c5"/>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Phím bấm</entry>
+                <entry>Hiển thị</entry>
+                <entry namest="c4" nameend="c5">Chú giải</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">@</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Vẽ đồ thị trong mặt phẳng</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+5</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Vẽ contour</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+7</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Vẽ trong tọa độ cực</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+2</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Vẽ bề mặt ma trận</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+G</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Đổi ký tự Roman sang Hylap và ngược lại</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+M</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Tạo ma trận hoặc véc tơ</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+ Shift +P</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Chèn ký hiệu số Pi</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c2">Ctrl+ Shift +Z</entry>
+                <entry/>
+                <entry namest="c4" nameend="c5">Chèn ký hiệu vô cực</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </section>
+    <section id="id-511909723652">
+      <title>ĐƠN VỊ ĐO LƯỜNG TRONG MATHCAD</title>
+      <para id="id8538213">Trong Mathcad đơn vị mặc định là hệ SI (International System of Units). Mathcad có khả năng tìm đơn vị tiêu chuẩn khi tính toán và tự động thay đổi đơn vị tính toán. Cho nên không có gì ngạc nhiên khi bạn định nghĩa đơn vị của biến là Tone (tấn) thì trong quá trình tính toán Mathcad tự động chuyển qua đơn vị là Kilogram (kg). Nếu bạn muốn kết quả được thể hiện bằng đơn vị là “T”, thực hiện như sau:</para>
+      <para id="id8538271"> Kích vào kết quả có đơn vị muốn điều chỉnh, sẽ xuất hiện khung chữ nhật màu đen ở ngay sau đơn vị.</para>
+      <para id="id8538292"> Gõ vào đơn vị muốn được thể hiện.</para>
+      <para id="id8538309">Ví dụ: </para>
+      <para id="id8538314">
+        <media id="id1169041627749" alt=""><image src="../../media/graphics16-7e32.png" mime-type="image/png" height="95" width="226"/></media>
+      </para>
+      <para id="id8538357">Kết quả: </para>
+      <para id="id8538368">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id8538403">Lưu ý: Trước đó phải định nghĩa: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      .</para>
+    </section>
+  </content>
+</document>

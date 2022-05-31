@@ -1,0 +1,291 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>MathCad ứng dụng (phần 1)</title>
+  <metadata>
+  <md:content-id>m30159</md:content-id><md:title>MathCad ứng dụng (phần 1)</md:title>
+  <md:abstract/>
+  <md:uuid>58e790c0-7b93-4946-b4a7-9a38357eb2ae</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-544821041449">
+      <title>ỨNG DỤNG TRONG TÍNH TOÁN KẾT CẤU</title>
+      <para id="id7862523"/>
+      <section id="id-171447152463">
+        <title>Cho một dầm đơn gối hai đầu như hình 9.1. Tính các phản lực gối tại A và B.</title>
+        <para id="id7862549"/>
+        <para id="id7862555">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id7862583">Hình 9.1</para>
+        <para id="id7862587">Định nghĩa: </para>
+        <para id="id7862595">
+          <media id="id7827056" alt=""><image src="../../media/graphics1-a3e3.png" mime-type="image/png" height="39" width="203"/></media>
+        </para>
+        <figure id="id7862632">
+          <media id="id7829486" alt=""><image src="../../media/graphics2-d085.png" mime-type="image/png" height="336" width="538"/></media>
+        </figure>
+        <figure id="id7862659">
+          <media id="id1169843107693" alt=""><image src="../../media/graphics3-bba2.png" mime-type="image/png" height="188" width="532"/></media>
+        </figure>
+        <figure id="id7862686">
+          <media id="id4855687" alt=""><image src="../../media/graphics4-f2bf.png" mime-type="image/png" height="252" width="518"/></media>
+        </figure>
+        <figure id="id7862713">
+          <media id="id7535043" alt=""><image src="../../media/graphics5-6031.png" mime-type="image/png" height="301" width="502"/></media>
+        </figure>
+        <figure id="id7862740">
+          <media id="id8335255" alt=""><image src="../../media/graphics6-3761.png" mime-type="image/png" height="188" width="546"/></media>
+        </figure>
+        <figure id="id7862767">
+          <media id="id3063996" alt=""><image src="../../media/graphics7-242b.png" mime-type="image/png" height="244" width="595"/></media>
+        </figure>
+      </section>
+      <section id="id-00591986821601">
+        <title>Cho dầm như hình 9.2. Tính các phản lực tại gối. </title>
+        <para id="id7862809">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id7862835">Hình 9.2</para>
+      </section>
+      <section id="id-15033391404">
+        <title>Cho một dầm đơn gối hai đầu như hình 9.2. Tính và vẽ biểu đồ lực cắt và moment cho dầm. </title>
+        <figure id="id7862864">
+          <media id="id1169840635277" alt=""><image src="../../media/graphics8-c382.png" mime-type="image/png" height="166" width="402"/></media>
+        </figure>
+        <para id="id7862888">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id7862915">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id7862942">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <figure id="id7862971">
+          <media id="id7601825" alt=""><image src="../../media/graphics9-a5c8.png" mime-type="image/png" height="344" width="525"/></media>
+        </figure>
+        <figure id="id7862998">
+          <media id="id1169842965972" alt=""><image src="../../media/graphics10-ac29.png" mime-type="image/png" height="423" width="579"/></media>
+        </figure>
+        <para id="id7863023"/>
+      </section>
+      <section id="id-290956899011">
+        <title>Cho sô ñoà keát caáu baûn ñaùy cống (tính theo phöông phaùp daàm ñaûo) hình 9.4 </title>
+        <figure id="id7863050">
+          <media id="id2812965" alt=""><image src="../../media/graphics11-267b.png" mime-type="image/png" height="159" width="529"/></media>
+        </figure>
+        <para id="id7863074">Hình 9.4</para>
+        <para id="id7863082">Cho caùc soá lieäu sau:</para>
+        <para id="id7863090">q=30kG/m ; l=10m ; M1=M2=300kGm</para>
+        <para id="id7863119">Giaûi:</para>
+        <figure id="id7863127">
+          <media id="id8737795" alt=""><image src="../../media/graphics12-0980.png" mime-type="image/png" height="497" width="557"/></media>
+        </figure>
+        <figure id="id7863154">
+          <media id="id1169839522475" alt=""><image src="../../media/graphics13-7437.png" mime-type="image/png" height="357" width="619"/></media>
+        </figure>
+        <para id="id7863177"/>
+      </section>
+    </section>
+    <section id="id-54950542741">
+      <title>ỨNG DỤNG MATHCAD TRONG ĐO ĐẠC</title>
+      <section id="id-847416726386">
+        <title>Tính toán bố trí tim cầu (hình 9.5)</title>
+        <figure id="id7863224">
+          <media id="id8316949" alt=""><image src="../../media/graphics14-e690.png" mime-type="image/png" height="235" width="423"/></media>
+        </figure>
+        <para id="id7863247">Hình 9.5</para>
+        <para id="id7863252">Số liệu cho như sau:</para>
+        <para id="id7863257">- Điểm khống chế A: 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>200</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>000</m:mtext><m:mi>m</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>200</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>m</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
+ left lbrace x rSub { size 8{A} } ="200" "." "000"m {} # 
+ right none  left lbrace y rSub { size 8{B} } ="200" "." "00"m {} # 
+ right no } }  lbrace } {}</m:annotation></m:semantics></m:math> B:
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>378</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>31</m:mtext><m:mi>m</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>340</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>02</m:mtext><m:mi>m</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
+ left lbrace x rSub { size 8{B} } ="378" "." "31"m {} # 
+ right none  left lbrace y rSub { size 8{B} } ="340" "." "02"m {} # 
+ right no } }  lbrace } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id8274529">- Điểm cần bố trí 1 : 
+<m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>400</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>000</m:mtext><m:mi>m</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>400</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>m</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow/><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mo stretchy="true">{</m:mo><m:mrow/></m:mrow><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
+ left lbrace x rSub { size 8{1} } ="400" "." "000"m {} # 
+ right none  left lbrace y rSub { size 8{1} } ="400" "." "00"m {} # 
+ right no } }  lbrace } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id8274661">Để xác định được điểm cần bố trí cần xác định được góc bằng 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>A</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{A_1} } } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>β</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mi>B</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{B_1} } } {}</m:annotation></m:semantics></m:math></para>
+        <figure id="id8274789">
+          <media id="id1169843279497" alt=""><image src="../../media/graphics15-a832.png" mime-type="image/png" height="328" width="378"/></media>
+        </figure>
+        <para id="id8274813">Phần tính tính toán đã được “dấu” bằng lệnh khoá (lock).</para>
+        <figure id="id8274826">
+          <media id="id1169846591835" alt=""><image src="../../media/graphics16-8474.png" mime-type="image/png" height="123" width="607"/></media>
+        </figure>
+      </section>
+      <section id="id-18435079876">
+        <title>Bình sai ñöôøng chuyeàn kinh vó kheùp kín</title>
+        <figure id="id8274864">
+          <media id="id1169837330832" alt=""><image src="../../media/graphics17-9fe3.png" mime-type="image/png" height="231" width="391"/></media>
+        </figure>
+        <figure id="id8274891">
+          <media id="id1169843287134" alt=""><image src="../../media/graphics18-03ae.png" mime-type="image/png" height="90" width="595"/></media>
+        </figure>
+        <figure id="id8274918">
+          <media id="id1343084" alt=""><image src="../../media/graphics19-38a4.png" mime-type="image/png" height="74" width="405"/></media>
+        </figure>
+        <figure id="id8274944">
+          <media id="id1169837480962" alt=""><image src="../../media/graphics20-3eed.png" mime-type="image/png" height="150" width="173"/></media>
+        </figure>
+        <figure id="id8274971">
+          <media id="id1169842222506" alt=""><image src="../../media/graphics21-0790.png" mime-type="image/png" height="117" width="574"/></media>
+        </figure>
+        <figure id="id8274998">
+          <media id="id3102106" alt=""><image src="../../media/graphics22-206f.png" mime-type="image/png" height="75" width="363"/></media>
+        </figure>
+        <figure id="id8275025">
+          <media id="id1169835477952" alt=""><image src="../../media/graphics23-16db.png" mime-type="image/png" height="203" width="343"/></media>
+        </figure>
+        <para id="id8275049"/>
+      </section>
+    </section>
+    <section id="id-118179324667">
+      <title>ỨNG DỤNG TRONG TÍNH TOÁN THUỶ VĂN</title>
+      <para id="id8275079"/>
+      <section id="id-415382728017">
+        <title>Cho hai Trạm Thuỷ văn A và B nằm trên cùng một con sông, có số liệu như bảng sau:</title>
+        <table id="id8275094" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>STT</entry>
+                <entry>Năm</entry>
+                <entry>Trạm A_M(m3/s.km2)</entry>
+                <entry>Trạm B_M(m3/s.km2)</entry>
+              </row>
+              <row>
+                <entry>123456789101112131415161718</entry>
+                <entry>195419551956195719581959196019611962196319641965196619671968196919701971</entry>
+                <entry>----4.84.15.35.06.36.06.33.36.24.87.15.54.19.2</entry>
+                <entry>6.97.25.96.46.25.36.88.08.77.88.55.68.96.59.57.0--</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id8004028"/>
+        <para id="id8004032">Yêu cầu:</para>
+        <list id="id8004037" list-type="bulleted">
+          <item>Cho biết hai trạm A và B có tương quan với nhau hay không?</item>
+          <item>Viết phương trình tương quan giữa 2 trạm để bổ sung số liệu giữa hai trạm.</item>
+          <item>Vẽ đường tương quan giữa hai trạm.</item>
+        </list>
+        <para id="id8004072">Giải:</para>
+        <para id="id8004077">1. Nhập số liệu:</para>
+        <figure id="id8004088">
+          <media id="id4301037" alt=""><image src="../../media/graphics24-156f.png" mime-type="image/png" height="399" width="280"/></media>
+        </figure>
+        <para id="id8004112">2. Tính toán</para>
+        <figure id="id8004120">
+          <media id="id1169837519824" alt=""><image src="../../media/graphics25-ad7e.png" mime-type="image/png" height="423" width="445"/></media>
+        </figure>
+        <para id="id8004145">a. Kiểm tra điều kiện tương quan</para>
+        <figure id="id8004153">
+          <media id="id7795434" alt=""><image src="../../media/graphics26-c59d.png" mime-type="image/png" height="220" width="516"/></media>
+        </figure>
+        <para id="id8004177">b. Viết phương trình tương quan để bổ sung số liệu cho trạm thiếu</para>
+        <figure id="id8004190">
+          <media id="id8248121" alt=""><image src="../../media/graphics27-1f2d.png" mime-type="image/png" height="248" width="493"/></media>
+        </figure>
+        <figure id="id8004217">
+          <media id="id1169837682740" alt=""><image src="../../media/graphics28-98f6.png" mime-type="image/png" height="392" width="577"/></media>
+        </figure>
+        <figure id="id8004244">
+          <media id="id1169840653848" alt=""><image src="../../media/graphics29-3f36.png" mime-type="image/png" height="330" width="572"/></media>
+        </figure>
+        <figure id="id8004271">
+          <media id="id3096151" alt=""><image src="../../media/graphics30-31a0.png" mime-type="image/png" height="193" width="258"/></media>
+        </figure>
+        <para id="id8004295">3. Vẽ đường thẳng tương quan</para>
+        <figure id="id8004307">
+          <media id="id4646855" alt=""><image src="../../media/graphics31-494a.png" mime-type="image/png" height="143" width="579"/></media>
+        </figure>
+        <figure id="id8004334">
+          <media id="id4819014" alt=""><image src="../../media/graphics32-fcc4.png" mime-type="image/png" height="271" width="345"/></media>
+        </figure>
+        <para id="id8004358"/>
+      </section>
+    </section>
+    <section id="id-237230218488">
+      <title>ỨNG DỤNG MỘT SỐ HÀM TRONG MATHCAD</title>
+      <para id="id8004388"> Vẽ biểu đồ triều</para>
+      <para id="id8004401">
+        <figure id="id8004404">
+          <media id="id6112477" alt=""><image src="../../media/graphics33-79f7.png" mime-type="image/png" height="156" width="572"/></media>
+        </figure>
+        <figure id="id8004428">
+          <media id="id2833924" alt=""><image src="../../media/graphics34-fcf8.png" mime-type="image/png" height="143" width="573"/></media>
+        </figure>
+      </para>
+      <figure id="id8004456">
+        <media id="id1169840686396" alt=""><image src="../../media/graphics35-965b.png" mime-type="image/png" height="354" width="552"/></media>
+      </figure>
+      <para id="id8748129"> Viết hàm nội suy tìm Rn và Ra của Bêtông cho trong bảng sau:</para>
+      <table id="id8748163" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Mác Bêtông</entry>
+              <entry>Cường độ chịu nén Rn, kG/cm2</entry>
+              <entry>Cường độ chịu kéo Ra, kG/cm2</entry>
+            </row>
+            <row>
+              <entry>150200250300</entry>
+              <entry>6.590110130</entry>
+              <entry>57.58.310</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id8748316">Có nhiều cách để nội suy tìm Rn và Ra của Bêtông, ở đây xin nêu lên 2 cách:</para>
+      <para id="id8748343">Cách 1:</para>
+      <figure id="id8748351">
+        <media id="id5337624" alt=""><image src="../../media/graphics36-8c7c.png" mime-type="image/png" height="126" width="457"/></media>
+      </figure>
+      <figure id="id8748378">
+        <media id="id2200069" alt=""><image src="../../media/graphics37-fcd7.png" mime-type="image/png" height="272" width="588"/></media>
+      </figure>
+      <para id="id8748402">Cách 2:</para>
+      <figure id="id8748410">
+        <media id="id1169841812677" alt=""><image src="../../media/graphics38-b73f.png" mime-type="image/png" height="320" width="427"/></media>
+      </figure>
+      <figure id="id8748437">
+        <media id="id7530356" alt=""><image src="../../media/graphics39-8104.png" mime-type="image/png" height="133" width="404"/></media>
+      </figure>
+      <para id="id8748462"/>
+    </section>
+    <section id="id-282399669489">
+      <title>ỨNG DỤNG TÍNH TOÁN CỬA VAN</title>
+      <para id="id8748491">Xác định vị trí đặt dầm chính</para>
+      <figure id="id8748500">
+        <media id="id8513674" alt=""><image src="../../media/graphics40-7158.png" mime-type="image/png" height="326" width="545"/></media>
+      </figure>
+      <figure id="id8748527">
+        <media id="id1169838756446" alt=""><image src="../../media/graphics41-01ba.png" mime-type="image/png" height="173" width="507"/></media>
+      </figure>
+      <para id="id8748551">
+        <media id="id1169843356925" alt=""><image src="../../media/graphics42-29ca.png" mime-type="image/png" height="260" width="500"/></media>
+        <figure id="id8748581">
+          <media id="id6565326" alt=""><image src="../../media/graphics43-bf5c.png" mime-type="image/png" height="322" width="504"/></media>
+        </figure>
+      </para>
+      <figure id="id8748608">
+        <media id="id1169837472406" alt=""><image src="../../media/graphics44-167e.png" mime-type="image/png" height="377" width="427"/></media>
+      </figure>
+    </section>
+  </content>
+</document>

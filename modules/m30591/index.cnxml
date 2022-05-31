@@ -1,0 +1,225 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Vẽ đồ thị</title>
+  <metadata>
+  <md:content-id>m30591</md:content-id><md:title>Vẽ đồ thị</md:title>
+  <md:abstract/>
+  <md:uuid>bb1cb2c9-56ae-46be-8157-b01e3284500a</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-714629936413">
+      <title>VẼ ĐỒ THỊ X-Y</title>
+      <para id="id8351139"> Để tạo vùng vẽ (hình 6.1) có thể thực hiện theo các cách sau:</para>
+      <para id="id8351174"> Từ thanh công cụ: chọn Insert/Graph/X-Y Plot </para>
+      <para id="id8088484"> Từ thanh Math: nhắp vào biểu tượng <media id="id8793204" alt=""><image src="../../media/graphics1-d46c.png" mime-type="image/png" height="28" width="28"/></media></para>
+      <para id="id8088550"> Từ bàn phím: nhấn @</para>
+      <figure id="id8088595">
+        <media id="id8741767" alt=""><image src="../../media/graphics2-2a04.png" mime-type="image/png" height="209" width="290"/></media>
+      </figure>
+      <para id="id8088619">Hình.6.1 Vùng thể hiện đồ thị</para>
+      <list id="id8088627" list-type="bulleted">
+        <item>Trong khung trống nằm dưới trục hoành (trục x) nhập giá trị đồ thị muốn dựa theo. Giá trị này là thang đo đã xác định trước đó. Nếu không xác định trước, Mathcad tự động xác định thang đo từ -10 đến 10.</item>
+      </list>
+      <list id="id8088699" list-type="bulleted">
+        <item>Trong khung trống nằm bên cạnh trục tung (trục y), nhập biểu thức muốn vẽ. </item>
+      </list>
+      <para id="id8088739">Lưu ý:</para>
+      <para id="id8088751">- Có thể vẽ đồ thị theo phương trình bất kỳ dựa theo phương trình khác, để chúng có thể dùng chung giá trị độc lập. Ngoài ra còn thể hiện được nhiều đường biểu diễn trên cùng một đồ thị.</para>
+      <para id="id8088784">- Nếu điểm vẽ là giá trị phức hoặc ảo, Mathcad sẽ không vẽ lên những điểm này. Khi đó dùng hàm Re và IN để kéo phần phức hoặc ảo ra ngoài.</para>
+      <para id="id8088882">Ví dụ:</para>
+      <para id="id8088894">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+    </section>
+    <section id="id-0155513968602">
+      <title>HIỆU CHỈNH ĐỒ THỊ</title>
+      <para id="id8088929">Để hiệu chỉnh đồ thị có thể thực hiện theo các cách sau:</para>
+      <para id="id8960150"> Từ thanh công cụ:chọn Format/Graph/X-Y Plot </para>
+      <para id="id8960191"> Nhắp đúp vào đồ thị muốn hiệu chỉnh.</para>
+      <para id="id8960206">Xuất hiện hộp thoại Formating currently selected X-Y Plot (hình 6.2).</para>
+      <figure id="id8960230">
+        <media id="id8734004" alt=""><image src="../../media/graphics3-721b.png" mime-type="image/png" height="347" width="359"/></media>
+      </figure>
+      <para id="id8960254">Hình 6.2. Formating currently selected X-Y Plot </para>
+      <list id="id8960263" list-type="bulleted">
+        <item>Trong khung thoại X-Y Axes</item>
+      </list>
+      <para id="id8960273"> Log Scale: trục được chọn sẽ có giá trị Logarith. Do đó giá trị trong thang đo phải là số dương (hình 6.3).</para>
+      <figure id="id8960320">
+        <media id="id8734064" alt=""><image src="../../media/graphics4-086b.png" mime-type="image/png" height="132" width="258"/></media>
+      </figure>
+      <para id="id8960344">Hình.6.3</para>
+      <para id="id8960352"/>
+      <para id="id8960357"> Grid lines: các đường phân trên thang đo của trục đã chọn sẽ được thay bằng khung ca rô màu xanh lá cây (hình 6.4).</para>
+      <figure id="id8960405">
+        <media id="id8835612" alt=""><image src="../../media/graphics5-ad00.png" mime-type="image/png" height="141" width="264"/></media>
+      </figure>
+      <para id="id8960429">Hình 6.4</para>
+      <para id="id8960436"> Numbered: các đường phân trên thang đo của trục đã chọn sẽ được đánh số (hình 6.5).</para>
+      <para id="id8960474"> Numbered: các đường phân trên thang đo của trục đã chọn sẽ không thể hiện số (hình 6.5).</para>
+      <figure id="id8960520">
+        <media id="id8766985" alt=""><image src="../../media/graphics6-6936.png" mime-type="image/png" height="133" width="250"/></media>
+      </figure>
+      <para id="id8960544">Hình 6.5</para>
+      <para id="id8960552"> Auto Scale: Mathcad sẽ tự động chia thang đo dựa vào số liệu điểm đầu và điểm cuối, bên cạnh đo thể hiện luôn trị số điểm đầu và điểm cuối bên trái thang chia (hình 6.6).</para>
+      <para id="id8960615"> Auto Scale: Mathcad sẽ lấy giá trị điểm đầu và cuối làm cận dưới và trên của thang đo và dĩ nhiên các điểm trên thang đo có thể là số không chẵn (hình 6.6).</para>
+    </section>
+    <section id="id8079391">
+      <para id="id8079396">
+        <media id="id8750534" alt=""><image src="../../media/graphics7-3d45.png" mime-type="image/png" height="216" width="306"/></media>
+        <media id="id8750558" alt=""><image src="../../media/graphics8-3727.png" mime-type="image/png" height="215" width="304"/></media>
+      </para>
+    </section>
+    <section id="id8079456">
+      <para id="id8079461"> Auto Scale  Auto Scale</para>
+      <para id="id8079489">Hình 6.6</para>
+      <para id="id8079500"> Show markers: thêm một hoặc hai đường trục hoành hoặc trục tung trong đồ thị. Khi chọn, xuất hiện hai khung trống bổ sung theo trục. Giả sử muốn thêm trục tung kích vào một trong hai khung trống nằm dưới trục x và nhập giá trị muốn bắt đầu để vẽ đường biểu diễn (hình 6.7).</para>
+      <figure id="id8079580">
+        <media id="id8828314" alt=""><image src="../../media/graphics9-ba60.png" mime-type="image/png" height="168" width="495"/></media>
+      </figure>
+      <para id="id8079604"> Show markers  Show markers</para>
+      <para id="id8079646"/>
+      <para id="id8079650">Hình 6.7</para>
+      <para id="id8079658"> Auto Grids: số đường phân thang đo sẽ được chọn tự động.</para>
+      <para id="id8079688"> Auto Grids: nhập số phân thang đo vào khung giá trị “Number of Girds”. Số nhập phải là số nguyên từ 2 đến 99.</para>
+      <list id="id8079726" list-type="bulleted">
+        <item>Axes Style – Boxed, Crossed, None: kiểm soát xem các trục có giao thoa với tâm đồ thị, cạnh đáy trái của đồ thị hay chúng xuất hiện tất cả hay không (hình 6.8).</item>
+      </list>
+      <figure id="id8079762">
+        <media id="id8765102" alt=""><image src="../../media/graphics10-69d4.png" mime-type="image/png" height="147" width="321"/></media>
+      </figure>
+      <para id="id8079786">Hình 6.8</para>
+      <para id="id8079797"> qual scales: các thang đo được phân bằng nhau (Hình 6.9).</para>
+      <para id="id8079830"/>
+      <figure id="id8079837">
+        <media id="id8845473" alt=""><image src="../../media/graphics11-4fc5.png" mime-type="image/png" height="147" width="265"/></media>
+      </figure>
+      <para id="id8711715">Hình 6.9</para>
+      <list id="id8711723" list-type="bulleted">
+        <item>Trong khung thoại Traces</item>
+      </list>
+      <figure id="id8711739">
+        <media id="id8828613" alt=""><image src="../../media/graphics12-abb1.png" mime-type="image/png" height="351" width="363"/></media>
+      </figure>
+      <para id="id8711762">Hình 6.10. Hộp thoại Formatting Currently Selected X-Y Plot/Traces</para>
+      <para id="id8711772"> Legend Label: đặt tên cho đường biểu diễn sẽ hiện theo phần chú giải (hình 6.11).</para>
+      <para id="id8711806"> Symbol: thể hiện những điểm bằng những biểu tượng như hình vuông (box), chữ thập (+’s), dấu nhân (x’s)…khi không chọn, mặc định của nó sẽ là “none”.</para>
+      <figure id="id8711881">
+        <media id="id8843693" alt=""><image src="../../media/graphics13-861e.png" mime-type="image/png" height="252" width="615"/></media>
+      </figure>
+      <para id="id8711905"> Hide legend  Hide legend</para>
+      <para id="id8711935">Hình 6.11</para>
+      <para id="id8711942"> Line: chọn lựa đường biểu diễn để phân biệt với những đường biểu diễn khác cùng nằm trong một đồ thị.</para>
+      <para id="id8711969">Line</para>
+      <figure id="id8711977">
+        <media id="id8752323" alt=""><image src="../../media/graphics14-a65e.png" mime-type="image/png" height="89" width="57"/></media>
+      </figure>
+      <para id="id8712001"/>
+      <para id="id8712006"> Color: chọn lựa màu sắc cho đường biểu diễn để phân biệt với những đường biểu diễn khác cùng nằm trong một đồ thị.</para>
+      <para id="id8712033">Color</para>
+      <figure id="id8712041">
+        <media id="id8772838" alt=""><image src="../../media/graphics15-efd5.png" mime-type="image/png" height="126" width="44"/></media>
+      </figure>
+      <para id="id8712065"> Type: chọn loại đường biểu diễn để phân biệt với những đường biểu diễn khác cùng nằm trong một đồ thị.</para>
+      <para id="id8712092">Type</para>
+      <figure id="id8712099">
+        <media id="id8744010" alt=""><image src="../../media/graphics16-d447.png" mime-type="image/png" height="133" width="59"/></media>
+      </figure>
+      <para id="id8712123"/>
+      <para id="id8712128"> Weight: chọn lựa độ dày mỏng của đường biểu diễn.</para>
+      <para id="id8712154"> Hide Arguments: dấu hàm số và đối số ở giữa mỗi trục. Khi kích vào đồ thị nó sẽ hiện ra.</para>
+      <list id="id8712180" list-type="bulleted">
+        <item>Trong khung thoại Labels (hình 6.12)</item>
+      </list>
+      <para id="id8712197"> Title: đặt tên cho hình biểu diễn trên đồ thị, khi đó phải chọn <media id="id8807561" alt=""><image src="../../media/graphics17-b7a5.png" mime-type="image/png" height="25" width="82"/></media> để thể hiện. Bạn có thể đặt tên ở trên (<media id="id8807584" alt=""><image src="../../media/graphics18-705f.png" mime-type="image/png" height="21" width="63"/></media>) hoặc ở dưới đồ thị (<media id="id8807607" alt=""><image src="../../media/graphics19-559c.png" mime-type="image/png" height="23" width="59"/></media>).</para>
+      <para id="id8321514"> Axis labels: gán chú thích trên mỗi trục.</para>
+      <para id="id8321536">Gán chú giải trên trục hoành (trục x)</para>
+      <figure id="id8321548">
+        <media id="id8730639" alt=""><image src="../../media/graphics20-6b41.png" mime-type="image/png" height="29" width="272"/></media>
+      </figure>
+      <para id="id8321572">Gán chú giải trên trục tung (trục y)</para>
+      <figure id="id8321583">
+        <media id="id8734846" alt=""><image src="../../media/graphics21-0997.png" mime-type="image/png" height="31" width="269"/></media>
+      </figure>
+      <figure id="id8321610">
+        <media id="id8734882" alt=""><image src="../../media/graphics22-7799.png" mime-type="image/png" height="351" width="358"/></media>
+      </figure>
+      <para id="id8321634">Hình 6.12. Hộp thoại Formatting Currently Selected X-Y Plot/Labels</para>
+      <section id="id-499073474709">
+        <title>VẼ NHIỀU ĐƯỜNG BIỂU DIỄN TRONG CÙNG MỘT ĐỒ THỊ</title>
+        <para id="id8321659">Để vẽ nhiều đường biểu diễn chỉ cần đánh dấu phẩy “,” giữa các phương trình trên từng trục.</para>
+      </section>
+      <section id="id-618963661627">
+        <title>QUAN SÁT CÁC ĐIỂM TRÊN ĐƯỜNG BIỂU DIỄN</title>
+        <para id="id8321679">Để quan sát toạ độ trên đường biểu diễn thực hiện như sau:</para>
+        <list id="id8321698" list-type="bulleted">
+          <item>Chọn đường biểu diễn cần quan sát.</item>
+        </list>
+        <list id="id8321711" list-type="bulleted">
+          <item>Trên thanh công cụ : chọn Format/Graph/Trace, hiện hộp thoại “Trace”.</item>
+        </list>
+        <para id="id8321751"> Rê chuột vào đường biểu diễn sẽ xuất hiện toạ độ muốn quan sát.</para>
+      </section>
+      <section id="id-751281313184">
+        <title>VẼ ĐỒ THỊ 3D</title>
+        <section id="id-478680105974">
+          <title>Vẽ đồ thị Contour (hình 6.12)</title>
+          <para id="id8321814"> Xác định Ma trận để vẽ, Ma trận phải có ít nhất hai dòng và hai cột.</para>
+          <para id="id8321833"> Tạo vùng để vẽ thực hiện theo các cách sau:</para>
+          <para id="id8321851"> Từ thanh công cụ: chọn Insert/Graph/Contour Plot</para>
+          <para id="id8321902"> Từ thanh Math: nhắp vào biểu tượng <media id="id10746262" alt=""><image src="../../media/graphics23-8ad4.png" mime-type="image/png" height="23" width="21"/></media></para>
+          <para id="id8321968"> Từ bàn phím: nhấn tổ hợp Ctrl+5</para>
+          <para id="id8322010"> Đặt tên Ma trận trong khung trống.</para>
+          <para id="id8324101">Ví dụ:</para>
+          <para id="id8324112">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+          <para id="id8324139">Hình 6.13</para>
+        </section>
+        <section id="id-125550056706">
+          <title>Vẽ đồ thị Surface (hình 6.13)</title>
+          <para id="id8324161"/>
+          <para id="id8324165"> Tạo vùng để vẽ thực hiện theo các cách sau:</para>
+          <para id="id8324183"> Từ thanh công cụ: chọn Insert/Graph/Surface Plot</para>
+          <para id="id8324234"> Từ thanh Math: nhắp vào biểu tượng <media id="id8743239" alt=""><image src="../../media/graphics24-9833.png" mime-type="image/png" height="21" width="22"/></media></para>
+          <para id="id8324299"> Từ bàn phím: nhấn tổ hợp Ctrl+2</para>
+          <list id="id8324342" list-type="bulleted">
+            <item>Đặt tên Ma trận trong khung trống.</item>
+          </list>
+          <figure id="id8324367">
+            <media id="id8743305" alt=""><image src="../../media/graphics25-f512.png" mime-type="image/png" height="304" width="278"/></media>
+          </figure>
+          <para id="id8324391">Hình 6.13</para>
+        </section>
+        <section id="id-595029004589">
+          <title>Vẽ đồ thị hình thanh (hình 6.14)</title>
+          <para id="id8324413"> Tạo vùng để vẽ thực hiện theo các cách sau:</para>
+          <para id="id8324427"> Từ thanh công cụ: chọn Insert/Graph/3D Bar Plot</para>
+          <para id="id8324464"> Từ thanh Math: nhắp vào biểu tượng <media id="id8732041" alt=""><image src="../../media/graphics26-bb10.png" mime-type="image/png" height="22" width="25"/></media></para>
+          <para id="id8324528"> Đặt tên Ma trận trong khung trống.</para>
+          <para id="id8324551"/>
+          <para id="id8324555">Ví dụ:</para>
+          <para id="id8324567">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+          <para id="id8324593">Hình.6.14</para>
+          <para id="id8324601">BÀI TẬP CHƯƠNG 6</para>
+          <para id="id8324606">1. Tạo một ma trận bằng các giá trị của hàm số: f(x,y) = x2 + y2 </para>
+          <para id="id8324643"> Gán Mi,j = f(i,j) với i, j chạy từ 1 đến 5.</para>
+          <para id="id8324671"> Vẽ bề mặt của Ma trận M (Surface Plot).</para>
+          <para id="id8324688">2. Cho một dầm đơn ngàm 2 đầu chịu tải trọng phân bố đều có số liệu như sau:q = 0.5
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>T</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {T}  over  {m} } } {}</m:annotation></m:semantics></m:math>, L = 5m</para>
+          <list id="id8324762" list-type="bulleted">
+            <item>Tính và vẽ biểu đồ momen theo công thức sau:</item>
+          </list>
+          <para id="id8090980"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">∗</m:mo><m:msup><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>12</m:mtext></m:mfrac><m:mo stretchy="false">∗</m:mo><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo stretchy="false">∗</m:mo><m:mi>x</m:mi></m:mrow><m:mi>L</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:msup><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo stretchy="false">∗</m:mo><m:mi>x</m:mi></m:mrow><m:msup><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M= {  {q*L rSup { size 8{2} } }  over  {"12"} } * \( 1 -  {  {6*x}  over  {L} } + {  {6*x}  over  {L rSup { size 8{2} } } }  rSup { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> với x chạy từ 0 đến L</para>
+          <para id="id8091143">3. Cho số liệu mực nước 1 ngày (Tháng 10) tại trạm Cần Thơ năm 1984. Vẽ biểu đồ triều tương ứng với bảng dưới đây:</para>
+          <para id="id8091160">
+            <media id="id8750831" alt=""><image src="../../media/graphics27-2f49.png" mime-type="image/png" height="419" width="159"/></media>
+          </para>
+          <para id="id8091195"/>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

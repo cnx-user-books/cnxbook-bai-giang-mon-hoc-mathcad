@@ -1,0 +1,403 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Nhúng kết dữ liệu</title>
+  <metadata>
+  <md:content-id>m30571</md:content-id><md:title>Nhúng kết dữ liệu</md:title>
+  <md:abstract>Mathcad đưa ra những thành phần tiện ích để hoán chuyển dữ liệu giữa Mathcad và các trình ứng dụng khác như: Excel, Axum, Mathlab,… những thành phần này liên hệ với nhau thông qua công thức toán học trong Mathcad. Thành phần này tạo tính liên tục của các dữ liệu giữa bảng tính Mathcad và nguồn dữ liệu hoặc trình ứng dụng khác.
+Mặc dù những thành phần được dùng trong Mathcad bị hạn chế, nhưng còn có những thành phần bổ sung khác được dùng trong MathConnex.</md:abstract>
+  <md:uuid>b70eaad8-3fa0-429d-bc8f-c07567d8c31d</md:uuid>
+</metadata>
+
+<content>
+    
+    
+    
+    
+    <section id="id-941835924587">
+      <title>ĐÔI NÉT VỀ THÀNH PHẦN</title>
+      <para id="id8675750">Những thành phần (Components) cho phép dữ liệu lưu động giữa bảng tính Mathcad và các nguồn dữ liệu hoặc trình ứng dụng khác. Dữ liệu đưa vào thành phần từ Mathcad được gọi là nhập (input). Dữ liệu đưa ra khỏi thành phần được gọi là xuất (output). Thành phần nhập và xuất được chuyển giữa bảng tính Mathcad và thành phần theo phương cách Mathcad nhập và xuất các tham số.</para>
+      <para id="id8445971">Những bước cơ bản áp dụng vào thành phần để hoán chuyển dữ liệu với Mathcad như sau:</para>
+      <para id="id8439687"> Chèn thành phần và chỉ định các tham số nhập và xuất vào khung nhập dữ liệu trống.</para>
+      <para id="id8731391"> Cấu hình thành phần để chúng biết những gì phải thực hiện với đối tượng nhập và những gì phải thực hiện với đối tượng xuất.</para>
+      <para id="id8691122"> Do có một số thành phần chỉ nhận riêng đối tượng nhập hoặc xuất, những bước này hơi khác một chút đối với các thành phần.</para>
+      <para id="id8731403">Sau khi đã chèn thành phần vào bảng tính Mathcad, điền vào các khung nhập số liệu trống và cấu hình các thuộc tính, kích chuột vào vị trí bất kỳ trong vùng đối tượng. Ngay điểm này, dữ liệu hoán chuyển sẽ thay thế. Những thành phần sau đây được dùng trong Mathcad:</para>
+      <para id="id8202624"> Axum</para>
+      <para id="id8202640"> File Read/Write, dùng để đọc và ghi các tập tin dữ liệu</para>
+      <para id="id7821369"> Exel</para>
+      <para id="id7821381"> MATLAB</para>
+      <para id="id8744639"> Scriptable Object</para>
+    </section>
+    <section id="id-902022232043">
+      <title>ĐỌC DỮ LIỆU</title>
+      <para id="id8744659">Bạn có thể đưa dữ liệu vào Mathcad bằng cách du nhập chúng từ tập tin, đọc từ tập tin hoặc dán từ Clipboard. Những phương pháp này luộn luôn tạo các mảng dữ liệu. Bạn cũng có thể nhập dữ liệu vào bảng số liệu nhập (input table) hoặc mảng.</para>
+      <section id="id-801159182249">
+        <title>ĐỌC DỮ LIỆU TỪ TẬP TIN DỮ LIỆU</title>
+        <para id="id8229782">Khi muốn đọc dữ liệu từ tập tin dữ liệu trong Mathcad, có thể dùng thành phần File Read/Write. Thành phần File Read/Write cho phép thực hiện việc nối với tập tin dữ liệu, đọc dữ liệu và gán dữ liệu vào tham số của Mathcad. Dữ liệu sẽ tự động cập nhật trong Mathcad khi chúng được thay đổi trong tập tin dữ liệu.</para>
+        <para id="id8862745">Muốn đọc dữ liệu từ tập tin dữ liệu qua cách dùng thành phần File Read/Write</para>
+        <para id="id8356285"> Kích vào vùng trống trong bảng tính.</para>
+        <para id="id8356300"> Từ thanh menu: nhấn Insert/Component (hoặc từ thanh công cụ : nhắp vào biểu tượng <media id="id1167658633322" alt=""><image src="../../media/graphics1-1160.png" mime-type="image/png" height="24" width="28"/></media>), xuất hiện hộp thoại Component Wizard (hình 8.1). </para>
+        <para id="id8052479"> Từ hộp thoại Component Wizard chọn File Read or Write và chọn <media id="id6906485" alt=""><image src="../../media/graphics2-d8ae.png" mime-type="image/png" height="20" width="73"/></media>, xuất hiện hộp thoại File Read or Write Wizard (hình 8.2).</para>
+        <figure id="id8691045">
+          <media id="id1167658258853" alt=""><image src="../../media/graphics3-a475.png" mime-type="image/png" height="336" width="459"/></media>
+        </figure>
+        <para id="id7156232">Hình 8.1. Hộp thoại ComponentWizard</para>
+        <figure id="id7156245">
+          <media id="id1167663653194" alt=""><image src="../../media/graphics4-de92.png" mime-type="image/png" height="340" width="457"/></media>
+        </figure>
+        <para id="id7156269">Hình 8.2.File Read or Write Wizard </para>
+        <para id="id7156285"> Chọn Read from a file và kích vào nút <media id="id1167662156018" alt=""><image src="../../media/graphics5-d8ae.png" mime-type="image/png" height="20" width="73"/></media>, xuất hiện hộp thoại Wizard (hình 3).</para>
+        <figure id="id8672875">
+          <media id="id2749136" alt=""><image src="../../media/graphics6-7ecc.png" mime-type="image/png" height="338" width="457"/></media>
+        </figure>
+        <para id="id8202442">Hình 8.3.Wizard</para>
+        <list id="id8202449" list-type="bulleted">
+          <item>Từ danh sách <media id="id6852271" alt=""><image src="../../media/graphics7-92a3.png" mime-type="image/png" height="34" width="265"/></media> (hình 8.3) chọn loại tập tin muốn đọc và nhập đường dẫn tập tin muốn đọc <media id="id5333836" alt=""><image src="../../media/graphics8-cfb7.png" mime-type="image/png" height="32" width="268"/></media> hoặc kích vào nút <media id="id1167664470294" alt=""><image src="../../media/graphics9-f476.png" mime-type="image/png" height="21" width="78"/></media> để tìm vị trí tập tin muốn đọc.</item>
+        </list>
+        <para id="id8862831"> Kích vào nút <media id="id7842341" alt=""><image src="../../media/graphics10-3933.png" mime-type="image/png" height="22" width="78"/></media> xuất hiện biểu tượng thành phần File Read or Write và được dẫn trong tập tin dữ liệu (hình 8.4).</para>
+        <figure id="id8014633">
+          <media id="id8563468" alt=""><image src="../../media/graphics11-52f7.png" mime-type="image/png" height="75" width="178"/></media>
+        </figure>
+        <para id="id8014657">Hình 8.4</para>
+        <para id="id8014665"> Trong khung nhập dữ liệu trống nằm bên trái, nhập tên biến của Mathcad muốn gán vào số liệu mới thu nhập.</para>
+        <para id="id8014690"> Kích chuột vào vùng trống nằm ngoài thành phần trên, tập tin dữ liệu tức khắc được đọc và dữ liệu sẽ được gán vào tham số Mathcad. Ngay lúc này có thể xử lý các tham số đó theo ý muốn. Mỗi lần xử lý bảng tính, Mathcad sẽ đọc lại dữ liệu từ tập tin đã chọn bằng kích vào khung nhập dữ liệu (hình 8.4) và nhấn Math/Calculate (hoặc nhấn F9).</para>
+        <para id="id8078526">Ví dụ: </para>
+        <para id="id8078534">Đọc số liệu từ bảng Excel (hình 8.5) vào Mathcad.</para>
+        <figure id="id8078572">
+          <media id="id1167664875904" alt=""><image src="../../media/graphics12-1faf.png" mime-type="image/png" height="232" width="579"/></media>
+        </figure>
+        <para id="id8078596">Hình 8.5</para>
+        <para id="id8078600">Kết quả: </para>
+        <para id="id8078612">
+          <figure id="id8560911">
+            <media id="id1167661946884" alt=""><image src="../../media/graphics13-19c5.png" mime-type="image/png" height="67" width="172"/></media>
+          </figure>
+        </para>
+        <para id="id8560935">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-347859816443">
+        <title>DÁN DỮ LIỆU TỪ CLIPBOARD</title>
+        <para id="id8560970">Trong một vài trường hợp, muốn dữ liệu được chứa trong bảng tính hoặc trong các trình ứng dụng khác, nhưng không muốn du nhập hoặc đọc dữ liệu như tập tin trong Mathcad. Muốn thực hiện theo cách này thực hiện như sau:</para>
+        <para id="id8560997"> Chọn dữ liệu trong trình ứng dụng khác và dùng lệnh Copy để chép dữ liệu của chương trình nguồn đó.</para>
+        <para id="id8561021"> Mở chương trình Mathcad, nhập phần xác định biến như 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      .</para>
+        <para id="id8561075"> Kích vào vùng trống nằm bên phải dấu gán và chọn Paste để dán dữ liệu vào Mathcad.</para>
+        <para id="id8749038">Ví dụ:</para>
+        <para id="id8749043">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8749071"/>
+        <para id="id8749075">Lưu ý: Nếu thực hiện theo cách này, khi thay đổi số liệu nguồn thì số liệu trong bảng tính trong Mathcad không thay đổi được.</para>
+      </section>
+      <section id="id-0678475800634">
+        <title>NHẬP BẢNG SỐ LIỆU (TABLE OF NUMBERS)</title>
+        <para id="id8749111"> Kích chuột vào nơi muốn thể hiện bảng tính.</para>
+        <para id="id8749125"> Từ thanh menu: Chọn Insert/Component (hoặc trên thanh công cụ : nhắp vào <media id="id1167666196740" alt=""><image src="../../media/graphics14-1160.png" mime-type="image/png" height="24" width="28"/></media>, xuất hiện hộp thoại Component Wizard (hình 8.1).</para>
+        <para id="id8752013"> Chọn Input Table và kích nút <media id="id1167652255336" alt=""><image src="../../media/graphics15-7f99.png" mime-type="image/png" height="21" width="75"/></media>, xuất hiện hộp thoại Wizard (hình 8.6).</para>
+        <para id="id8752084"/>
+        <figure id="id8752091">
+          <media id="id7145484" alt=""><image src="../../media/graphics16-ee7a.png" mime-type="image/png" height="338" width="457"/></media>
+        </figure>
+        <para id="id8752115">Hình 8.6. Wizard</para>
+        <para id="id8752129"> Trong khung trống xuất hiện nơi bên trái (hình 8.7), nhập tên biến của Mathcad muốn gán dữ liệu.</para>
+        <figure id="id8752165">
+          <media id="id1167666099824" alt=""><image src="../../media/graphics17-d2ee.png" mime-type="image/png" height="106" width="243"/></media>
+        </figure>
+        <para id="id8964583"/>
+        <para id="id8964592">Hình 8.7</para>
+        <list id="id8964603" list-type="bulleted">
+          <item>Nhập số liệu vào các ô. </item>
+        </list>
+        <para id="id8964616">Sau khi đã tạo mảng số liệu qua cách dùng bảng nhập, bạn có thể xử lý mảng theo các hàm và phép tính đã lặp sẵn trong Mathcad.</para>
+        <para id="id8964638">Lưu ý:</para>
+        <para id="id8964645"> Bạn chỉ có thể nhập các con số vào bảng, không thể nhập các phương trình toán học.</para>
+        <para id="id8964665"> Trong mỗi dòng phải nhập những giá trị dữ liệu. Nếu để trống Mathcad tự động chèn giá trị không “0” vào ô đó.</para>
+        <para id="id8964694"> Thay vì đánh dữ liệu vào ô của bảng. Bạn cũng có thể dán dữ liệu vào bảng nhập nếu bạn đã chép dữ liệu từ trình ứng dụng khác bằng cách sử dụng lệnh Paste Table.</para>
+        <para id="id8964751">Ví dụ: </para>
+        <para id="id8964756">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-231299677995">
+        <title>CÁC HÀM LỆNH DU NHẬP TẬP TIN DỮ LIỆU</title>
+        <para id="id8964793">READPRN(“file”): Đọc dữ liệu từ tập tin dữ liệu.</para>
+        <para id="id8964814">Khai báo:</para>
+        <para id="id8964819"> file tên tập tin hoặc đầy đủ đường dẫn được cấu trúc theo tập tin dữ liệu ASCII.</para>
+        <para id="id8230498"> file được nhập theo dạng chuỗi.</para>
+        <para id="id8230525">WRITEPRN(“file”): Ghi mảng dữ liệu vào tập tin.</para>
+        <para id="id8230540">Khai báo:</para>
+        <para id="id8230552"> file tên tập tin hoặc đầy đủ đường dẫn được cấu trúc theo tập tin dữ liệu ASCII.</para>
+        <para id="id8230584"> file được nhập theo dạng chuỗi.</para>
+        <para id="id8230610">APPENDPRN(“file”): Nối các mảng vào tập tin.</para>
+        <para id="id8230626">Khai báo:</para>
+        <para id="id8230630"> file tên tập tin hoặc đầy đủ đường dẫn được cấu trúc theo tập tin dữ liệu ASCII.</para>
+        <para id="id8230662"> file nhập theo dạng chuỗi.</para>
+        <para id="id8230688"> Số cột trong file phải khớp với số cột trong mảng.</para>
+        <para id="id8230714"> file phải có sẵn trong thư mục. Không như WRITEPRN, APPENDPRN không thể tạo tập tin mà chỉ nối các tập tin cũ.</para>
+        <para id="id8230756">Lưu ý:</para>
+        <para id="id8230767">WRITEPRN bố trí tập tin ASCII theo dòng và cột giống như Ma trận gốc. Theo mặc định, APPENDPRN sẽ nối bốn cơ số trong các cột có chiều rộng tám con số. Để thay đổi hiện trạng này, từ thanh Math chọn Options và kích vào nút <media id="id1167659088766" alt=""><image src="../../media/graphics18-be3d.png" mime-type="image/png" height="21" width="95"/></media> trong hộp thoại Math Options (hình 8.8) để thay đổi thành phần PRNPRECISION và PRNCOLWIDTH.</para>
+        <figure id="id8230897">
+          <media id="id1167658764680" alt=""><image src="../../media/graphics19-d2c9.png" mime-type="image/png" height="344" width="388"/></media>
+        </figure>
+        <para id="id8230921">Hình 8.8. Hộp thoại Math Options</para>
+      </section>
+    </section>
+    <section id="id-477464445604">
+      <title>XUẤT DỮ LIỆU</title>
+      <para id="id7934951">Sau khi đã dùng Mathcad để thực hiện các phép tính, bạn có thể xuất hoặc ghi lại các kết quả thành phần tin dữ liệu hoặc đưa các kết quả vào Clipboard để dán vào chương trình khác. </para>
+      <section id="id-561520498584">
+        <title>XUẤT DỮ LIỆU SANG TẬP TIN</title>
+        <para id="id7934994"> Đánh dấu bằng (=) để hiện kết quả của biến. Nếu các kết quả hiện theo dạng Ma trận, kích đúp vào Ma trận và dùng khung thoại Result Format và thay đổi các thành phần của “Table”.</para>
+        <para id="id7935030"> Kích nút phải chuột vào bảng dữ liệu xuất thể hiện menu xổ.</para>
+        <para id="id7935057"> Chọn Export để hiện khung thoại Write to File.</para>
+        <para id="id7935092"> Chọn thể loại tập tin muốn tạo trong “File of type”. Dùng khung thoại để hiện phần trình duyệt muốn tạo tập tin dữ liệu vào thư mục đã chọn và nhập tên tập tin muốn tạo. sau đó, “Open”. Dữ liệu sẽ xuất sang tập tin đã chỉ định.</para>
+        <para id="id7935133"/>
+        <para id="id7935137">Lưu ý:</para>
+        <para id="id7935144">Nếu dữ liệu thay đổi và muốn cập nhật dữ liệu trong tập tin, cần phải xuất lại dữ liệu.</para>
+      </section>
+      <section id="id-77413964638">
+        <title>GHI DỮ LIỆU VÀO TẬP TIN DỮ LIỆU</title>
+        <para id="id7935166">Muốn ghi các giá trị từ Mathcad vào tập tin dữ liệu, bạn có thể dùng thành phần File Read/Write. Thực hiện như sau:</para>
+        <para id="id7935196"> Kích vào điểm trống trong bảng tính.</para>
+        <para id="id7935213"> Từ thanh menu: nhấn Insert/Component (hoặc nhấn vào biểu tượng <media id="id1167668001201" alt=""><image src="../../media/graphics20-9d67.png" mime-type="image/png" height="21" width="22"/></media>.</para>
+        <para id="id7935281"> Chọn File Read or Write từ danh sách và kích <media id="id1167666814360" alt=""><image src="../../media/graphics21-d8ae.png" mime-type="image/png" height="20" width="73"/></media>. Điều này sẽ chuyển bạn sang khung cửa sổ hướng dẫn File Read or Write Setup Wizard.</para>
+        <para id="id7935344"> Chọn “Write to a data source” và kích <media id="id1167665761191" alt=""><image src="../../media/graphics22-d8ae.png" mime-type="image/png" height="20" width="73"/></media> để chuyển đến khung cửa sổ hướng dẫn Wizard thứ hai.</para>
+        <para id="id7935407"> Từ danh mục xổ File Format trong Wizard, chọn loại tập tin dữ liệu muốn ghi.</para>
+        <para id="id7935439"> Nhập tên đường dẫn cho tập tin muốn ghi hoặc kích nút lệnh <media id="id1167664706654" alt=""><image src="../../media/graphics23-d807.png" mime-type="image/png" height="21" width="76"/></media> để tìm vị trí muốn ghi tập tin.</para>
+        <para id="id7935486"> Kích nút <media id="id1167652970500" alt=""><image src="../../media/graphics24-3bff.png" mime-type="image/png" height="20" width="74"/></media>, xuất hiện biểu tượng thành phần File Read or Write và đường dẫn của tập tin dữ liệu.</para>
+        <para id="id7928760"> Trong khung trống hiện bên dưới thành phần, nhập tên của biến Mathcad có chứa dữ liệu sẽ được ghi vào tập tin dữ liệu.</para>
+        <para id="id7928786"> Khi kích nút chuột vào bên ngoài khung nhập biến, các giá trị trong tham biến của Mathcad sẽ được ghi theo tập tin đã chỉ định. Mỗi lần bạn tính lại bảng tính, dữ liệu sẽ lại được cập nhật.</para>
+      </section>
+      <section id="id-950044930422">
+        <title>TRAO ĐỔI DỮ LIỆU VỚI EXCEL</title>
+        <para id="id7928823">Các thành phần Excel cho phép bạn:</para>
+        <para id="id7928842"> Du nhập dữ liệu từ Mathacd vào tập tin Excel, kích đúp vào thành phần Excel để dùng các lệnh chức năng từ Excel.</para>
+        <para id="id7928892"> Chuyển các số liệu từ Excel vào Mathcad bằng cách:</para>
+        <para id="id7928929"> Bảo đảm là hệ thống của bạn là đã có cài chương trình Microsoft Excel 7.0 hoặc phiên bản cao hơn, nhưng không nhất thiết phải điều hoạt.</para>
+        <para id="id7928963"> Kích vào vùng trống bảng tính. Nếu bạn muốn xuất các số liệu sang thành phần từ các biến đã xác lập trong bảng tính của Mathcad, bảo đảm là bạn kích vào bên dưới hoặc bên phải của thành phần xác định biến.</para>
+        <para id="id7928993"> Chọn Insert/Component, xuất hiện hộp thoại Component Wizard (hình 8.6).</para>
+        <para id="id7929032"> Chọn Excel từ danh sách kích <media id="id1167659055497" alt=""><image src="../../media/graphics25-d8ae.png" mime-type="image/png" height="20" width="73"/></media>. Điều này sẽ chuyển bạn sang khung cửa sổ hướng dẫn Excel Setup Wizard. Điền vào những thành phần trong khung thoại và kích <media id="id1167666231481" alt=""><image src="../../media/graphics26-d8ae.png" mime-type="image/png" height="20" width="73"/></media>. Wizard sẽ chuyển đến các khung thoại theo các thành phần đã chọn.</para>
+        <para id="id7929140"> Khi kết thúc, bạn sẽ thấy phần Excel trong bảng tính với khung nhập số liệu cho các biến nhập và xuất. Gán biến nhập vào khung nhập số liệu nằm dưới và nhập các biến xuất vào khung nhập số liệu nằm bên trái dấu gán <media id="id1199049" alt=""><image src="../../media/graphics27-0e9c.png" mime-type="image/png" height="18" width="21"/></media>.</para>
+        <para id="id7929201"> Khi kích bên ngoài khung nhập liệu, các biến nhập sẽ được chuyển từ Mathcad sang Excel và phạm vi ô sẽ được chuyển từ Excel ngược về Mathcad để gán các biến xuất. Sau khi đã xác lập các biến xuất, bạn có thể xử lý chúng theo các hàm lệnh và phép tính của Mathcad.</para>
+        <para id="id7929269"/>
+        <para id="id7929274">Ví dụ: Từ Mathcad đọc số liệu 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tc</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{φ rSub { size 8{ ital "tc"} } } {}</m:annotation></m:semantics></m:math> bảng tính Excel. Trong bảng tính Excel lập hàm nội suy các hệ số A, B, D dựa vào 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>φ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tc</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{φ rSub { size 8{ ital "tc"} } } {}</m:annotation></m:semantics></m:math>, sau đó xuất số liệu ra bảng tính Mathcad.</para>
+        <para id="id7929453">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id7929479">BÀI TẬP CHƯƠNG 8</para>
+        <para id="id7997894">1. Số liệu trạm A và B được nhập bằng một ma trận để gọi vào bảng tính Excel.</para>
+        <table id="id7997909" summary="">
+          <tgroup cols="12">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <colspec colnum="10" colname="c10"/>
+            <colspec colnum="11" colname="c11"/>
+            <colspec colnum="12" colname="c12"/>
+            <tbody>
+              <row>
+                <entry/>
+                <entry>A</entry>
+                <entry>B</entry>
+                <entry>C</entry>
+                <entry>D</entry>
+                <entry>E</entry>
+                <entry>F</entry>
+                <entry>G</entry>
+                <entry>H</entry>
+                <entry>I</entry>
+                <entry>J</entry>
+                <entry>K</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>STT</entry>
+                <entry>Năm</entry>
+                <entry>Trạm A(x)</entry>
+                <entry>Trạm B(y)</entry>
+                <entry>Kxi</entry>
+                <entry>Kyi</entry>
+                <entry>Kxi-1</entry>
+                <entry>Kyi-1</entry>
+                <entry>(kxi-1)2</entry>
+                <entry>(Kyi-1)2</entry>
+                <entry>(Kxi-1)*(Kyi-1)</entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>1</entry>
+                <entry>1950</entry>
+                <entry>352</entry>
+                <entry>123</entry>
+                <entry> xi/xtb</entry>
+                <entry>  yi/ytb</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>3</entry>
+                <entry>2</entry>
+                <entry>1951</entry>
+                <entry>456</entry>
+                <entry>354</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>4</entry>
+                <entry>3</entry>
+                <entry>1952</entry>
+                <entry>897</entry>
+                <entry>754</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>4</entry>
+                <entry>1953</entry>
+                <entry>123</entry>
+                <entry>100</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>6</entry>
+                <entry>5</entry>
+                <entry>1954</entry>
+                <entry>741</entry>
+                <entry>654</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>7</entry>
+                <entry>6</entry>
+                <entry>1955</entry>
+                <entry>963</entry>
+                <entry>845</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>8</entry>
+                <entry>7</entry>
+                <entry>1956</entry>
+                <entry>741</entry>
+                <entry>632</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>9</entry>
+                <entry>8</entry>
+                <entry>1957</entry>
+                <entry>852</entry>
+                <entry>741</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>10</entry>
+                <entry>9</entry>
+                <entry>1958</entry>
+                <entry>369</entry>
+                <entry>256</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>11</entry>
+                <entry>10</entry>
+                <entry>1959</entry>
+                <entry>123</entry>
+                <entry>110</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>12</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> xtb=</entry>
+                <entry> ytb=</entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry>T1=</entry>
+                <entry>T2=</entry>
+                <entry>T3=</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id8976290">a. Xuất các giá trị từ bảng Excel sang Mathcad:</para>
+        <para id="id8976303">xtb, ytb, T1, T2, T3</para>
+        <para id="id8976353">b. Tính hệ số tương quan:</para>
+        <para id="id8976358">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8976385">c. Kiểm tra:</para>
+        <para id="id8976390">Nếu <!--Sorry, this media type is not supported.--> và n&gt;9 : Trạm A và Trạm B có tương quan, ngược lại không tương quan.</para>
+      </section>
+    </section>
+  </content>
+</document>

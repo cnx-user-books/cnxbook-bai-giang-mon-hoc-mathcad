@@ -1,0 +1,535 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Các hàm số trong Mathcad</title>
+  <metadata>
+  <md:content-id>m30327</md:content-id><md:title>Các hàm số trong Mathcad</md:title>
+  <md:abstract/>
+  <md:uuid>15a05cdc-c088-484f-af9e-626b16ec8d6b</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-733269237548">
+      <title>CÁC HÀM SỐ TRONG MATHCAD</title>
+      <para id="id8616934">Mathcad lập sẵn một số hàm dùng trong tính toán kỹ thuật thông dụng và chuyên sâu. Để có được một hàm số ta có thể thực hiện theo hai cách sau:</para>
+      <para id="id8616951"> Từ thanh menu: chọn Insert/Function (hình5. 1). </para>
+      <para id="id8617001"> Từ bàn phím: gõ chính xác tên hàm.</para>
+      <figure id="id8617042">
+        <media id="id8343255" alt=""><image src="../../media/graphics1-c43a.png" mime-type="image/png" height="304" width="406"/></media>
+      </figure>
+      <para id="id8617066">Hình 5.1. Hộp thoại Insert Function </para>
+      <para id="id8617075">Sau đây sẽ liệt kê một số hàm thường sử dụng trong tính toán kỹ thuật:</para>
+      <section id="id-721204021692">
+        <title>Hàm Bessel</title>
+        <list id="id8617093" list-type="bulleted">
+          <item>Hàm Bessel thay đổi</item>
+        </list>
+        <para id="id8617114">I0(x) I1(x) In(m,x)</para>
+        <para id="id8617132">K0(x) K1(x) Kn(m,x)</para>
+        <list id="id8617151" list-type="bulleted">
+          <item>Hàm Airy</item>
+        </list>
+        <para id="id8617167">Ai(x) Bi(x)</para>
+        <list id="id8617183" list-type="bulleted">
+          <item>Hàm Bessel Kelvin</item>
+        </list>
+        <para id="id8617200">Bei(n,x)ber(n,x)</para>
+        <list id="id8617209" list-type="bulleted">
+          <item>Hàm Spherical Bessel</item>
+        </list>
+        <para id="id8617225">is(n,x)ys(n,x)</para>
+        <para id="id8617235">- Trong đó x là tập hợp số thực và không có thứ nguyên.</para>
+      </section>
+      <section id="id-697083478219">
+        <title>Hàm điều kiện không liên tục</title>
+        <para id="id8617255"> if(cond,x,y) : trả về x nếu cond là TRUE, ngược lại trả về y.</para>
+        <para id="id8617326"> (m,n) - Kronecker delta : trả về 1 nếu m=n, ngược lại trả về 0. </para>
+        <para id="id8179061"> sign(x): trả về 0 nếu x=0, trả về 1 nếu x&gt;0, trả về -1 với những trường hợp còn lại. x là số thực.</para>
+        <para id="id8179134"> (i,j,k): hoàn tất hàm số không đối xứng Tensor.</para>
+        <para id="id8179168"> (x) : hàm số bước. Trả về 0 nếu x&lt;0, ngược lại trả về 1.</para>
+      </section>
+      <section id="id-576947199067">
+        <title>Hàm số vẽ đường cong (Curve Fitting)</title>
+        <list id="id8179250" list-type="bulleted">
+          <item>Hàm tuyến tính</item>
+        </list>
+        <para id="id8179267"> slope(vx,vy) và intercept(vx,vy): hai hàm này được sử dụng chung với nhau, những hàm này tìm đường thẳng cho đúng với bộ số liệu đã khai báo. </para>
+        <list id="id8179294" list-type="bulleted">
+          <item>Hàm đa giác</item>
+        </list>
+        <para id="id8179310"> regress(vx,vy,k): tìm đa giác cho đúng với bộ số liệu đã khai báo.</para>
+        <para id="id8179345"> loess(mxy,vz,span): tìm bộ thứ tự đa giác thứ hai cho đúng với bộ số liệu đã kề cận.</para>
+        <list id="id8179386" list-type="bulleted">
+          <item>Hàm Multivariate polynomial</item>
+        </list>
+        <para id="id8179403"> regress(Mxy,vz,k) : tìm bề mặt của hình đa giác cho đúng với bộ số liệu đã khai báo.</para>
+        <para id="id8179444"> loess (Mxy, vz, span): tìm bộ thứ tự đa giác thứ hai cho đúng với bộ số liệu đã kề cận.</para>
+        <para id="id8179476"> Hàm Generalized</para>
+        <para id="id8317303"> linfit(vx,vy,F): tìm hệ số tạo thành sự kết hợp tuyến tính của các hàm cho đúng với các điểm dữ liệu.</para>
+        <para id="id8317337"> genfit(vx,vy,F): tìm các thông số tạo thành hàm số đã chỉ định cho đúng với các điểm dữ liệu.</para>
+      </section>
+      <section id="id-434563286247">
+        <title>Hàm thống kê và phân tích dữ liệu</title>
+        <list id="id8317381" list-type="bulleted">
+          <item>Các hàm phân tích dữ liệu (Data analysis functions)</item>
+        </list>
+        <para id="id8317392">Mô tả các hàm phân tích dữ liệu như mean, variance, standard deviation, kurtosis và correlation.</para>
+        <list id="id8317444" list-type="bulleted">
+          <item>Các hàm phân phối (Distribution functions)</item>
+        </list>
+        <para id="id8317454">Mô tả các hàm gamma, error và những hàm khác có khả năng thực hiện việc phân phối.</para>
+        <list id="id8317490" list-type="bulleted">
+          <item>Các số ngẫu nhiên (Random numbers)</item>
+        </list>
+        <para id="id8317500">Mô tả các con số ngẫu nhiên đã được kích hoạt và cách áp dụng chúng để kích hoạt các con số ngẫu nhiên để thực hiện việc phân phối.</para>
+        <list id="id8317514" list-type="bulleted">
+          <item>Hàm lập phổ đồ (Histograms): </item>
+        </list>
+        <para id="id8317529">Mô tả cách nhận sự phân bổ tần số của dữ liệu mẫu.</para>
+        <list id="id8317540" list-type="bulleted">
+          <item>Phân tích tổng hợp (Combinatorcal analysis)</item>
+        </list>
+        <para id="id8317550">Tính các số hoán vị và tập hợp</para>
+        <list id="id8317557" list-type="bulleted">
+          <item>Hàm số tính giao điểm (Interpolation and prediction)</item>
+        </list>
+        <para id="id8317567">Mô tả giao điểm của đường tuyến tính và khối.</para>
+        <list id="id8317578" list-type="bulleted">
+          <item>Smoothing</item>
+        </list>
+        <para id="id8317587">Mô tả một số phương pháp làm phẳng dữ liệu tạp âm.</para>
+        <list id="id8317598" list-type="bulleted">
+          <item>Curve fitting</item>
+        </list>
+        <para id="id8317606">Mô tả kỹ thuật trong phép tính hồi quy, cả tuyến tính lẫn không tuyến tính.</para>
+      </section>
+      <section id="id-735109974888">
+        <title>Giải phương trình vi phân</title>
+        <list id="id8317630" list-type="bulleted">
+          <item>Giải các phương trình vi phân</item>
+        </list>
+        <para id="id8317640">rkfixed(y x1,x2,npoints,D)</para>
+        <list id="id8317652" list-type="bulleted">
+          <item>Các hệ thống phẳng</item>
+        </list>
+        <para id="id8317661">Bulstoer(y,x1,x2,npoints,D)</para>
+        <list id="id8317673" list-type="bulleted">
+          <item>Các hệ thống Stiff</item>
+        </list>
+        <para id="id8317683">stiffb(y,x1,x2,npoints,D,J)</para>
+        <para id="id8317694">stiffr(y,x1,x2,npoints,D,J)</para>
+        <list id="id8317703" list-type="bulleted">
+          <item>Các hệ thống thay đổi chậm</item>
+        </list>
+        <para id="id8317713">Rkadapt (y,x1,x2,npoints,D)</para>
+        <list id="id8317725" list-type="bulleted">
+          <item>Tìm điểm cuối cùng trong vùng định điểm (interval)</item>
+        </list>
+        <para id="id8317736"> bulstoer(y,x1,x2,acc,D,kmax,s)</para>
+        <para id="id8612107"> rkadapt(y,x1,x2,acc,D,kmax,s)</para>
+        <para id="id8612125"> stiffb(y,x1,x2,acc,D,J,kmax,s)</para>
+        <para id="id8612141"> stiffr(y,x1,x2,acc,D,J,kmax,s)</para>
+        <list id="id8612158" list-type="bulleted">
+          <item>Giải quyết giá trị tại hai điểm</item>
+        </list>
+        <para id="id8612168"> bvalfit(v1,v2,x1,x2 xf,D,load1,load2,score)</para>
+        <para id="id8612185"> sbval(v,v1,v2,x2,D,load,score)</para>
+        <list id="id8612202" list-type="bulleted">
+          <item>Giải quyết thành phần trong phương trình vi phân</item>
+        </list>
+        <para id="id8612216"> relax(a,b,c,d,e,f,u,rjac)</para>
+        <para id="id8612232"> multigrid(M,ncycle)</para>
+      </section>
+      <section id="id-0936420620039">
+        <title>Hàm tìm đáp án phương trình</title>
+        <para id="id8612259"> find(x,y): tìm ẩn số của phương trình.</para>
+        <para id="id8612311"> minerr(x,y,...): tìm đáp án tương ứng của hệ phương trình.</para>
+        <para id="id8612362"> root(f(x),x): tìm ẩn số của hàm lượng giác.</para>
+        <para id="id8612414"> lsolve(M,v): giải hệ phương trình.</para>
+        <para id="id8612457"> polyroots(v): tìm các căn số của tử số có hệ nằm trong v.</para>
+      </section>
+      <section id="id-450818162498">
+        <title>Hàm chuyển đổi riêng biệt</title>
+        <para id="id8612516"> fft(v): tàm chuyển đổi Fourier của số liệu đã gán trong Véc tơ v.</para>
+        <para id="id8612559"> ifft(u): hàm nghịch đảo của fft. Trả về v nếu u=fft(v).</para>
+        <para id="id8612622"> cfft(A): hàm chuyển đổi Fourier của số thực hoặc phức trong mảng A.</para>
+        <para id="id9269521"> icfft(B): hàm nghịch đảo của của cfft. Trả về A nếu B=cfft(A)</para>
+        <para id="id9269574"> FFT(v): nhận dạng fft ngoại trừ những toán tử và hệ số bình thường khác.</para>
+        <para id="id9269615"> CFFT(A): nhận dạng ifft ngoại trừ những toán tử và hệ số bình thường khác.</para>
+        <para id="id9269656"> IFFT(u): nhận dạng ifft ngoại trừ những toán tử và hệ số bình thường khác.</para>
+        <para id="id9269697"> ICFFT(B) : nhận dạng iccft ngoại trừ những toán tử và hệ số bình thường khác.</para>
+        <para id="id9269741"> wave(v): chuyển đổi riêng sóng hiệu của số liệu thực trong Véc tơ v.</para>
+        <para id="id9269781"> iwave (u): hàm nghịch đảo của wave. Trả về v nếu u=wave(v).</para>
+      </section>
+      <section id="id-644102586129">
+        <title>Hàm báo lỗi</title>
+        <para id="id9269846"> erf(x)</para>
+      </section>
+      <section id="id-986799251484">
+        <title>Hàm số mũ và Logarith</title>
+        <para id="id9269874"> exp(z): số e tăng theo bội số z.</para>
+        <para id="id9269914"> log(z,b): tính giá trị logarit cơ số b của z. Nếu bỏ qua không khai báo b, sẽ xem như tính logarit cơ số 10 của z (mặc định b=10).</para>
+        <para id="id8456840"> ln(z): số log tự nhiên (log cơ số e) của z.</para>
+        <para id="id8456888">Khai báo:</para>
+        <para id="id8456900">- z phải là một tập hợp (số thực, số phức hoặc số ảo).</para>
+        <para id="id8456930">- z phải không được định hướng.</para>
+        <para id="id8456966">- Đối với các hàm log và ln, z không thể mang số zero.</para>
+        <para id="id8457011">- b là thành phần tùy chọn, mang số dương. Nếu được gộp chung, b là một tập hợp. Nếu bỏ qua b được xem như 10.</para>
+        <para id="id8457057">- Đối với số phức z, các hàm log trả về những giá trị từ vế chính của những hàm này, ngược lại:</para>
+        <para id="id8457102">ln(z)=ln(|z|) + i arg(z)</para>
+      </section>
+      <section id="id-227021041366">
+        <title>Khai báo loại hàm số (EXPRESSION TYPE)</title>
+        <para id="id8457127"> IsScalar(x): trả về 1 nếu x là một tập hợp, ngược lại sẽ trả về 0.</para>
+        <para id="id8457188"> isArray(x): trả về 1 nếu x là Véc tơ hoặc ma trận, ngược lại trả về 0.</para>
+        <para id="id8457267"> sstring(x): trả về 1 nếu x là chuỗi, ngược lại trả về 0.</para>
+      </section>
+      <section id="id-117993371051">
+        <title>Hàm truy cập (FILE ACCESS FUNCTIONS)</title>
+        <para id="id8457339"> READPRN("File"): đọc mảng số liệu từ tập tin dữ liệu.</para>
+        <para id="id8457370"> WRITEPRN("file"): ghi mảng số liệu từ tập tin dữ liệu.</para>
+        <para id="id8613822"> APPENDPRN("file"): nối mảng số liệu từ tập tin dữ liệu.</para>
+        <para id="id8613861"> READRGB("file"): đọc tập tin ảnh màu.</para>
+        <para id="id8613907"> READBMP("file"): đọc tập tin hình ảnh theo chế độ thanh xám.</para>
+        <para id="id8613955"> WRITERGB("file"): tạo tập tin ảnh màu.</para>
+        <para id="id8614002"> WRITEBMP("file"): tạo tập tin ảnh màu theo chế độ thang xám. </para>
+      </section>
+      <section id="id-376175499046">
+        <title>Hàm số tối ưu (FUNCTION OPTIMIZATION)</title>
+        <para id="id8614055"> minimize (f,var 1,var2,...): tìm giá trị tối thiểu.</para>
+        <para id="id8614095"> maximize (f,var1,var2,...): tìm giá trị tối đa.</para>
+      </section>
+      <section id="id-959456466187">
+        <title>Các hàm Hyperbol (HYPERBOL FUNTIONS)</title>
+        <para id="id8614146">sinh(z) cosh (z)</para>
+        <para id="id8614163">tanh (z) csch (z)</para>
+        <para id="id8614174">seach (z) coth (z)</para>
+        <para id="id8614187">Khai báo:</para>
+        <para id="id8614192">- z phải mang giá trị radians.</para>
+        <para id="id8614222">- z phải là một tập hợp.</para>
+        <para id="id8614248">- z không được định hướng.</para>
+      </section>
+      <section id="id-146312084972">
+        <title>Hàm nghịch đảo Hyperbol (INVERSE HYPERBOLIC FUNTIONS)</title>
+        <para id="id8614285">asinh (z)acoth (z)</para>
+        <para id="id8614299">acish (z)acsch (z)</para>
+        <para id="id8614307">atanh (z)asech (z)</para>
+        <para id="id8614315">Khai báo:</para>
+        <para id="id8614327">- z phải là tập hợp.</para>
+        <para id="id8614356">- z không định hướng.</para>
+      </section>
+      <section id="id-840331933407">
+        <title>Hàm lượng giác đảo (INVERSE TRIG FUNTIONS)</title>
+        <para id="id8611203">asin (z)acsc(z)</para>
+        <para id="id8611217">acosh (z)asec (z)</para>
+        <para id="id8611225">atan (x,y)</para>
+        <para id="id8611231"/>
+        <para id="id8611235">Khai báo:</para>
+        <para id="id8611247">- z phải là tập hợp.</para>
+        <para id="id8611276">- z không định hướng.</para>
+        <para id="id8611293">- x và y là những tập hợp.</para>
+        <para id="id8611328">Những giá trị được trả về:</para>
+        <para id="id8611340">- asin(z), acsc(z), acosh(z), asec(z), atan(z): trả về góc độ theo radian giữa 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>π</m:mi></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - π/2} {}</m:annotation></m:semantics></m:math>và
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>π</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π/2} {}</m:annotation></m:semantics></m:math> khi z là số thực.</para>
+        <para id="id8611523">- atan2(x,y): trả về góc độ (độ theo radian giữa 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>π</m:mi></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - π/2} {}</m:annotation></m:semantics></m:math>và
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>π</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π/2} {}</m:annotation></m:semantics></m:math> bao gồm 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>π</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - π} {}</m:annotation></m:semantics></m:math>) từ trục x đến đường thẳng chứa điểm gốc (0,0) và tọa độ (x,y).</para>
+        <para id="id8611732">- acos(z): trả về các góc độ theo radian giữa 0 và
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>π</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π} {}</m:annotation></m:semantics></m:math> khi z là số thực.</para>
+      </section>
+      <section id="id-564064504031">
+        <title>Các hàm tiếp tuyến (INTERPOLATION FUNTIONS)</title>
+        <para id="id8699677"> Linterp(vx,vy,x): giá trị giao điểm tại x khi các điểm trong vx, vy được nối với nhau bằng những đường thẳng.</para>
+        <para id="id8699735"> Ispline(vx,vy): giao điểm của các điểm đầu cuối của những đường thẳng tạo thành khối. Trả về Véc tơ vs để dùng với hàm interp.</para>
+        <para id="id8699783"> pspline(vx,vy): giao điểm của các điểm đầu và cuối của những đường parabol tạo thành khối.trả về véc tơ vs để dùng với hàm interp.</para>
+        <para id="id8699840"> cspline(vx,vy): các đường giao tuyến nhau trong khối. Trả về Véc tơ vs để dùng với hàm interp.</para>
+        <para id="id8699895"> bspline (vx,vy,u,n): sự giao tiếp của các đường B-spline tạo góc độ n đưa ra các điểm được chỉ định bằng những giá trị trong u. Trả về Véc tơ vs để dùng với hàm interp.</para>
+        <para id="id8699964"> interp(vs,vx,vy,x): trả về giá trị giao điểm của qua cách dùng những đường giao tiếp.vs là Véc tơ được trả về từ các hàm Ispline, pspline, cspline hoặc bspline.</para>
+        <para id="id8700047"> predict (v, m, n): trả về những giá trị n đã được xác định trước dựa theo các thành phần nằm trong v.</para>
+      </section>
+      <section id="id-135354228178">
+        <title>Các hàm phụ (MISCELLANEOUS FUNTIONS)</title>
+        <para id="id8700098"> mod(x,y): trả lại số dư của x chia y.</para>
+        <para id="id8700156"> angle(x,y): góc từ trục x đến tọa độ (x,y).</para>
+      </section>
+      <section id="id-236473833263">
+        <title>Hàm vẽ phổ đồ (HISTOGRAMS)</title>
+        <para id="id8700330"> hist (intervals,data): trả về phổ đồ của dữ liệu.</para>
+        <para id="id8700362"> Nếu intervals là Véc tơ, trả về Véc tơ với thành phần ith là số điểm trong dữ liệu data nằm giữa ith và (i+1)th của intervals.</para>
+        <para id="id8700430"> Nếu intervals là một tập hợp (scalar), trả về véc tơ minh họa số điểm trong data nằm trong dãy số của khoảng cách đều nhau được thể hiện bởi intervals.</para>
+        <para id="id8700484">Khai báo: </para>
+        <para id="id8700489">- intervals là một tập hợp hoặc một véc tơ. Khi là tập hợp, chúng đặc trưng bằng những con số với khoảng cách đều nhau với những giá trị được chứa trong data.</para>
+        <para id="id8700541">- Khi intervals là véc tơ của những giá trị thực theo thứ tự tăng dần, các giá trị thể hiện những khoảng cách theo các thành phần được chứa trong data.</para>
+        <para id="id8700580">- Data là Véc tơ của giá trị số liệu thực.</para>
+      </section>
+      <section id="id-416324037194">
+        <title>Hàm làm tròn số (Rounding a number)</title>
+        <para id="id8700619"> round(x,n): làm tròn giá trị x theo số thập phân n. Nếu bỏ qua n, giá trị x sẽ được làm tròn theo số nguyên gần nhất (n được xem như bằng 0). Nếu n&lt;0 thì x được làm tròn theo số thập phân n nằm bên trái dấu thập phân. Lưu ý rằng x phải là tập hợp số thực và n phải là số nguyên.</para>
+        <para id="id8700746">Ví dụ:</para>
+        <para id="id8700758">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-522854026238">
+        <title>Hàm rút gọn chuỗi số (Truncation Functions)</title>
+        <para id="id8700795"> floor(x): trả về số nguyên lớn nhất.</para>
+        <para id="id8700840"> ceil(x): trả về số nguyên nhỏ nhất.</para>
+        <para id="id8700884"> trunc(x): trả về số nguyên của x bằng cách loại bỏ phần phân số.</para>
+        <para id="id8700938"/>
+        <para id="id8700942">Khai báo:</para>
+        <para id="id8700947">- x là số thực.</para>
+        <para id="id8183701">Lưu ý: khi x dương hàm floor và trunc trả về cùng kết quả.</para>
+        <para id="id8183747">Ví dụ:</para>
+        <para id="id8183759">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-347317302052">
+        <title>Các hàm chuỗi (String Functions)</title>
+        <para id="id8183795"> concat(S1,S2): nối chuỗi S2 vào cuối chuỗi S1. Trả về chuỗi.</para>
+        <para id="id8183849"> error(S): trả về chuỗi S và hiện thông tin lỗi.</para>
+        <para id="id8183904"> IsString(x): trả về 1 nếu x là chuỗi, ngược lại trả về 0.</para>
+        <para id="id8183983"> Strlen(S): xác định ký tự trong chuỗi S. Trả về số nguyên.</para>
+        <para id="id8184054"> Search(S,Sub,S,x): tìm vị trí bắt đầu của chuỗi phụ SubS trong S, bắt đầu từ vị trí x trong S.</para>
+        <para id="id8184130"> Str2num(S): đổi chuỗi số S thành hằng số.</para>
+        <para id="id8184179"> Num2str(x): đổi số x thành chuỗi.</para>
+        <para id="id8184236"> Str2vec(S): đổi chuỗi S thành Véc tơ của mã ASCII.</para>
+        <para id="id8184294"> Vec2tr(v): đổi các Véc tơ của mã ASCII sang dạng chuỗi.</para>
+      </section>
+      <section id="id-810477344377">
+        <title>Các hàm nội suy (Cubic Spline Interpolation)</title>
+        <para id="id8700975"> cspline(vx,vy): trả về Véc tơ nguồn thứ hai đối với dữ liệu của Véc tơ vx và vy.Véc tơ này sẽ trở thành đại lượng thứ nhất của hàm interp. Kết quả sẽ là khối tại các điểm đầu cuối.</para>
+        <para id="id8701079"> pline(vx,vy): tương tự như hàm cspline, ngoại trừ kết quả có dạng parabol ngay các điểm đầu cuối.</para>
+        <para id="id8701130"> lspline(vx,vy): tương tự như cspline, ngoại trừ kết quả là đường tuyến tính ngay các điểm đầu cuối.</para>
+        <para id="id8701180"> interp(vs,vx,vy,x): trả về giá trị giao điểm của vy tại điểm x.</para>
+        <para id="id8701229">Khai báo:</para>
+        <para id="id8701237">- vx là Véc tơ của những giá trị dữ liệu thực theo thứ tự tăng dần. Chúng tương ứng với giá trị x.</para>
+        <para id="id8701291">- vy là Véc tơ của những giá trị dữ liệu thực. Chúng tương ứng với giá trị y. Số thành phần tương tự như vx.</para>
+        <para id="id8701354">- v là Véc tơ được kích hoạt bởi cspline, pspline, lspline.</para>
+        <para id="id8701405">- x là giá trị của biến độc lập mà ngay đó sẽ đưa ra kết quả giao thoa. Đối với những kết quả tốt nhất, những giá trị biến này nên nằm trong phạm vi được đưa rà từ những giá trị vx.</para>
+        <para id="id8701445">- hàm cubic spline interpolation cho phép bạn chuyển đường cong qua các điểm theo cách nguồn thứ nhất và thứ hai của đường cong được kéo tiếp tục qua các điểm kế tiếp. Đường cong này được tập hợp bằng cách lấy ba điểm kề nhau và tạo thành khối chạy qua các điểm đó. Khối đa giác này sau đó được nối lại với nhau để tạo thành đường cong hoàn chỉnh.</para>
+      </section>
+      <section id="id-989401609362">
+        <title>các hàm hồi quy</title>
+        <para id="id8701529"> slope(vx,vy): độ xiên của đường thẳng khớp với dữ liệu trong vx, vy.</para>
+        <para id="id8701588"> intercep(vx,vy): đường giao tiếp vừa đúng với số liệu trong vx, vy.</para>
+        <para id="id9268756">Khai báo:</para>
+        <para id="id9268768">- vx là Véc tơ của những số liệu thực đối với hàm slope. Các giá trị trong vx tương ứng với các giá trị x.</para>
+        <para id="id9268828">- vy là Véc tơ của các số liệu thực. Những giá trị này tương ứng với các giá trị y. Số thành phần của vy cũng tương tự như vx.</para>
+        <para id="id9268891"> Hàm slope và intercep rất hữu ích khi dữ liệu kế thừa sự tuyến tính mà cũng có thể áp dụng cho các hàm số mũ.</para>
+        <para id="id9268925"> Công thức của đường thẳng vừa khớp với số liệu của vx và vy là y=mx+b là kết quả từ hàm slope và b là kết quả từ hàm intercept. </para>
+        <para id="id9268997">(xem ví dụ ở hình 5.2)</para>
+        <para id="id9269009">Ví dụ:</para>
+        <figure id="id9269017">
+          <media id="id5902098" alt=""><image src="../../media/graphics2-f67b.png" mime-type="image/png" height="242" width="280"/></media>
+        </figure>
+        <para id="id9269041">Hình 5.2. Minh hoạ dùng hàm spline và hàm intercept</para>
+      </section>
+      <section id="id-978410933376">
+        <title>Hàm tuyến tính kết hợp (LINEAR COMBINATION OF FUNCTION)</title>
+        <para id="id9269061"> linfit(vx,vy,F): trả về Véc tơ chứa các hệ số được dùng để tạo sự kết hợp của các hàm tuyến tính trong F với dữ liệu ước định trong vx và vy (hình 5.3).</para>
+        <para id="id9269133">Khai báo:</para>
+        <para id="id9269145">- vx là Véc tơ của các giá trị dữ liệu. Những giá trị này tương ứng với giá trị x. các thành phần phải được xếp theo thứ tự tăng dần (có thể dùng hàm sort).</para>
+        <para id="id9269198">- vy là Véc tơ của các giá trị dữ liệu. Những giá trị này tương ứng với giá trị y. Số thành phần tương tự như vx.</para>
+        <para id="id9269252">- F là hàm số trả về Véc tơ với những thành phần là hàm số hình thành các hàm tuyến tính, hoặc trong trường hợp đó là hàm tuyến tính đơn. F là một tập hợp.</para>
+        <para id="id9269300">Ví dụ: </para>
+        <figure id="id9269308">
+          <media id="id3407910" alt=""><image src="../../media/graphics3-d327.png" mime-type="image/png" height="401" width="484"/></media>
+        </figure>
+        <para id="id9269332">Hình 5.3. Minh hoạ dùng hàm linfit</para>
+        <para id="id9269341"> Genfit(vx,vy,vg,F): Véc tơ đang chứa các tham số tạo nên hàm f(x) và các tham số n, u1…un của các dữ liệu trong vx và vy (hình 5.4).</para>
+        <para id="id9269418">Khai báo:</para>
+        <para id="id9269430">- vx là Véc tơ của các giá trị dữ liệu. Những giá trị này tương ứng với giá trị x. </para>
+        <para id="id8610348">- vy là Véc tơ của các giá trị dữ liệu thực và tương ứng với giá trị y. Số thành phần tương tự như vx.</para>
+        <para id="id8610402">- vg là thành phần Véc tơ n dự đoán, hoặc vg là một tập hợp trong trường hợp n=1. </para>
+        <para id="id8610463">- F là hàm số trả về Véc tơ n+1 đang chứa hàm f và những thành phân nguồn của chúng tương ứng với các tham số n. Khi n=1, F là tập hợp.</para>
+        <para id="id8610535">- n là số nguyên.</para>
+        <para id="id8610560">Ví dụ:</para>
+        <figure id="id8610568">
+          <media id="id4811797" alt=""><image src="../../media/graphics4-cb9b.png" mime-type="image/png" height="450" width="530"/></media>
+        </figure>
+        <para id="id8610592">Hình 5.4. Minh hoạ dùng hàm genfit</para>
+      </section>
+      <section id="id-552960346114">
+        <title>Hàm tuyến tính định trước (LINEAR PREDICTION)</title>
+        <para id="id8610612"> predict(v,m,n): trả về Véc tơ với những giá trị n đã được định trước dựa theo các thành phần m kề nhau trong v (hình 5.5).</para>
+        <para id="id8610689">Khai báo:</para>
+        <para id="id8610701">- v là Véc tơ với các giá trị mẫu được lấy từ những khoảng cách đều nhau.</para>
+        <para id="id8610729">- m, n là các số nguyên.</para>
+        <para id="id8610758">Ví dụ:<figure id="id8610765"><media id="id5675240" alt=""><image src="../../media/graphics5-5e20.png" mime-type="image/png" height="334" width="431"/></media></figure></para>
+        <para id="id8610789">Hình 5.5. Minh hoạ dùng hàm predict</para>
+      </section>
+      <section id="id-815029560466">
+        <title>THAY ĐỔI CÁC THAM SỐ CHƯƠNG TRÌNH</title>
+        <para id="id8610812">Khi thao tác với các đối tượng của chương trình, có thể thực hiện theo ý riêng của mình bằng cách chấp nhận hoặc thay đổi các tham số của chương trình cho phu hợp. Để thay đổi các tham số của chương trình, thực hiện như sau:</para>
+        <para id="id8610830">Trên thanh menu: chọn Math/Options, xuất hiện hộp thoại Math Options (hình 5.6).</para>
+        <figure id="id8610885">
+          <media id="id1167304502446" alt=""><image src="../../media/graphics6-ca89.png" mime-type="image/png" height="344" width="385"/></media>
+        </figure>
+        <para id="id8610909">Hình 5.6. Hộp thoại Math Options/Built-In Variables</para>
+        <para id="id8610919"> Chọn thẻ <media id="id1167309776822" alt=""><image src="../../media/graphics7-f5db.png" mime-type="image/png" height="19" width="97"/></media>(hình 5.6): có thể đặt các giá trị tham biến mặc định của chương trình theo hướng dẫn sau đây:</para>
+        <para id="id8610983"> Array Origin: kiểm soát các tham số ORIGIN lập sẵn để đặc trưng cho việc lập chỉ số cho các phần tử của mảng trong công thức. Giá trị mặc định là không “0”.</para>
+        <para id="id8611029"> Convergence Tolerance: kiểm soát các tham số TOL với mức độ sai số của các số nguyên và các số dẫn xuất từ chúng. Tham số này còn kiểm soát độ dài của các số nguyên trong các phép tính căn. Giá trị mặc định là “0.001”.</para>
+        <para id="id8611077"> Constraint Toleranc: kiểm soát các tham số CTOL với mức độ sai số của các điều kiện ràng buộc khi giải bài toán bằng toán tử Slove. Giá trị mặc định là “0.001”.</para>
+        <para id="id8347250"> Seed value for random numbers: thông báo cho hàm tạo số ngẫu nhiên biết sẽ dùng thử một chuỗi ngẫu nhiên nào đó. Giá trị mặc định là “1”.</para>
+        <para id="id8347286"> Precision: kiểm soát các tham số PRNPRECISION cho sẵn để đặc trưng cho các con số áp dụng khi viết tập tin mã ASCII với hàm WRITERPRN hoặc APPENDPRN. Giá trị mặc định là “4”.</para>
+        <para id="id8347362"> Column Width: kiểm soát các tham số PRNCOLWIDTH lập sẵn để đặc trưng cho độ rộng các cột trong tập tin mã ASCII được lập bằmg các hàm WRITERPRN hoặc hàm APPENDPRN. Giá trị mặc định là “8”.</para>
+        <para id="id8347445"> Restore Defaults: trả về tất cả giá trị mặc định của chương trình.</para>
+        <para id="id8347472"> Chọn thẻ <media id="id7368975" alt=""><image src="../../media/graphics8-1ac4.png" mime-type="image/png" height="23" width="66"/></media>: đặt các lệnh liên quan đến cách thức tính toán các giá trị trong công thức, biểu thức, hàm của chương trình (hình 5.7).</para>
+        <para id="id8347531"> Recalculate Automatically: Mathcad tự động tính toán lại tất cả các kết quả và hình ảnh đồ thị hiện diện trên màn hình mỗi khi bạn thay đổi giá trị nào nó của biến số. </para>
+        <para id="id8347559"> Optimize expressions befor calculating: Mathcad tự động tối ưu hoá như là nó sẽ làm đơn giản hoá biểu thức bất kỳ nằm bên trái hay phải dấu gán (<media id="id1167316921581" alt=""><image src="../../media/graphics9-1513.png" mime-type="image/png" height="18" width="25"/></media>). Khi giá trị quá dài Mathcad sẽ đánh dấu vào vùng số liệu bằng dấu hoa thị rồi thay vào đó sẽ tính theo dạng đơn giản hơn. Khi muốn quan sát dạng đơn giản, kích vào dấu hoa thị.</para>
+        <figure id="id8347669">
+          <media id="id2755386" alt=""><image src="../../media/graphics10-0870.png" mime-type="image/png" height="336" width="382"/></media>
+        </figure>
+        <para id="id8347693">Hình 5.7. Hộp thoại Math Options/Calculation</para>
+        <para id="id8347705"/>
+        <para id="id8347709"> Chọn thẻ <media id="id3499797" alt=""><image src="../../media/graphics11-87b3.png" mime-type="image/png" height="22" width="71"/></media>: chọn đơn vị để tính toán trong Mathcad (hình 5.8).</para>
+        <figure id="id8347783">
+          <media id="id1167318983585" alt=""><image src="../../media/graphics12-db96.png" mime-type="image/png" height="336" width="383"/></media>
+        </figure>
+        <para id="id8347807">Hình 5.8. Hộp thoại Math Options/Unit System</para>
+        <para id="id8347816"> SI (International): sử dụng theo đơn vị đo lường quốc tế, hệ SI: meters, kilograms, second, amps…</para>
+        <para id="id8347882"> MKS: sử dụng đơn vị đo là meters, kilograms, seconds…</para>
+        <para id="id8347930"> CGS: sử dụng đơn vị đo làcentimeters, grams, seconds…</para>
+        <para id="id8347979"> US: sử dụng theo đơn vị đo lường của Mỹ-Anh là feet, pounds, seconds…</para>
+        <para id="id8355481"> None: loại bỏ tất cả đơn vị đo lường theo mặc định.</para>
+        <para id="id8355516"> Chọn thẻ <media id="id7197049" alt=""><image src="../../media/graphics13-ff41.png" mime-type="image/png" height="21" width="69"/></media>: chứa các tên hướng mặc định để người sử dụng tuỳ chọn (hình 5.9).</para>
+        <figure id="id8355584">
+          <media id="id1167310156883" alt=""><image src="../../media/graphics14-a936.png" mime-type="image/png" height="336" width="382"/></media>
+        </figure>
+        <para id="id8355608">Hình 5.9. Hộp thoại Math Options/Dimensions</para>
+        <para id="id8355617"> Display dimensions: kích chọn để thể hiện các kết quả qua cách dùng các tên hướng sẽ được đề cập đến trong phần Dimension Names thay vì là mặc định.</para>
+        <para id="id8355656"> Dimension Names : khai báo các tên hướng vào các khung đơn vị có liên quan để thể hiện trong bảng kết quả.</para>
+        <para id="id8355690"/>
+        <para id="id8355712">BÀI TẬP CHƯƠNG 5</para>
+        <para id="id8355720">1. Giải các hệ phương trình sau:</para>
+        <para id="id8355729">a. </para>
+        <figure id="id8355736">
+          <media id="id1167304677448" alt=""><image src="../../media/graphics15-b400.png" mime-type="image/png" height="92" width="147"/></media>
+        </figure>
+        <para id="id8355760">b. </para>
+        <figure id="id8355768">
+          <media id="id1167308558107" alt=""><image src="../../media/graphics16-78c8.png" mime-type="image/png" height="93" width="179"/></media>
+        </figure>
+        <para id="id8355792">c. </para>
+        <figure id="id8355800">
+          <media id="id8034361" alt=""><image src="../../media/graphics17-acf9.png" mime-type="image/png" height="93" width="144"/></media>
+        </figure>
+        <para id="id8355823">d. </para>
+        <figure id="id8355832">
+          <media id="id3942340" alt=""><image src="../../media/graphics18-a13b.png" mime-type="image/png" height="127" width="141"/></media>
+        </figure>
+        <para id="id8355855">2. Sử dụng hàm “if, linterp” và “input table” để tính btk như sau:</para>
+        <para id="id8355874">Cho Q=95 (m3 /s) ; i=0.0001 ; n=0.0225 , m=1.5 (hoặc m=1.5) ; h=3(m)</para>
+        <para id="id8355907">+ Xác định 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>ln</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="" close=""><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nQ</m:mtext></m:mrow></m:mstyle><m:mrow><m:msub><m:mn>4m</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:msqrt><m:mi>i</m:mi></m:msqrt></m:mrow></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{"ln"} } = left ( {  { ital "nQ"}  over  {4m rSub { size 8{0} }  sqrt {i} } }  right ) rSup { size 8{ {  {3}  over  {8} } } } } {}</m:annotation></m:semantics></m:math> với 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt><m:mo stretchy="false">−</m:mo><m:mi>m</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{0} } =2 sqrt {1+m rSup { size 8{2} } }  - m} {}</m:annotation></m:semantics></m:math></para>
+        <para id="id8356115">Lập tỷ số 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>h</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>ln</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {h}  over  {R rSub { size 8{"ln"} } } } } {}</m:annotation></m:semantics></m:math> để tìm 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>b</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>ln</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {b}  over  {R rSub { size 8{"ln"} } } } } {}</m:annotation></m:semantics></m:math> được tra trong bảng sau:</para>
+        <table id="id8701626" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry>
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>h</m:mi>
+                              <m:msub>
+                                <m:mi>R</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>ln</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ {  {h}  over  {R rSub { size 8{"ln"} } } } } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+                <entry namest="c2" nameend="c3">
+                  <m:math>
+                    <m:semantics>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>b</m:mi>
+                              <m:msub>
+                                <m:mi>R</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mtext>ln</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:annotation encoding="StarMath 5.0"> size 12{ {  {b}  over  {R rSub { size 8{"ln"} } } } } {}</m:annotation>
+                    </m:semantics>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>m=1.25</entry>
+                <entry>m=1.5</entry>
+              </row>
+              <row>
+                <entry>0.8350.8580.8810.903</entry>
+                <entry>10.59110.0929.6439.237</entry>
+                <entry>11.30010.75910.2719.829</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id8701882">Tính 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tk</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>b</m:mi><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>ln</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>ln</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b rSub { size 8{ ital "tk"} } = {  {b}  over  {R rSub { size 8{"ln"} } } } R rSub { size 8{"ln"} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id8701977"/>
+        <list id="id8701982" list-type="enumerated">
+          <item>Viết hàm nội suy tìm cường độ chịu kéo Ra của thép cho trong bảng sau:</item>
+        </list>
+        <table id="id8702006" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Loại cốt thép</entry>
+                <entry>Ra (kG/cm2)</entry>
+              </row>
+              <row>
+                <entry>AI</entry>
+                <entry>2100</entry>
+              </row>
+              <row>
+                <entry>AII</entry>
+                <entry>2700</entry>
+              </row>
+              <row>
+                <entry>AIII</entry>
+                <entry>3600</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id8702133">Tại giá trị gán loại cốt thép, dùng Hyperlink (dạng Pop-up) để giải thích cho người sử dụng hiểu là chỉ có thể chọn cốt thép với những loại trên.</para>
+      </section>
+    </section>
+  </content>
+</document>

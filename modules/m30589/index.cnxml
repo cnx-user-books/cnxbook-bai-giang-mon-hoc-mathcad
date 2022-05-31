@@ -1,0 +1,406 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Véc tơ và ma trận</title>
+  <metadata>
+  <md:content-id>m30589</md:content-id><md:title>Véc tơ và ma trận</md:title>
+  <md:abstract/>
+  <md:uuid>bcc23591-9f07-4692-ba43-da23c9575bf6</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-921756156579">
+      <title>TẠO MỘT VÉC TƠ VÀ CÁC PHÉP TÍNH VÉC TƠ</title>
+      <section id="id-585826263492">
+        <title>Tạo một Véc tơ</title>
+        <para id="id8422854">Véc tơ là một dãy sắp xếp ngay ngắn (hay Ma trận chỉ có một cột). Để tạo một Véc tơ trong Mathcad, thực hiện theo các cách sau:</para>
+        <para id="id8422900"> Trên thanh menu: chọn Insert/Matrix…</para>
+        <para id="id8422942"> Trên thanh Math: nhắp vào biểu tượng <media id="id42398490" alt=""><image src="../../media/graphics1-1203.png" mime-type="image/png" height="24" width="23"/></media></para>
+        <para id="id8423002"> Từ bàn phím: nhấn tổ hợp Ctrl+M</para>
+        <para id="id8423041">Xuất hiện hộp thoại Insert Matrix (hình3.1).</para>
+        <figure id="id8423070">
+          <media id="id47702524" alt=""><image src="../../media/graphics2-fe23.png" mime-type="image/png" height="169" width="235"/></media>
+        </figure>
+        <para id="id8423093">Hình 3.1. Hộp thoại Insert Matrix</para>
+        <list id="id8423102" list-type="bulleted">
+          <item>Trong khung Rows chọn số dòng tương ứng.</item>
+        </list>
+        <list id="id8423124" list-type="bulleted">
+          <item>Trong khung Columns chọn số cột tương ứng. </item>
+        </list>
+        <list id="id8364882" list-type="bulleted">
+          <item>Chọn OK, xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      , nhập số cần thiết vào sẽ được một Véc tơ mong muốn.</item>
+        </list>
+      </section>
+      <section id="id-834122136377">
+        <title>Tính toán với véctơ</title>
+        <list id="id8364946" list-type="enumerated">
+          <item>Tích của hai Véc tơ (Dot product)</item>
+        </list>
+        <para id="id8364968"> Tính vô hướng của hai Véc tơ</para>
+        <para id="id8364985"> Kích vào biểu tượng <media id="id45901800" alt=""><image src="../../media/graphics3-0ebb.png" mime-type="image/png" height="21" width="26"/></media> (hình 3.4), xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8365068"> Nhập tên hai Véc tơ muốn tính. </para>
+        <para id="id8365091">Ví dụ: </para>
+        <para id="id8365096">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8365122"/>
+        <para id="id8365126"> Tính có hướng của hai Véc tơ</para>
+        <para id="id8365144"> Kích vào biểu tượng <media id="id48363596" alt=""><image src="../../media/graphics4-bd22.png" mime-type="image/png" height="22" width="21"/></media> (hình 3.4), xuất hiện <media id="id40483552" alt=""><image src="../../media/graphics5-7744.png" mime-type="image/png" height="32" width="20"/></media></para>
+        <para id="id8365230"> Nhập tên hai Véc tơ muốn tính. </para>
+        <para id="id8365254"/>
+        <para id="id8365265">Ví dụ:</para>
+        <para id="id8365270">
+          <media id="id41874232" alt=""><image src="../../media/graphics6-02af.png" mime-type="image/png" height="83" width="315"/></media>
+        </para>
+        <para id="id8365305">b. Giao của hai Véc tơ (Cross product)</para>
+        <para id="id8365327"> Kích vào biểu tượng <media id="id48072830" alt=""><image src="../../media/graphics7-57a5.png" mime-type="image/png" height="19" width="26"/></media> (hình 3.4), xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8365410"> Nhập tên hai Véc tơ muốn tính.</para>
+        <para id="id8365434"/>
+        <para id="id8365442">Ví dụ:</para>
+        <para id="id8365446">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8365473">c. Tổng của một Véc tơ (vector sum)</para>
+        <para id="id8365494"> Kích vào biểu tượng <media id="id43071350" alt=""><image src="../../media/graphics8-f89a.png" mime-type="image/png" height="22" width="22"/></media> (hình 3.4), xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      .</para>
+        <para id="id8365581"> Nhập tên Véc tơ muốn tính.</para>
+        <para id="id8365604">Ví dụ:</para>
+        <para id="id8365617">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-0992027023624">
+        <title>Tính kích cỡ của Véctơ</title>
+        <list id="id8365652" list-type="bulleted">
+          <item>Hàm length (v) : cho biết Véc tơ có bao nhiêu phần tử.</item>
+          <item>Hàm last (v) : cho biết thứ tự của phần tử cuối cùng.</item>
+        </list>
+        <para id="id8015914">Ví dụ:</para>
+        <para id="id8015918">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-536013566379">
+        <title>Tạo một bảng giá trị của hàm số</title>
+        <para id="id8015954">Ví dụ:</para>
+        <para id="id8015964">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8015996"/>
+        <para id="id8016005">Ví dụ: Tạo bảng giá trị các khoảng chia không theo một thứ tự nào.</para>
+        <para id="id8016019">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8016052">Lưu ý: Kết quả lên màn hình chỉ thể hiện tối đa 15 phần tử. Trường hợp lớn hơn 15 phần tử khi đó kích đúp vào bảng giá trị, xuất hiện bảng trị số sử dụng thanh trượt sẽ thấy tất cả các kết quả.</para>
+      </section>
+    </section>
+    <section id="id-706080671562">
+      <title>TẠO MỘT MA TRẬN VÀ TÍNH TOÁN VỚI MA TRẬN</title>
+      <section id="id-949977811745">
+        <title>Tạo một Ma trận</title>
+        <para id="id8016091"> Thực hiện giống như cách tạo một Véc tơ nếu Ma trận có ít hơn 10 dòng và 10 cột hoặc thực hiện theo cách sau:</para>
+        <para id="id8016130">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8016157">Lưu ý: Mathcad sẽ đặt giá trị “0” cho tất cả các phần tử mà bạn không định nghĩa. </para>
+        <para id="id8016180">Ví dụ:</para>
+        <para id="id8016185">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8016212">Tuy nhiên cách trên không tiện, mất nhiều thời gian để nhập số liệu.</para>
+        <para id="id8016222"> Khi Ma trận có nhiều hơn 100 phần tử, thực hiện theo các cách sau:</para>
+        <list id="id8016247" list-type="bulleted">
+          <item>Nối các mảng nhỏ lại với nhau.</item>
+        </list>
+      </section>
+    </section>
+    <section id="id8016263">
+      <list id="id8016269" list-type="bulleted">
+        <item>Đọc từ tập tin dữ liệu.</item>
+        <item>Dùng biến chạy.</item>
+        <item>Tạo bảng dữ liệu nhập.</item>
+      </list>
+      <para id="id8016299">Ví dụ: Tạo một Ma trận bằng cách dùng biến chạy.</para>
+      <para id="id8016322">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id8016349">Ví dụ: Tạo một Ma trận với các giá trị của hàm số.</para>
+      <para id="id8016371">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <section id="id-252944448324">
+        <title>Hiệu chỉnh Ma trận</title>
+        <para id="id8016409"/>
+        <section id="id-314819804937">
+          <title>Xoá cột (hoặc hàng) của Ma trận</title>
+          <para id="id8016422">Để xoá một cột (hoặc hàng) hay nhiều cột (hoặc nhiều hàng) của Ma trận, thực hiện như sau:</para>
+          <list id="id8016441" list-type="bulleted">
+            <item>Kích vào phần tử cột (hoặc hàng) muốn xoá.</item>
+            <item>Từ hộp thoại Insert Matrix (hình 3.1) chỉ rõ số cột (hàng) muốn xoá.</item>
+            <item>Kích nút Delete.</item>
+          </list>
+          <para id="id8016503">Ví dụ:</para>
+          <para id="id8016508">Cho Ma trận sau:</para>
+          <para id="id8016516">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+          <list id="id8016542" list-type="bulleted">
+            <item>Để xoá cột đầu tiên của Ma trận C: tại mục Rows chọn giá trị “0”, tại mục Columns chọn giá trị “1” (hình 3.2).</item>
+          </list>
+          <figure id="id8016612">
+            <media id="id42796596" alt=""><image src="../../media/graphics9-f2de.png" mime-type="image/png" height="169" width="234"/></media>
+          </figure>
+          <para id="id8016639">Hình.3.2. Hộp thoại Insert Matrix</para>
+          <list id="id8016651" list-type="bulleted">
+            <item>Để xoá dòng thứ hai của Ma trận C: tại mục Rows chọn giá trị “2”, tại mục Columns chọn giá trị “0” (hình 3.3).</item>
+          </list>
+          <figure id="id8016721">
+            <media id="id42885498" alt=""><image src="../../media/graphics10-dd98.png" mime-type="image/png" height="165" width="234"/></media>
+          </figure>
+          <para id="id8016745">Hình 3.3</para>
+        </section>
+        <section id="id-841788804349">
+          <title>Thêm cột (hoặc hàng) vào Ma trận</title>
+          <para id="id8438147">Để thêm một cột (hoặc hàng) hay nhiều cột (hoặc hàng) vào Ma trận, thực hiện như sau:</para>
+          <para id="id8438157"> Kích vào phần tử trong cột (hoặc hàng), điểm chèn sẽ nằm bên phải (đối với cột) và bên dưới (đối với hàng). </para>
+          <list id="id8438180" list-type="bulleted">
+            <item>Gõ số cột (hoặc hàng) muốn chèn vào.</item>
+            <item>Chọn Insert.</item>
+          </list>
+        </section>
+      </section>
+      <section id="id-835801226899">
+        <title>Tính toán với Ma trận</title>
+        <para id="id8438220">Từ thanh Math, kích vào biểu tượng <media id="id45370937" alt=""><image src="../../media/graphics11-8a0a.png" mime-type="image/png" height="23" width="23"/></media> sẽ xuất hiện các lựa chọn để tính toán cho Ma trận và cả Véc tơ (hình 3.4).</para>
+        <figure id="id8438302">
+          <media id="id40386666" alt=""><image src="../../media/graphics12-c58b.png" mime-type="image/png" height="124" width="83"/></media>
+        </figure>
+        <para id="id8438326"> Hình 3.4</para>
+        <para id="id8438348">a. Subscripts (chỉ số dưới)</para>
+        <para id="id8438361"> Xác định trị số dưới của Ma trận.</para>
+        <para id="id8438390"> Cho Ma trận M.</para>
+        <para id="id8438418"> Kích vào biểu tượng <media id="id49157350" alt=""><image src="../../media/graphics13-97a3.png" mime-type="image/png" height="21" width="20"/></media> để xác định các chỉ số dưới. </para>
+        <para id="id8438471"/>
+        <para id="id8438475">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8438534"/>
+        <para id="id8438539"> Thay đổi chỉ số dưới của Ma trận.</para>
+        <para id="id8438554">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <list id="id8438586" list-type="enumerated">
+          <item>Ma trận nghịch đảo (Inverse)</item>
+        </list>
+        <list id="id8438601" list-type="bulleted">
+          <item>Kích vào biểu tượng <media id="id48013620" alt=""><image src="../../media/graphics14-60ed.png" mime-type="image/png" height="21" width="21"/></media>, xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      .</item>
+          <item>Nhập tên Ma trận muốn thể hiện.</item>
+        </list>
+        <para id="id8438691">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8438718"/>
+        <para id="id8438722">c. Tính định thức của Ma trận (Determinant)</para>
+        <list id="id8438743" list-type="bulleted">
+          <item>Kích vào biểu tượng <media id="id41465283" alt=""><image src="../../media/graphics15-e61b.png" mime-type="image/png" height="20" width="18"/></media>, xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </item>
+          <item>Nhập tên Ma trận muốn tính định thức.</item>
+        </list>
+        <para id="id8438830">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8438856">d. Trích một cột từ một Ma trận (Matrix column)</para>
+        <list id="id8438882" list-type="bulleted">
+          <item>Kích vào biểu tượng <media id="id45676886" alt=""><image src="../../media/graphics16-a714.png" mime-type="image/png" height="20" width="17"/></media>, xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      .</item>
+          <item>Nhập tên Ma trận và cột muốn trích ra.</item>
+        </list>
+        <para id="id8438972">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8186104"/>
+        <para id="id8186112">đ. Ma trận chuyển vị (Matrix transpose)</para>
+        <list id="id8186134" list-type="bulleted">
+          <item>Kích vào biểu tượng <media id="id44144984" alt=""><image src="../../media/graphics17-1883.png" mime-type="image/png" height="20" width="19"/></media>, xuất hiện 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </item>
+          <item>Nhập tên Ma trận muốn tính.</item>
+        </list>
+        <para id="id8186220">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-0963296454779">
+        <title>XỬ LÝ MẢNG</title>
+        <section id="id-089158273258">
+          <title>Nối các mảng</title>
+          <para id="id8186263"> Hàm stack (A,B,C…) dùng để nối hai hay nhiều Ma trận với nhau theo hướng từ trên xuống dưới. </para>
+          <para id="id8186302"> Hàm augment (A,B,C…) dùng để nối hai hay nhiều Ma trận với nhau theo hướng từ trái qua phải. </para>
+          <para id="id8186340">Ví dụ:</para>
+          <para id="id8186348">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        </section>
+      </section>
+    </section>
+    <section id="id8186379">
+      <para id="id8186384">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       </para>
+      <para id="id8186415">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+    </section>
+    <section id="id8186444">
+      <para id="id8186449"/>
+      <section id="id-134701934807">
+        <title>Tách các mảng</title>
+        <list id="id8186461" list-type="bulleted">
+          <item>Hàm submatrix (M,ir,jr,ic,jc) dùng để tách nhỏ các mảng.</item>
+        </list>
+        <para id="id8186482">Trong đó:</para>
+        <list id="id8186490" list-type="bulleted">
+          <item>M là Ma trận.</item>
+          <item>ir là số dòng bắt đầu tách.</item>
+          <item>ij là số dòng kết thúc tách.</item>
+          <item>ic là số cột bắt đầu tách.</item>
+          <item>jc là số cột kết thúc tách.</item>
+        </list>
+        <para id="id8186549">Ví dụ:</para>
+        <para id="id8186554">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8186580"/>
+      </section>
+      <section id="id-0513765549803">
+        <title>Tính kích cỡ của Ma trận</title>
+        <list id="id8186593" list-type="bulleted">
+          <item>Hàm rows (M) : cho biết Ma trận có bao nhiêu hàng.</item>
+          <item>Hàm cols (M) : cho biết Ma trận có bao nhiêu cột.</item>
+        </list>
+        <para id="id8186672">Ví dụ:</para>
+        <para id="id8186676">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8186703"/>
+      </section>
+      <section id="id-248034062963">
+        <title>Các hàm tính cực trị của Ma trận</title>
+        <list id="id8186716" list-type="bulleted">
+          <item>Hàm max(A,B,C…) : cho biết phân tử lớn nhất trong các Ma trận.</item>
+        </list>
+        <list id="id8186757" list-type="bulleted">
+          <item>Hàm min(A,B,C…) : cho biết phân tử nhỏ nhất trong các Ma trận.</item>
+        </list>
+        <para id="id8186797">Ví dụ:</para>
+        <para id="id8186802">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-202925842352">
+        <title>Hàm dùng để tạo một mảng mới</title>
+        <list id="id8186837" list-type="bulleted">
+          <item>Hàm matrix (m,n,f)</item>
+        </list>
+        <para id="id8186854">Trong đó:</para>
+        <para id="id8186863">- m là số dòng của Ma trận.</para>
+        <para id="id8186882">- n là số cột của Ma trận.</para>
+        <para id="id8186900">- f là hàm số của hai biến.</para>
+        <para id="id8186911">Ví dụ:</para>
+        <para id="id8186916">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-452420444598">
+        <title>Một số hàm tìm kiếm</title>
+        <para id="id8186951"/>
+        <list id="id8186955" list-type="bulleted">
+          <item>Hàm lookup(z,M,N)</item>
+        </list>
+        <list id="id8186972" list-type="bulleted">
+          <item>Hàm vlookup(z,M,c)</item>
+        </list>
+        <list id="id8275128" list-type="bulleted">
+          <item>Hàm hlookup(z,M,r)</item>
+        </list>
+        <para id="id8275145">Trong đó:</para>
+        <para id="id8275154">- z là giá trị của phần tử thuộc cột (hoặc hàng) đầu tiên.</para>
+        <para id="id8275164">- M, N là Ma trận.</para>
+        <para id="id8275180">- c, r là giá trị phần tử được trả về từ cột (hoặc hàng) tương ứng.</para>
+        <para id="id8275191">Ví dụ: </para>
+        <para id="id8275195">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-447862783823">
+        <title>HIỂN THỊ MA TRẬN VÀ VÉC TƠ</title>
+        <para id="id8275231">Kết quả khi xử lý số liệu Ma trận thường được thể hiện theo hai dạng sau:</para>
+        <para id="id8275250">- Nếu mảng có ít hơn 100 phần tử, kết quả được hiển thị dưới dạng Ma trận thông thường.</para>
+        <para id="id8275270">- Nếu mảng có nhiều hơn 100 phần tử, kết quả được hiển thị dưới dạng bảng có thanh trượt, kích vào thanh trượt để xem những phần tử bị che khuất.</para>
+        <para id="id8275284">Tuy nhiên nếu muốn thể hiện kết quả dưới dạng bảng trong trường hợp có ít hơn 100 phần tử, thực hiện như sau:</para>
+        <para id="id8275296"> Từ thanh menu: chọn Format/Result, xuất hiện hộp thoại Result Format (hình 3.5).</para>
+        <para id="id8275356"> Chọn thẻ <media id="id45935738" alt=""><image src="../../media/graphics18-936f.png" mime-type="image/png" height="19" width="91"/></media>.</para>
+        <para id="id8275404"> Tại mục Matrix display style chọn “Table”.</para>
+        <para id="id8275438"> Chọn OK.</para>
+        <figure id="id8275465">
+          <media id="id42886702" alt=""><image src="../../media/graphics19-6f00.png" mime-type="image/png" height="254" width="367"/></media>
+        </figure>
+        <para id="id8275489">Hình 3.5. Hộp thoại Result Format</para>
+        <para id="id8275504">Ví dụ:</para>
+        <para id="id8275508">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+      <section id="id-386118551585">
+        <title>THAY ĐỔI MẶC ĐỊNH</title>
+        <figure id="id8275546">
+          <media id="id48416234" alt=""><image src="../../media/graphics20-706b.png" mime-type="image/png" height="344" width="388"/></media>
+        </figure>
+        <para id="id8275570">Hình 3.6. Math Options</para>
+        <para id="id8275578">Trong một Véc tơ hay Ma trận, phần tử đầu tiên trong Mathcad được bắt đầu bằng phần tử “0”. Ðể phần tử đầu tiên bắt đầu là “1” thực hiện theo cách sau:</para>
+        <para id="id8275636"> Từ thanh công cụ: chọn Math/Options, xuất hiện hộp thoại Math Options (hình 3.6).</para>
+        <para id="id8275696"> Chọn thẻ Built-In Variables. </para>
+        <para id="id8275719"> Trong mục Text box Array Origin (ORIGIN) chọn số “1”.</para>
+        <para id="id8275752"> Chọn OK.</para>
+        <para id="id8275776">BÀI TẬP CHƯƠNG 4</para>
+        <para id="id8275781">1. Cho ma trận A và B như sau:</para>
+        <figure id="id8275790">
+          <media id="id48105241" alt=""><image src="../../media/graphics21-d1f9.png" mime-type="image/png" height="123" width="264"/></media>
+        </figure>
+        <list id="id8275814" list-type="bulleted">
+          <item>Tách từ ma trận A ra ma trận C</item>
+        </list>
+        <para id="id8275824">
+          <media id="id48384043" alt=""><image src="../../media/graphics22-a556.png" mime-type="image/png" height="70" width="88"/></media>
+        </para>
+        <list id="id8275860" list-type="bulleted">
+          <item>Có thể nối kết hai ma trận A và B theo thứ tự từ trên xuống dưới và từ trái qua phải được hay không? Nếu được thì xuất kết quả nếu không thì giải thích?</item>
+        </list>
+        <para id="id8275875">2. Giải hệ phương trình tuyến tính đưa về dạng Ma trận</para>
+        <para id="id8275885"/>
+        <para id="id8275889">a. </para>
+        <para id="id8275893">
+          <media id="id44179841" alt=""><image src="../../media/graphics23-357b.png" mime-type="image/png" height="98" width="127"/></media>
+        </para>
+        <para id="id8275929">b. </para>
+        <figure id="id8275944">
+          <media id="id42256350" alt=""><image src="../../media/graphics24-689a.png" mime-type="image/png" height="98" width="130"/></media>
+        </figure>
+        <para id="id8275968"/>
+        <para id="id8275972"/>
+      </section>
+    </section>
+  </content>
+</document>

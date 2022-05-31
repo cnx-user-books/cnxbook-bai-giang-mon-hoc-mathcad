@@ -1,0 +1,375 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>MathCad với đại số và số học</title>
+  <metadata>
+  <md:content-id>m30783</md:content-id><md:title>MathCad với đại số và số học</md:title>
+  <md:abstract/>
+  <md:uuid>2b0ed8f9-7547-4ce9-89ba-ee84cea03863</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8843619">TÍNH TOÁN VỚI SYMBOLICS TỪ THANH CÔNG CỤ CHUẨN</para>
+    <figure id="id8843632">
+      <media id="id1170008572902" alt=""><image src="../../media/graphics1-5070.png" mime-type="image/png" height="241" width="326"/></media>
+    </figure>
+    <para id="id8843656">Hình 3.1. Trình đơn Symbolics trên menu bar</para>
+    <list id="id8843665" list-type="bulleted">
+      <item>Symbolics/Evaluate/Symbolically: xuất giá trị biểu thức dưới dạng ký hiệu.</item>
+    </list>
+    <para id="id8843685">Ví dụ: Tính (2a-1) + 3a</para>
+    <para id="id8843702"> Chọn biểu thức</para>
+    <para id="id8843716"> Từ thanh công cụ chuẩn: nhấn Symbolically/Evaluate/Symbolically (hoặc nhấn Shift + F9).</para>
+    <para id="id8843759"> Kết quả: 5a-1</para>
+    <para id="id8843785"> Symbolics/Evaluate/foating Point…: xuất giá trị biểu thức dưới dạng số thực động. </para>
+    <para id="id8843809">Ví dụ: Tính 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1+ {  {1}  over  {3} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id8843901"> Chọn biểu thức.</para>
+    <para id="id8843916"> Chọn Symbolically/Evaluate/Foating Point, xuất hiện hộp thoại Floating Point Evaluation (hình 3.2).</para>
+    <figure id="id8843957">
+      <media id="id2563563" alt=""><image src="../../media/graphics2-1309.png" mime-type="image/png" height="148" width="222"/></media>
+    </figure>
+    <para id="id8843981"> Trong thẻ Floating Point Precision mặc định là 20, có thể thay đổi tuỳ thích, sau đó chọn OK.</para>
+    <para id="id8844012"> Kết quả : 1.33333333333333333333.</para>
+    <para id="id8844036"> Symbolics/Evaluate/Complex: xuất giá trị biểu thức dưới dạng số phức. </para>
+    <para id="id8844062">Ví dụ: Tính 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2i</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { - 2i+1} } {}</m:annotation></m:semantics></m:math></para>
+    <para id="id8844140"> Chọn biểu thức</para>
+    <para id="id8844154"> Từ thanh công cụ chuẩn: nhấn Symbolics/Evaluate/Complex </para>
+    <para id="id8844193"> Kết quả: <media id="id1170016460787" alt=""><image src="../../media/graphics3-97e0.png" mime-type="image/png" height="44" width="208"/></media></para>
+    <para id="id8844244"> Symbolics/Simplify: đơn giản biểu thức.</para>
+    <para id="id8721698"> Symbolics/Expand: khai triển biểu thức được chọn.</para>
+    <para id="id8721723">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+    <para id="id8721754">Ví dụ:</para>
+    <para id="id8721764"> Symbolics/Factor: khai triển biểu thức được chọn, phân tích thành nhân tử.</para>
+    <para id="id8721789">Ví dụ: </para>
+    <para id="id8721798">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+    <para id="id8721830"> Symbolics/Collect: sắp xếp theo luỹ thừa của biến.</para>
+    <para id="id8721854">Ví dụ:</para>
+    <para id="id8721867">z2 - xz + x2z2 + 2z -1 cho kết quả (x2+1)z2+(-x+2)z-1</para>
+    <para id="id8721929"> Symbolics/Polynomial Coefficient: tìm các hệ số của đa thức.</para>
+    <para id="id8721956">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ: </para>
+    <para id="id8721997">(1-x)(x2+2) -3x -1 cho kết quả:</para>
+    <para id="id8722024">Lưu ý: Sau khi đơn giản biểu thức nó sẽ sắp xếp các hệ số theo thứ tự từ dưới lên trên.</para>
+    <para id="id8722040"> Symbolics/Variable/Solve: giaûi phöông trình.</para>
+    <para id="id8722068">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ: </para>
+    <para id="id8722108"> Symbolics/Variable/Substitute: tính biểu thức theo biểu thức con. </para>
+    <para id="id8722136">Ví dụ: </para>
+    <para id="id8722149">Tính U2 +U với U= x+1 Cho kết quả (x-1)2 + x -1</para>
+    <para id="id8722191"> Symbolics/Variable/ Differentiate: tính đạo hàm.</para>
+    <para id="id8722214">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ: </para>
+    <para id="id8722251"> Symbolics/Variable/Integrate: tính nguyên hàm.</para>
+    <para id="id8722283">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+    <para id="id8722324"/>
+    <para id="id8722328"> Symbolics/Variable/ Expand to series…: khai triển chuỗi.</para>
+    <para id="id8722356">Ví dụ:</para>
+    <para id="id8722366">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+    <para id="id8722397"> Symbolics/Variable/Convert to Partial Fraction: phân tích các phân thức đơn giản hơn có mẫu bậc nhất.</para>
+    <para id="id8722426">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ: </para>
+    <section id="id-0263519872642">
+      <title>TÍNH TOÁN VỚI SYMBOLICS TỪ THANH CÔNG CỤ MATH</title>
+      <figure id="id8687497">
+        <media id="id1170016235484" alt=""><image src="../../media/graphics4-4a62.png" mime-type="image/png" height="215" width="211"/></media>
+      </figure>
+      <para id="id8687521">Hình 3.3. Bảng Symbolics từ thanh Math</para>
+      <para id="id8687526"/>
+      <para id="id8687531"> <media id="id1170011286139" alt=""><image src="../../media/graphics5-d123.png" mime-type="image/png" height="20" width="24"/></media>: Symbolics Evaluation</para>
+      <para id="id8687588">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id8687629"> <media id="id1170008522041" alt=""><image src="../../media/graphics6-99b9.png" mime-type="image/png" height="21" width="33"/></media>: Symbolics Keyword Evaluation (gõ biểu thức kèm từ khoá). </para>
+      <para id="id8687696"> <media id="id1170012033515" alt=""><image src="../../media/graphics7-2895.png" mime-type="image/png" height="26" width="61"/></media>: lựa chọn các điều kiện bổ sung từ bảng Modifier (hình 3.4).</para>
+      <figure id="id8687778">
+        <media id="id4259714" alt=""><image src="../../media/graphics8-8a94.png" mime-type="image/png" height="71" width="142"/></media>
+      </figure>
+      <para id="id8687802">Hình 3.4. Bảng Modifier</para>
+      <para id="id8687810"> <media id="id1170011222302" alt=""><image src="../../media/graphics9-189f.png" mime-type="image/png" height="23" width="34"/></media>: cho kết quả là số thực với phần thập phân tuỳ chọn.</para>
+      <para id="id8687864"/>
+      <para id="id8687868">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ: </para>
+      <para id="id8687906"> <media id="id1170014110859" alt=""><image src="../../media/graphics10-5b58.png" mime-type="image/png" height="25" width="57"/></media>: cho kết quả là số phức.</para>
+      <para id="id8687971"> <media id="id1170008014288" alt=""><image src="../../media/graphics11-71a5.png" mime-type="image/png" height="23" width="54"/></media>: tạo giả thuyết cho biến.</para>
+      <para id="id8688035"> <media id="id7372168" alt=""><image src="../../media/graphics12-6666.png" mime-type="image/png" height="24" width="34"/></media>: giải phương trình cho kết quả dạng Symbolics.</para>
+      <para id="id8688109">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id8688150"/>
+      <para id="id8688154"> <media id="id6635474" alt=""><image src="../../media/graphics13-623e.png" mime-type="image/png" height="26" width="52"/></media>: đơn giản một biểu thức.</para>
+      <para id="id8688206">Ví dụ:</para>
+      <para id="id8688216">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id8688250"> <media id="id6666774" alt=""><image src="../../media/graphics14-b759.png" mime-type="image/png" height="24" width="59"/></media>: tính một biểu thức theo một biểu thức con.</para>
+      <para id="id7908724">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id7908762"> <media id="id1170010645641" alt=""><image src="../../media/graphics15-39d0.png" mime-type="image/png" height="28" width="42"/></media>: phân tích thành nhân tử của một biểu thức.</para>
+      <para id="id7908820">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id7908858"/>
+      <para id="id7908862"> <media id="id1170011150821" alt=""><image src="../../media/graphics16-9974.png" mime-type="image/png" height="22" width="52"/></media>: khai triển một biểu thức dưới dạng luỹ thừa, tích, tổng.</para>
+      <para id="id7908924">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id7908966"/>
+      <para id="id7908970"> <media id="id3520691" alt=""><image src="../../media/graphics17-c3e9.png" mime-type="image/png" height="23" width="44"/></media>: trích các hệ số của đa thức theo biến lựa chọn.</para>
+      <para id="id7909023">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id7909061"> <media id="id5495748" alt=""><image src="../../media/graphics18-e8a5.png" mime-type="image/png" height="22" width="46"/></media>: sắp xếp đa thức theo biến đã chọn.</para>
+      <para id="id7909126"/>
+      <para id="id7909131">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id7909169"> <media id="id1170016631780" alt=""><image src="../../media/graphics19-df03.png" mime-type="image/png" height="25" width="47"/></media>: khai triển thành chuỗi Taylor các hàm số.</para>
+      <para id="id7909234">Ví dụ:</para>
+      <para id="id7909244">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id7909277"> <media id="id1170011555631" alt=""><image src="../../media/graphics20-a0e6.png" mime-type="image/png" height="27" width="51"/></media>: phân tích một biểu thức thành các tổng phân số đơn giản hơn.</para>
+      <para id="id7909339">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      Ví dụ:</para>
+      <para id="id7909377"> <media id="id1170008857272" alt=""><image src="../../media/graphics21-bc11.png" mime-type="image/png" height="23" width="47"/></media>: khai triển hàm số dạng fourier.</para>
+      <para id="id7909450"> <media id="id1170007973088" alt=""><image src="../../media/graphics22-bc8a.png" mime-type="image/png" height="24" width="52"/></media>: khai triển hàm số dạng laplace.</para>
+      <para id="id8404644"> <media id="id1170008610494" alt=""><image src="../../media/graphics23-f1a1.png" mime-type="image/png" height="23" width="45"/></media>: khai triển dạng z- transform của một hàm số.</para>
+      <para id="id8404706"> <media id="id1170008076678" alt=""><image src="../../media/graphics24-0c85.png" mime-type="image/png" height="24" width="61"/></media>: biến đổi ngược dạng fourier.</para>
+      <para id="id8404779"> <media id="id1170010810218" alt=""><image src="../../media/graphics25-ee4a.png" mime-type="image/png" height="27" width="65"/></media>: phép biến đổi ngược dạng laplace.</para>
+      <para id="id8404852"> <media id="id1170011544379" alt=""><image src="../../media/graphics26-f9d6.png" mime-type="image/png" height="26" width="58"/></media>: phép biến đổi ngược dạng z- transform. </para>
+    </section>
+    <section id="id-313126622191">
+      <title>LÀM TOÁN TRÊN SYMBOLICS MENU VÀ MATH PALETTE</title>
+      <section id="id-718798384822">
+        <title>Khai triển biểu thức</title>
+        <para id="id8404946">Mathcad cho phép bạn khai triển biểu thức số hoặc chữ.</para>
+        <para id="id8404964">Ví dụ: </para>
+        <para id="id8404969">Khai triển biểu thức 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8405002">Cách 1: </para>
+        <para id="id8405015"> Kích chọn biểu thức muốn khai triển.</para>
+        <para id="id8405033"> Từ thanh công cụ: nhấn Symbolics/Expand.</para>
+        <para id="id8405069"> Kết quả: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8405117">Lưu ý: Theo mặc định, kết quả khai triển sẽ nằm bên dưới biểu thức được khai triển. Nếu muốn kết quả khai triển nằm ngang với biểu thức thực hiện theo cách sau:</para>
+        <para id="id8405136"> Từ thanh công cụ: nhấn Symbolics/Evaluation Style/ Hrizontally, xuất hiện hộp thoại Evaluation Style (hình 3.5).</para>
+        <para id="id8405202"> Thể hiện dấu bằng nhấn (Shift+”) hoặc nhấn Insert/Text Region và gõ vào dấu bằng (=).</para>
+        <para id="id8405236"> Kết quả: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       = 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <figure id="id8405316">
+          <media id="id1170008610610" alt=""><image src="../../media/graphics27-55d7.png" mime-type="image/png" height="188" width="323"/></media>
+        </figure>
+        <para id="id8405340">Hình 3.5. Hộp thoại Evaluation Style</para>
+        <para id="id8405349"/>
+        <para id="id8405353">Cách 2: </para>
+        <list id="id8405365" list-type="bulleted">
+          <item>Kích chọn biểu thức muốn khai triển</item>
+          <item>Từ thanh Math: kích vào biểu tượng <media id="id1170015210910" alt=""><image src="../../media/graphics28-c55b.png" mime-type="image/png" height="22" width="25"/></media>, xuất hiện bảng symbolics (hình 3.3).</item>
+          <item>Từ bảng Symbolics: kích vào nút lệnh <media id="id1170015545850" alt=""><image src="../../media/graphics29-d486.png" mime-type="image/png" height="21" width="50"/></media></item>
+          <item>Kết quả: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </item>
+        </list>
+        <para id="id8669130">Lưu ý: nếu muốn thay đổi biểu thức đang tính thì chỉ có cách 2 là cập nhật kết quả.</para>
+      </section>
+      <section id="id-945721143185">
+        <title>Rút gọn biểu thức</title>
+        <para id="id8669158">Rút gọn biểu thức (Simplify), tương tự như khai triển biểu thức cũng có 2 cách tính</para>
+        <para id="id8669179">Ví dụ: </para>
+        <para id="id8669191">a. Rút gọn biểu thức : 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8669232"> Kết quả cách 1: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       = 1</para>
+        <para id="id8669287"> Kết quả cách 2: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8669336">b. Rút gọn biểu thức 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       điều kiện x&gt;0</para>
+        <list id="id8669376" list-type="bulleted">
+          <item>Chọn biểu thức cần rút gọn</item>
+          <item>Từ bảng Symbolics: kích vào <media id="id7333375" alt=""><image src="../../media/graphics30-f36d.png" mime-type="image/png" height="21" width="53"/></media> và <media id="id2529622" alt=""><image src="../../media/graphics31-5528.png" mime-type="image/png" height="20" width="54"/></media>, gõ vào điều kiện</item>
+          <item>Kết quả: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </item>
+        </list>
+      </section>
+      <section id="id-186015432003">
+        <title>Trục căn thức ở mẫu</title>
+        <para id="id8669527">Để trục căn thức ở mẫu, sử dụng hàm factor.</para>
+        <para id="id8669545">Ví dụ: </para>
+        <para id="id8669556">Trục căn thức: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <list id="id8669598" list-type="bulleted">
+          <item>Kết quả cách 1: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+       = 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </item>
+          <item>Kết quả cách 2: 
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </item>
+        </list>
+      </section>
+    </section>
+    <section id="id-752876232732">
+      <title>CÁC PHÉP TÍNH GIỚI HẠN, ĐẠO HÀM VÀ TÍCH PHÂN</title>
+      <para id="id8669723">Kích chọn thanh Calculus từ thanh công cụ Math (Hình 3.6)</para>
+      <figure id="id8669754">
+        <media id="id1170009043653" alt=""><image src="../../media/graphics32-d8ab.png" mime-type="image/png" height="124" width="80"/></media>
+      </figure>
+      <para id="id8669778">Hình 3.6.Thanh Calculus</para>
+      <para id="id7161765"> <media id="id2529832" alt=""><image src="../../media/graphics33-15af.png" mime-type="image/png" height="21" width="25"/></media>: đạo hàm cấp 1</para>
+      <para id="id7161826">Ví dụ: Tính đạo hàm cấp 1 của hàm f(x) = 2x3 + 3x</para>
+      <para id="id7161853">
+        <media id="id1170010973838" alt=""><image src="../../media/graphics34-5c1e.png" mime-type="image/png" height="49" width="260"/></media>
+      </para>
+      <para id="id7161889"> <media id="id2638486" alt=""><image src="../../media/graphics35-510a.png" mime-type="image/png" height="24" width="26"/></media>: đạo hàm cấp n</para>
+      <para id="id7161942">Ví dụ: Tính đạo hàm cấp 2 của hàm f(x) = 2x3 + 3x</para>
+      <para id="id7161969">
+        <media id="id3757443" alt=""><image src="../../media/graphics36-4491.png" mime-type="image/png" height="50" width="250"/></media>
+      </para>
+      <para id="id7162005"> <media id="id2726749" alt=""><image src="../../media/graphics37-118b.png" mime-type="image/png" height="22" width="21"/></media>: tính giới hạn</para>
+      <para id="id7162066">Ví dụ: </para>
+      <para id="id7162079">
+        <media id="id1170008433311" alt=""><image src="../../media/graphics38-082a.png" mime-type="image/png" height="63" width="139"/></media>
+      </para>
+      <para id="id7162116"> <media id="id1170011141990" alt=""><image src="../../media/graphics39-3bbb.png" mime-type="image/png" height="24" width="22"/></media>: tính giới hạn bên phải</para>
+      <para id="id7162177"/>
+      <para id="id7162182">Ví dụ:</para>
+      <para id="id7162187">
+        <media id="id3025832" alt=""><image src="../../media/graphics40-9f39.png" mime-type="image/png" height="50" width="141"/></media>
+      </para>
+      <para id="id7162223"/>
+      <para id="id7162227"> <media id="id3678933" alt=""><image src="../../media/graphics41-7427.png" mime-type="image/png" height="25" width="21"/></media>: tính giới hạn bên trái</para>
+      <para id="id7162289"/>
+      <para id="id7162294">Ví dụ:</para>
+      <figure id="id7162301">
+        <media id="id1170018087242" alt=""><image src="../../media/graphics42-38b3.png" mime-type="image/png" height="53" width="157"/></media>
+      </figure>
+      <para id="id7162325"> <media id="id4417062" alt=""><image src="../../media/graphics43-facd.png" mime-type="image/png" height="25" width="20"/></media>, <media id="id1170011159691" alt=""><image src="../../media/graphics44-a374.png" mime-type="image/png" height="21" width="20"/></media>: tính tích phân giới hạn và tích phân suy rộng</para>
+      <para id="id7162418"/>
+      <para id="id7162423">Ví dụ:</para>
+      <para id="id7162427">
+        <media id="id4000299" alt=""><image src="../../media/graphics45-2f8b.png" mime-type="image/png" height="149" width="166"/></media>
+      </para>
+      <para id="id7162462"> <media id="id1170013397946" alt=""><image src="../../media/graphics46-2863.png" mime-type="image/png" height="23" width="19"/></media>: tính tổng nhiều số</para>
+      <para id="id7162524">Ví dụ: </para>
+      <para id="id7162537">
+        <media id="id1170011927859" alt=""><image src="../../media/graphics47-f9f6.png" mime-type="image/png" height="66" width="153"/></media>
+      </para>
+      <para id="id7162572"> <media id="id1170009717006" alt=""><image src="../../media/graphics48-67f7.png" mime-type="image/png" height="25" width="22"/></media>: tính tích nhiều số</para>
+      <para id="id7178675">Ví dụ: </para>
+      <para id="id7178688">
+        <media id="id1170015973984" alt=""><image src="../../media/graphics49-4751.png" mime-type="image/png" height="64" width="153"/></media>
+      </para>
+      <para id="id7178724"/>
+      <para id="id7178745">BÀI TẬP CHƯƠNG 3</para>
+      <list id="id7178753" list-type="enumerated">
+        <item>Đơn giản các biểu thức sau:</item>
+      </list>
+      <para id="id7178765">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>2x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} }  - 3 - 4}  over  {x - 4} } +2x - 5} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id7178869">2. Khai triển biểu thức sau:</para>
+      <para id="id7178874">
+        <media id="id1170007979819" alt=""><image src="../../media/graphics50-33a6.png" mime-type="image/png" height="83" width="136"/></media>
+      </para>
+      <para id="id7178909">3. Đơn giản biểu thức có điều kiện:</para>
+      <para id="id7178918">a. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mfrac><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mfenced open="" close=""><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { {  {a rSup { size 8{2} } }  over  { left (a - 1 right ) rSup { size 8{2} } } } } } {}</m:annotation></m:semantics></m:math>, điều kiện a&gt;1</para>
+      <para id="id7179009">b. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt><m:mo stretchy="false">−</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt { \( x - 1 \)  rSup { size 8{2} } }  -  sqrt { \( x - 1 \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>, điều kiện x&lt;-1</para>
+      <para id="id7179129">4. Phân tích thành nhân tử:</para>
+      <para id="id7179134">
+        <media id="id1170007937611" alt=""><image src="../../media/graphics51-37cb.png" mime-type="image/png" height="75" width="250"/></media>
+      </para>
+      <para id="id7179170">5. Giải các phương trình và bất phương trình:</para>
+      <para id="id7179180">
+        <media id="id1170010399128" alt=""><image src="../../media/graphics52-8de0.png" mime-type="image/png" height="114" width="270"/></media>
+      </para>
+      <para id="id7179215">6. Tính đạo hàm cấp 1 của những hàm số sau:</para>
+      <para id="id7179221">
+        <media id="id1170008865894" alt=""><image src="../../media/graphics53-f479.png" mime-type="image/png" height="78" width="228"/></media>
+      </para>
+      <para id="id7179257">7. Cho hàm số: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>:</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) :=x rSup { size 8{4} }  - 2x rSup { size 8{2} }  - 1} {}</m:annotation></m:semantics></m:math></para>
+      <para id="id7179367">Tìm x khi đạo hàm cấp 2 của f(x)&gt;0</para>
+      <para id="id7179376">8. Tính giới hạn các hàm số sau:</para>
+      <figure id="id7179384">
+        <media id="id1170011793673" alt=""><image src="../../media/graphics54-59b6.png" mime-type="image/png" height="85" width="244"/></media>
+      </figure>
+      <figure id="id7179411">
+        <media id="id1170008543720" alt=""><image src="../../media/graphics55-a1dc.png" mime-type="image/png" height="81" width="230"/></media>
+      </figure>
+      <figure id="id7179438">
+        <media id="id1170008025505" alt=""><image src="../../media/graphics56-c494.png" mime-type="image/png" height="136" width="258"/></media>
+      </figure>
+    </section>
+  </content>
+</document>

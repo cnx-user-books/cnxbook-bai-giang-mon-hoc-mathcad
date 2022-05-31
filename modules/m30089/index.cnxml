@@ -1,0 +1,167 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Phụ lục 2 - giáo trình MathCad</title>
+  <metadata>
+  <md:content-id>m30089</md:content-id><md:title>Phụ lục 2 - giáo trình MathCad</md:title>
+  <md:abstract/>
+  <md:uuid>51fc75dd-1ddd-4da3-99b1-e02b5a84ca86</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8953236">PHỤ LỤC 2</para>
+    <para id="id8953244"/>
+    <para id="id8953265">HỆ ĐƠN VỊ SI </para>
+    <para id="id8953274"/>
+    <para id="id8953295">Base Units</para>
+    <para id="id8953300"/>
+    <table id="id8953304" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>M (meter), lengthA (ampere), currentMole or mol, substance</entry>
+            <entry>Kg (kilogram), massK (kenvin), temperature</entry>
+            <entry>s (second), timecd (candela), luminosity</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8958182">Angular Measure</para>
+    <table id="id8958187" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Rad = 1</entry>
+            <entry>deg = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mi>π</m:mi><m:mtext>180</m:mtext></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rad</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {π}  over  {"180"} }  ital "rad"} {}</m:annotation></m:semantics></m:math></entry>
+            <entry>Sr = 1.sr</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8958304">Length</para>
+    <table id="id8958309" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>cm = 0.01.mft = 0.3048.mmi = 5280.ft</entry>
+            <entry>km = 1000.min = 2.54.cm</entry>
+            <entry>mm = 0.001.myd = 3.ft</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8958375">Mass</para>
+    <table id="id8958379" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>gm = 0.001.kgmg = 0.001.gmoz = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1b</m:mn><m:mtext>16</m:mtext></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1b}  over  {"16"} } } {}</m:annotation></m:semantics></m:math></entry>
+            <entry>tonne = 1000.kgton = 2000.lb</entry>
+            <entry>lb = 453.59237.gmslug = 32.174.lb</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8958497">Time</para>
+    <table id="id8958501" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>min = 60.syr = 365.2422.day</entry>
+            <entry>hr = 3600.s</entry>
+            <entry>day = 24.hr</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8958553">Area, Volume</para>
+    <table id="id8958558" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>hectare = 10000.m2mL = 0.001.L</entry>
+            <entry>acre = 4840.yd2fl_oz = 29.57353.cm3</entry>
+            <entry>L = 0.001.m3gal = 128.fl_oz</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8958648">Velocity, Acceleration</para>
+    <table id="id8958652" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>mph = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mi</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hr</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "mi"}  over  { ital "hr"} } } {}</m:annotation></m:semantics></m:math></entry>
+            <entry>kph = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>km</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hr</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "km"}  over  { ital "hr"} } } {}</m:annotation></m:semantics></m:math></entry>
+            <entry>G = 9.80665.
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {m}  over  {s rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8958881">Force, Energy, Power</para>
+    <table id="id8958885" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>N = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext><m:mfrac><m:mi>m</m:mi><m:msup><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "kg" "."  {  {m}  over  {s rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>kgf = g.kgcal = 4.1868.JW = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>J</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {J}  over  {s} } } {}</m:annotation></m:semantics></m:math></entry>
+            <entry>dyne = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:mi>N</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 5} }  "." N} {}</m:annotation></m:semantics></m:math>J = N.mkcal = 1000.calkW = 1000.W</entry>
+            <entry>lbf = g.lberg = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:mi>J</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 7} }  "." J} {}</m:annotation></m:semantics></m:math>BTU = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>05506</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:mi>J</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "05506" "." "10" rSup { size 8{3} }  "." J} {}</m:annotation></m:semantics></m:math>hp = 550.
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ft</m:mtext></m:mrow></m:mstyle><m:mtext>.</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>lbf</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>s</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "ft" "."  ital "lbf"}  over  {s} } } {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8935341">Pressure, Viscosity</para>
+    <table id="id8935345" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Pa = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>N</m:mi><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {N}  over  {m rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>in_Hg = 3.37686.103.Papoise = 0.1.Pa.s</entry>
+            <entry>psi = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>lbf</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>in</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "lbf"}  over  { ital "in" rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>torr = 1.33322.102.Pa</entry>
+            <entry>atm = 1.01325.105.Pastokes = 10-4.
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>s</m:mi></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {m}  over  {s} } } {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8935633">Temperature</para>
+    <para id="id8935637">R = 0.556.K</para>
+  </content>
+</document>

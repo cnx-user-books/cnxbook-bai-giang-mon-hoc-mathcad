@@ -1,0 +1,234 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Giới thiệu Mathcad 2001i</title>
+  <metadata>
+  <md:content-id>m30372</md:content-id><md:title>Giới thiệu Mathcad 2001i</md:title>
+  <md:abstract/>
+  <md:uuid>6554e073-39fa-4fc4-b580-d5da69052242</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8733578">CÁC THAO TÁC CẦN THIẾT</para>
+    <section id="id-332399715766">
+      <title>Khởi động Mathcad 2001i</title>
+      <para id="id8733591">Để khởi động Mathcad 2001i, có thể thực hiện theo các cách sau:</para>
+      <para id="id8733609"> Nhắp đúp vào biểu tượng <media id="id4029259" alt=""><image src="../../media/graphics1-0a9e.png" mime-type="image/png" height="38" width="44"/></media>.</para>
+      <list id="id8358689" list-type="bulleted">
+        <item>Nhắp vào nút Start/Mathsoft Apps/Mathcad 2001i professional.</item>
+      </list>
+    </section>
+    <section id="id-591334917981">
+      <title>Thoát khỏi Mathcad 2001i</title>
+      <para id="id8358719">Để thoát khỏi Mathcad 2001i, có thể thực hiện theo các cách sau:</para>
+      <list id="id8358738" list-type="bulleted">
+        <item>Trên thanh menu : chọn File/Exit.</item>
+        <item>Từ bàn phím: nhấn Alt+F+X.</item>
+        <item>Nhắp vào nút điều khiển <media id="id2164022" alt=""><image src="../../media/graphics2-03fb.png" mime-type="image/png" height="15" width="19"/></media>.</item>
+      </list>
+    </section>
+    <section id="id-816372624834">
+      <title>Lưu trữ</title>
+      <section id="id-442009091086">
+        <title>Lưu Worksheet với tên mới</title>
+        <para id="id8358870">Khi vừa khởi động Mathcad 2001i, khi muốn lưu trữ lại hoặc từ file cũ muốn lưu trữ lại với tên mới, bằng các cách sau:</para>
+        <list id="id8358892" list-type="bulleted">
+          <item>Trên thanh menu: chọn File/Save As…</item>
+          <item>Từ bàn phím: nhấn tổ hợp Alt+F+A</item>
+        </list>
+        <para id="id8119827">Mathcad 2001i sẽ mở ra hộp thoại Save As (hình 1.1) cho phép đặt tên và chọn nơi lưu trữ, trong đó:</para>
+        <para id="id8119854"/>
+        <para id="id8119858">Mục Save in: chọn thư mục cần lưu trữ (hình 1.1) chọn thư mục Mathcad 2001i.</para>
+        <para id="id8119902">Mục File name: nơi đặt tên cho Worksheet.</para>
+        <para id="id8119937">Mục Save as type: cho phép lưu trữ Worksheet theo các phiên bản của Mathcad hoặc ở dạng Template,…</para>
+        <figure id="id8119994">
+          <media id="id3942972" alt=""><image src="../../media/graphics3-a504.png" mime-type="image/png" height="363" width="584"/></media>
+        </figure>
+        <para id="id8120017"/>
+        <para id="id8120022">Hình 1.1. Hộp thoại Save As</para>
+        <para id="id8120030">Sau đó, nhắp vào nút Save (hoặc gõ Enter) để hoàn tất việc lưu trữ.</para>
+      </section>
+      <section id="id-80371074512">
+        <title>Lưu Worksheet đã có tên sẵn</title>
+        <list id="id8100262" list-type="bulleted">
+          <item>Trên thanh công cụ chuẩn: nhắp vào biểu tượng <media id="id3907938" alt=""><image src="../../media/graphics4-bafd.png" mime-type="image/png" height="21" width="21"/></media>.</item>
+          <item>Từ bàn phím: nhấn tổ hợp Ctrl+S (hoặc Alt+F+S).</item>
+          <item>Trên thanh menu: chọn File/Save.</item>
+        </list>
+      </section>
+    </section>
+    <section id="id-616117515578">
+      <title>Mở một Worksheet</title>
+      <section id="id-00780978867272">
+        <title>Mở một Worksheet hoàn toàn mới</title>
+        <list id="id8100417" list-type="bulleted">
+          <item>Trên thanh công cụ chuẩn: nhắp vào biểu tượng <media id="id2157080" alt=""><image src="../../media/graphics5-64ff.png" mime-type="image/png" height="21" width="18"/></media>.</item>
+          <item>Từ bàn phím: nhấn tổ hợp Ctrl+N (hoặc Alt+F+N).</item>
+          <item>Trên thanh menu: chọn File/New.</item>
+        </list>
+        <para id="id8100558">Sau đó, hộp thoại New xuất hiện ( hình 1.2)</para>
+        <figure id="id8529425">
+          <media id="id2253276" alt=""><image src="../../media/graphics6-9e3c.png" mime-type="image/png" height="241" width="313"/></media>
+        </figure>
+        <para id="id8529449">Hình 1.2. Hộp thoại New</para>
+      </section>
+      <section id="id-292220406943">
+        <title>Mở một Worksheet đã có sẵn</title>
+        <list id="id8529466" list-type="bulleted">
+          <item>Trên thanh công cụ chuẩn: nhắp vào biểu tượng <media id="id3923833" alt=""><image src="../../media/graphics7-e712.png" mime-type="image/png" height="20" width="20"/></media>.</item>
+          <item>Từ bàn phím: nhấn tổ hợp Ctrl+O (hoặc Alt+F+O).</item>
+          <item>Trên thanh menu: chọn File/Open.</item>
+        </list>
+        <para id="id8529607">Sau đó, xuất hiện Hộp thoại Open như hình 1.3</para>
+        <list id="id8529629" list-type="bulleted">
+          <item>Mục Look in: chọn thư mục có chứa fie cần mở.</item>
+          <item>Mục File name: tên file cần mở.</item>
+          <item>Mục Files of type: có thể mở các tập tin của Mathcad với các đuôi *.mcd (caùc Worksheet); *.mct (caùc Template); *.hbk (sách giúp đỡ của Mathcad); *.* (hieån thò taát caû caùc taäp tin).</item>
+        </list>
+        <para id="id8675480">Sau đó chọn Open để hoàn tất việc mở một tập tin.</para>
+        <figure id="id8675501">
+          <media id="id4025628" alt=""><image src="../../media/graphics8-82b9.png" mime-type="image/png" height="358" width="584"/></media>
+        </figure>
+        <para id="id8675525">Hình 1.3. Hộp thoại Open</para>
+      </section>
+    </section>
+    <section id="id-29107258867">
+      <title>GIỚI THIỆU GIAO DIỆN Mathcad 2001i</title>
+      <section id="id-4025390813">
+        <title>Thanh tiêu đề (Title bar) ( hình 1.4)</title>
+        <list id="id8675556" list-type="bulleted">
+          <item>Vị trí: nằm trên đỉnh màn hình, cho biết chương trình đang chạy là Mathcad 2001i, trang đang làm việc là [Untitled:1] (đối với tập tin chưa có tên), [Tên tập tin] đối với tập tin đã có tên.</item>
+        </list>
+        <list id="id8675612" list-type="bulleted">
+          <item>Nút điều khiển màn hình: nằm bên phải màn hình <media id="id2907266" alt=""><image src="../../media/graphics9-ffdd.png" mime-type="image/png" height="16" width="57"/></media>.</item>
+        </list>
+        <figure id="id8675670">
+          <media id="id4015565" alt=""><image src="../../media/graphics10-d0fa.png" mime-type="image/png" height="495" width="628"/></media>
+        </figure>
+      </section>
+      <section id="id-600105964793">
+        <title>Thanh thực đơn (menu bar) ( hình 1.4 )</title>
+        <para id="id8675708">Trên thanh thực đơn (menu bar) có nhiều trình đơn, khi một trình đơn được chọn, thì ngay lập tức một thực đơn thả (Full Down menu) (hình 1.5) xuất hiện cho phép chọn lệnh kế tiếp. </para>
+        <para id="id8675757"> File: ngoài các lệnh tương tự như WORD, EXCEL, còn có các lệnh giao tiếp với các người dùng Mathcad khác trên thế giới thông qua mạng Internet (Collaboratory) (hình 1.5).</para>
+        <para id="id8187857"> Edit: điểm nổi bật trong này là xuất hiện các mục Links, Object giúp người sử dụng Mathcad có thể trao đổi dữ liệu với các đối tượng khác (hình 1.6).</para>
+        <figure id="id8187928">
+          <media id="id1975209" alt=""><image src="../../media/graphics11-9a37.png" mime-type="image/png" height="384" width="631"/></media>
+        </figure>
+        <para id="id8187952">Full Down menu</para>
+        <figure id="id8188001">
+          <media id="id3895472" alt=""><image src="../../media/graphics12-3227.png" mime-type="image/png" height="404" width="631"/></media>
+        </figure>
+        <para id="id8188025"> Insert : Trong menu này (hình1.7) Mathcad cho phép chèn các mục sau:</para>
+        <figure id="id8188078">
+          <media id="id2521070" alt=""><image src="../../media/graphics13-a3bc.png" mime-type="image/png" height="360" width="630"/></media>
+        </figure>
+        <para id="id8188102"/>
+        <figure id="id8188118">
+          <media id="id2570839" alt=""><image src="../../media/graphics14-3a2e.png" mime-type="image/png" height="456" width="628"/></media>
+        </figure>
+        <para id="id8188143">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id8188170">Hình 1.9. Định dạng kết quả</para>
+        <figure id="id8755614">
+          <media id="id2222590" alt=""><image src="../../media/graphics15-7ab7.png" mime-type="image/png" height="300" width="600"/></media>
+        </figure>
+        <figure id="id8755641">
+          <media id="id2920122" alt=""><image src="../../media/graphics16-b352.png" mime-type="image/png" height="319" width="631"/></media>
+        </figure>
+        <figure id="id8755668">
+          <media id="id1340730" alt=""><image src="../../media/graphics17-4db5.png" mime-type="image/png" height="503" width="629"/></media>
+        </figure>
+        <figure id="id8755695">
+          <media id="id2372553" alt=""><image src="../../media/graphics18-e604.png" mime-type="image/png" height="424" width="629"/></media>
+        </figure>
+      </section>
+      <section id="id-58823430239">
+        
+        <para id="id8755720">
+          <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+        </para>
+      </section>
+      <section id="id-233125675656">
+        <title>Thanh công cụ chuẩn (Standard Toolbar) (hình 1.15)</title>
+        <figure id="id8755738">
+          <media id="id1947878" alt=""><image src="../../media/graphics19-a4b5.png" mime-type="image/png" height="77" width="630"/></media>
+        </figure>
+        <para id="id8755762">Thanh công cụ chuẩn chuẩn (Standard Toolbar) cho phép thực hiện các thao tác bằng biểu tượng (hình 1.15) như sau:</para>
+        <figure id="id8755811">
+          <media id="id3949719" alt=""><image src="../../media/graphics20-8a31.png" mime-type="image/png" height="113" width="621"/></media>
+        </figure>
+        <para id="id8755834">khác như Word, Excel…</para>
+        <para id="id8755860"> <media id="id2526495" alt=""><image src="../../media/graphics21-6846.png" mime-type="image/png" height="26" width="30"/></media>: tạo một mối liên kết với các nguồn tài liệu khác do người sử dụng tự lập nên. Khi sử dụng, chỉ cần kích đúp vào từ nào đó của tài liệu tức khắc sẽ xuất hiện tài liệu khác có liên quan đến nó.</para>
+      </section>
+      <section id="id-578091553544">
+        <title>Thanh định dạng (Formatting Toolbar) (hình 1.16)</title>
+        <figure id="id8755938">
+          <media id="id3581427" alt=""><image src="../../media/graphics22-b848.png" mime-type="image/png" height="89" width="629"/></media>
+        </figure>
+        <para id="id8755962">Cho phép định dạng đối tượng về: Kiểu chữ (Font), kích cỡ (size), canh hàng ngang, dọc, chỉ số trên, dưới,…</para>
+      </section>
+      <section id="id-157942897058">
+        <title>Thanh công cụ Math (Math Toolbar)</title>
+        <figure id="id8755986">
+          <media id="id3977650" alt=""><image src="../../media/graphics23-2b18.png" mime-type="image/png" height="175" width="620"/></media>
+        </figure>
+        <para id="id8761655"/>
+      </section>
+    </section>
+    <section id="id8761665">
+      <para id="id8761671">Thanh công cụ Math chuyên dùng để tính toán (hình 1.17), khi nhắp vào mỗi biểu tượng trên thanh công cụ Math thì xuất hiện lần lượt các bảng sau:</para>
+      <list id="id8761710" list-type="bulleted">
+        <item>Số học (Calculator Tollbar).</item>
+        <item>Bảng lựa chọn các dạng đồ thị (Graph Tollbar).</item>
+        <item>Véc tơ và Ma trận (Vector and Matrix Tollbar).</item>
+        <item>Bảng các toán tử quan hệ (Evaluation Tollbar and Boolean Tollbar).</item>
+        <item>Bảng các phép toán về đạo hàm, tích phân, giới hạn,…(Caculus Tollbar).</item>
+        <item>Bảng các từ khoá để lập chương trình (Programming Tollbar).</item>
+        <item>Bảng các mẫu ký tự Hy Lạp (Greek Symbol Tollbar).</item>
+        <item>Bảng các từ khoá Symbolic (Symbolic keyword Tollbar).</item>
+      </list>
+      <para id="id8761851">
+        <figure id="id8762020">
+          <media id="id3472709" alt=""><image src="../../media/graphics24-1273.png" mime-type="image/png" height="399" width="605"/></media>
+        </figure>
+      </para>
+      <figure id="id8050560">
+        <media id="id3178922" alt=""><image src="../../media/graphics25-cf18.png" mime-type="image/png" height="55" width="521"/></media>
+      </figure>
+      <section id="id-210384152838">
+        <title>Thanh trạng thái (Status bar) (hình1.19 )</title>
+        <figure id="id8050599">
+          <media id="id2133481" alt=""><image src="../../media/graphics26-2c94.png" mime-type="image/png" height="69" width="625"/></media>
+        </figure>
+      </section>
+      <section id="id-109951426185">
+        <title>Vùng soạn thảo và tính toán (region), hình chữ thập (crosshair) (hình 1.4)</title>
+        <para id="id8050639"> Vùng soạn thảo và tính toán: có dạng hình chữ nhật màu trắng (mặc định).</para>
+        <para id="id8050666"> Hình chữ thập màu đỏ (Crosshair): thể hiện vị trí để trình bày một đối tượng trên màn hình.</para>
+        <para id="id8050702">ĐỊNH DẠNG TRANG VÀ IN</para>
+      </section>
+      <section id="id-923812118139">
+        <title>Định dạng trang in</title>
+        <para id="id8050715">Để định dạng trang in, từ thanh menu chọn File/Page Setup… xuất hiện hộp thoại Page Setup… (hình 1.20).</para>
+        <figure id="id8050762">
+          <media id="id2449185" alt=""><image src="../../media/graphics27-d56d.png" mime-type="image/png" height="456" width="377"/></media>
+        </figure>
+        <para id="id8050786">Hình 1.20. Hộp thoại Page Setup</para>
+        <para id="id8050791"> Tại mục Paper size: chọn khổ giấy.</para>
+        <para id="id8050828"> Orientation Portrait: chọn kiểu in trang đứng.</para>
+        <para id="id8050865"> Orientation Landscape: chọn kiểu in trang ngang.</para>
+        <para id="id8050903"> Margins : canh lề trái, phải, trên, dưới. Mặc định đơn vị là inches (1in = 2.54cm).</para>
+      </section>
+      <section id="id-549945992992">
+        <title>In từ Mathcad</title>
+        <para id="id8114944">Để in trong Mathcad, thực hiện theo các cách sau:</para>
+        <para id="id8114963"> Từ thanh menu: chọn File/Print…</para>
+        <para id="id8115011"> Từ bàn phím: nhấn tổ hợp Ctrl+P.</para>
+        <para id="id8115060"/>
+        <para id="id8115068"/>
+        <figure id="id8115079">
+          <media id="id2670938" alt=""><image src="../../media/graphics28-cfd7.png" mime-type="image/png" height="485" width="628"/></media>
+        </figure>
+      </section>
+    </section>
+  </content>
+</document>
